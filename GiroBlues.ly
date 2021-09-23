@@ -4,6 +4,10 @@
   composer = ""
 }
 
+larghezza = 60  % un numero da passare a una variabile di \paper (l'unità di misura è il millimetro)
+nome = "Wendy"  % una stringa da passare a un markup
+foglioA5 = \paper { #(set-paper-size "a5") }
+
 %provo a metter na variabile per il giro blues
 bass = \relative c, {
       \clef bass
