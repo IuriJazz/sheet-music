@@ -3,7 +3,6 @@
 	subtitle = "Dedicato al rinforzo di ogni dito"
 	subsubtitle = "e alla loro indipendenza in entrambe le mani"
 	composer = "M. Ferrati"
-	arranger = "I. Marchesin"
 
 	% I campi seguenti sono centrati in fondo
 	tagline = ""
@@ -153,6 +152,35 @@ quintosx = \relative
 	}
 
 
+sestodx = \relative
+	{
+	\mark \markup {\bold"Es.6"}
+	\time 16/8
+	\omit Staff.TimeSignature
+	\clef treble
+	c'8 d e f e d c d e f e d c d e f
+	g f e d e f g f e d e f g f e d
+	c_\markup{\bold "Segue"} d ees f ees d c d ees f ees d c d ees f
+	g f ees d ees f g f ees d ees f g f ees d
+	c des ees f ees des c des ees f ees des c des ees f
+	ges f ees des ees f ges f ees des ees f ges f ees des
+	cis1_\markup{\bold "Etc..."} \fermata \hide r2 \break \bar "|."
+	}
+
+sestosx = \relative
+	{
+	\omit Staff.TimeSignature
+	\clef bass
+	c8 d e f e d c d e f e d c d e f
+	g f e d e f g f e d e f g f e d
+	c d ees f ees d c d ees f ees d c d ees f
+	g f ees d ees f g f ees d ees f g f ees d
+	c des ees f ees des c des ees f ees des c des ees f
+	ges f ees des ees f ges f ees des ees f ges f ees des
+	cis1 \fermata \hide r2 \break \bar "|."
+	} 
+
+
 %devo studiare bene se è meglio /with {instrumentName = "es1"} o /murk /markup {"es1"}
 
 \score {
@@ -190,6 +218,13 @@ quintosx = \relative
 				<<
 					\new Staff = "quintodx" \quintodx
 					\new Staff = "quintosx" \quintosx
+				>>
+		>>
+		<<
+			\new PianoStaff %with { instrumentName = "Es.5" }
+				<<
+					\new Staff = "sestodx" \sestodx
+					\new Staff = "sestosx" \sestosx
 				>>
 		>>
 	}
