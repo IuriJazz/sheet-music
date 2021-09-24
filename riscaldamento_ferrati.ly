@@ -158,8 +158,8 @@ sestodx = \relative
 	\time 8/4
 	\omit Staff.TimeSignature
 	\clef treble
-	c'8[ d e f] e[ d c d] e[ f e d] c[ d e f]
-	g[ f e d] e[ f g f] e[ d e f] g[ f e d]
+	c'8[_1 d_2 e_3 f_4] e_3[ d_2 c_1 d_2] e_3[ f_4 e_3 d_2] c_1[ d_2 e_3 f_4]
+	g_5[ f_4 e_3 d_2] e_3[ f_4 g_5 f_4] e_3[ d_2 e_3 f_4] g_5[ f_4 e_3 d_2]
 	c[_\markup{\bold "Segue"} d ees f] ees[ d c d] ees[ f ees d] c[ d ees f]
 	g[ f ees d] ees[ f g f] ees[ d ees f] g[ f ees d]
 	c[ des ees f] ees[ des c des] ees[ f ees des] c[ des ees f]
@@ -171,14 +171,15 @@ sestosx = \relative
 	{
 	\omit Staff.TimeSignature
 	\clef bass
-	c8[ d e f] e[ d c d] e[ f e d] c[ d e f]
-	g[ f e d] e[ f g f] e[ d e f] g[ f e d]
+	c8[_5 d_4 e_3 f_2] e_3[ d_4 c_5 d_4] e_3[ f_2 e_3 d_4] c_5[ d_4 e_3 f_2]
+	g_1[ f_2 e_3 d_4] e_3[ f_2 g_1 f_2] e_3[ d_4 e_3 f_2] g_1[ f_2 e_3 d_4]
 	c[ d ees f] ees[ d c d] ees[ f ees d] c[ d ees f]
 	g[ f ees d] ees[ f g f] ees[ d ees f] g[ f ees d]
 	c[ des ees f] ees[ des c des] ees[ f ees des] c[ des ees f]
 	ges[ f ees des] ees[ f ges f] ees[ des ees f] ges[ f ees des]
 	cis1 \fermata \hide r2 \break \bar "|."
 	}
+
 
 
 %devo studiare bene se è meglio /with {instrumentName = "es1"} o /murk /markup {"es1"}
