@@ -158,12 +158,12 @@ sestodx = \relative
 	\time 8/4
 	\omit Staff.TimeSignature
 	\clef treble
-	c'8 d e f e d c d e f e d c d e f
-	g f e d e f g f e d e f g f e d
-	c_\markup{\bold "Segue"} d ees f ees d c d ees f ees d c d ees f
-	g f ees d ees f g f ees d ees f g f ees d
-	c des ees f ees des c des ees f ees des c des ees f
-	ges f ees des ees f ges f ees des ees f ges f ees des
+	c'8[ d e f] e[ d c d] e[ f e d] c[ d e f]
+	g[ f e d] e[ f g f] e[ d e f] g[ f e d]
+	c[_\markup{\bold "Segue"} d ees f] ees[ d c d] ees[ f ees d] c[ d ees f]
+	g[ f ees d] ees[ f g f] ees[ d ees f] g[ f ees d]
+	c[ des ees f] ees[ des c des] ees[ f ees des] c[ des ees f]
+	ges[ f ees des] ees[ f ges f] ees[ des ees f] ges[ f ees des]
 	cis1_\markup{\bold "Etc..."} \fermata \hide r2 \break \bar "|."
 	}
 
