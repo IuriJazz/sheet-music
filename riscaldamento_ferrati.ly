@@ -171,12 +171,12 @@ sestosx = \relative
 	{
 	\omit Staff.TimeSignature
 	\clef bass
-	c8 d e f e d c d e f e d c d e f
-	g f e d e f g f e d e f g f e d
-	c d ees f ees d c d ees f ees d c d ees f
-	g f ees d ees f g f ees d ees f g f ees d
-	c des ees f ees des c des ees f ees des c des ees f
-	ges f ees des ees f ges f ees des ees f ges f ees des
+	c8[ d e f] e[ d c d] e[ f e d] c[ d e f]
+	g[ f e d] e[ f g f] e[ d e f] g[ f e d]
+	c[ d ees f] ees[ d c d] ees[ f ees d] c[ d ees f]
+	g[ f ees d] ees[ f g f] ees[ d ees f] g[ f ees d]
+	c[ des ees f] ees[ des c des] ees[ f ees des] c[ des ees f]
+	ges[ f ees des] ees[ f ges f] ees[ des ees f] ges[ f ees des]
 	cis1 \fermata \hide r2 \break \bar "|."
 	}
 
