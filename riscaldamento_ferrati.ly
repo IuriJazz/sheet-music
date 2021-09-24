@@ -178,7 +178,7 @@ sestosx = \relative
 	c des ees f ees des c des ees f ees des c des ees f
 	ges f ees des ees f ges f ees des ees f ges f ees des
 	cis1 \fermata \hide r2 \break \bar "|."
-	} 
+	}
 
 
 %devo studiare bene se è meglio /with {instrumentName = "es1"} o /murk /markup {"es1"}
