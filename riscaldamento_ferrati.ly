@@ -14,20 +14,22 @@ primodx = \relative
 	\repeat volta 3 { f e d c }
 	\repeat volta 3 { e c f d }
 	\repeat volta 3 { c d e f }
-	cis
+	cis1^\markup{"Segue in tutti e 12 suoni dell'ottava"}\fermata
+	cis4 ees des fis_\markup{\bold "Etc..."}\break \bar "|."
 	}
 
 primosx = \relative
 	{
 	\omit Staff.TimeSignature
 	\clef bass
-	\repeat volta 3 { c_1_2 a_3_4 b_2_3 g_4_5 }
+	\repeat volta 3 { c4_1_2 a_3_4 b_2_3 g_4_5 }
 	\repeat volta 3 { c b g a }
 	\repeat volta 3 { c a g b }
 	\repeat volta 3 { g a b c }
 	\repeat volta 3 { a c g b }
 	\repeat volta 3 { c b a g }
-	cis
+	cis1\fermata
+	cis4 ais bis gis \bar"|."
 	}
 
 secondodx = \relative 
@@ -36,6 +38,19 @@ secondodx = \relative
 	\omit Staff.TimeSignature
 	\clef treble
 	
+	c'8 d c d c d c d c d e f
+	g f g f g f g f g f e d
+	c d c d c d c d c d ees f
+	g f g f g f g f g f ees d
+	c des c des c des c des c des ees f
+	ges f ges f ges f ges f ges f ees des
+	cis2\fermata
+	}
+
+secondosx = \relative
+	{
+	\omit Staff.TimeSignature
+	\clef bass
 	c'8 d c d c d c d c d e f
 	g f g f g f g f g f e d
 	c d c d c d c d c d ees f
@@ -60,6 +75,7 @@ secondodx = \relative
 			\new PianoStaff \with { instrumentName = "Es.2" }
 				<<
 					\new Staff = "secondodx" \secondodx
+					\new Staff = "secondosx" \secondosx
 				>>
 		>>
 	}
