@@ -155,7 +155,7 @@ quintosx = \relative
 sestodx = \relative
 	{
 	\mark \markup {\bold"Es.6"}
-	\time 16/8
+	\time 8/4
 	\omit Staff.TimeSignature
 	\clef treble
 	c'8 d e f e d c d e f e d c d e f
