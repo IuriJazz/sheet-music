@@ -189,9 +189,10 @@ quintosx = \relative
 			\new PianoStaff %with { instrumentName = "Es.5" }
 				<<
 					\new Staff = "quintodx" \quintodx
-					\new Staff = "quartosx" \quartosx
+					\new Staff = "quintosx" \quintosx
 				>>
 		>>
 	}
 	\layout{}
+	\midi{}
 }
