@@ -125,6 +125,34 @@ quartosx = \relative
 	cis1 \fermata \hide r2 \break \bar "|."
 	}
 
+quintodx = \relative
+	{
+	\mark \markup {\bold"Es.5"}
+	\omit Staff.TimeSignature
+	\clef treble
+	c'8_1 d_2 e_3 f_4 e_3 d_2 e_3 f_4 e_3 d_2 e_3 f_4
+	g_5 f_4 e_3 d_2 e_3 f_4 e_3 d_2 e_3 f_4 e_3 d_2
+	c_\markup{\bold "Segue"} d ees f ees d ees f ees d ees f
+	g f ees d ees f ees d ees f ees d
+	c des ees f ees des ees f ees des ees f
+	ges f ees des ees f ees des ees f ees des
+	cis1_\markup{\bold "Etc..."} \fermata \hide r2 \break \bar "|."
+	}
+
+quintosx = \relative
+	{
+	\omit Staff.TimeSignature
+	\clef bass
+	c8_5 d_4 e_3 f_2 e_3 d_4 e_3 f_2 e_3 d_4 e_3 f_2
+	g_1 f_2 e_3 d_4 e_3 f_2 e_3 d_4 e_3 f_2 e_3 d_4
+	c d ees f ees d ees f ees d ees f
+	g f ees d ees f ees d ees f ees d
+	c des ees f ees des ees f ees des ees f
+	ges f ees des ees f ees des ees f ees des
+	cis1 \fermata \hide r2 \break \bar "|."
+	}
+
+
 %devo studiare bene se è meglio /with {instrumentName = "es1"} o /murk /markup {"es1"}
 
 \score {
@@ -154,6 +182,13 @@ quartosx = \relative
 			\new PianoStaff %with { instrumentName = "Es.4" }
 				<<
 					\new Staff = "quartodx" \quartodx
+					\new Staff = "quartosx" \quartosx
+				>>
+		>>
+		<<
+			\new PianoStaff %with { instrumentName = "Es.5" }
+				<<
+					\new Staff = "quintodx" \quintodx
 					\new Staff = "quartosx" \quartosx
 				>>
 		>>
