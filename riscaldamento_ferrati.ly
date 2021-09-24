@@ -5,6 +5,7 @@
 
 primodx = \relative
 	{
+	\mark \markup {\bold"Es.1"}
 	\omit Staff.TimeSignature
 	\tempo "Ogni sei note = 108"
 	\clef treble
@@ -34,6 +35,7 @@ primosx = \relative
 
 secondodx = \relative 
 	{
+	\mark \markup {\bold"Es.2"}
 	\time 12/8	
 	\omit Staff.TimeSignature
 	\clef treble
@@ -44,7 +46,7 @@ secondodx = \relative
 	g f g f g f g f g f ees d
 	c des c des c des c des c des ees f
 	ges f ges f ges f ges f ges f ees des
-	cis2\fermata
+	cis1_\markup{\bold "Etc.."}\fermata \hide r2 \bar "|."
 	}
 
 secondosx = \relative
@@ -57,22 +59,23 @@ secondosx = \relative
 	g f g f g f g f g f ees d
 	c des c des c des c des c des ees f
 	ges f ges f ges f ges f ges f ees des
-	cis2\fermata
+	cis1\fermata \hide r2 \bar "|."
 	}
 	
 
+%devo studiare bene se è meglio /with {instrumentName = "es1"} o /murk /markup {"es1"}
 
 \score {
 	\new StaffGroup {
 		<<
-			\new PianoStaff	\with { instrumentName = "Es.1" }
+			\new PianoStaff	%\with { instrumentName = "Es.1" }
 				<<
 					\new Staff = "primodx" \primodx
 					\new Staff = "primosx" \primosx
 				>>
 		>>
 		<<
-			\new PianoStaff \with { instrumentName = "Es.2" }
+			\new PianoStaff %\with { instrumentName = "Es.2" }
 				<<
 					\new Staff = "secondodx" \secondodx
 					\new Staff = "secondosx" \secondosx
