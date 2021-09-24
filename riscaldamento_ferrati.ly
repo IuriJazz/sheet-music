@@ -229,5 +229,4 @@ sestosx = \relative
 		>>
 	}
 	\layout{}
-	\midi{}
 }
