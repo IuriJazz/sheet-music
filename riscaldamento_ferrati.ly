@@ -200,7 +200,7 @@ settimodx =
 	r ges r f
 	ees2 f
 	ges f
-	cis1_\markup{\bold"Segue"} \fermata \break \bar "|."
+	cis1_\markup{\bold"Etc..."} \fermata \break \bar "|."
 	} 
 	\\
 	\relative c' {
@@ -277,7 +277,7 @@ ottavodx =
 	ges f ges f ees f
 	ees4. f
 	ges f
-	cis2._\markup{\bold"Segue"} \fermata \break \bar "|."
+	cis2._\markup{\bold"Etc..."} \fermata \break \bar "|."
 	} 
 	\\
 	\relative c' {
@@ -317,7 +317,7 @@ ottavosx =
 	ges f ges f ees f
 	ees4. f
 	ges f
-	cis2._\markup{\bold"Segue"} \fermata \break \bar "|."
+	cis2. \fermata \break \bar "|."
 	} 
 	\\
 	\relative c {
@@ -328,7 +328,7 @@ ottavosx =
 	e_3 d_4
 	c8_5 d_4 c_5 d_4 e_3 d_4
 	e_3 f_2 e_3 d_4 e_3 d_4
-	c4._\markup{\bold"Segue"} d
+	c4. d
 	ees d
 	c8 d c d ees d
 	ees f ees d ees d
