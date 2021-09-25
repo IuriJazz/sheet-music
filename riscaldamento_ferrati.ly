@@ -340,6 +340,13 @@ ottavosx =
 	>>
 
 
+dom = {<c e>8}
+rem = {<d f>}
+mim = {<e g>}
+does = {<c ees>}
+mies = {<ees g>}
+rees = {<des f>}
+miees = {<ees ges>}
 
 
 nonodx = 
