@@ -15,7 +15,7 @@ undicesimodx =
 	
 	%Do+
 	\ottava #-1
-	c16 e g
+	c16_1^"Do+" e_2 g_3
 	\ottava #0
 	c e g c e g
 	\ottava #1
@@ -26,7 +26,7 @@ undicesimodx =
 	g e
 	
 	%La-
-	c e a
+	c_1^"La-" e_2 a_4
 	\ottava #0
 	c e a c e a
 	\ottava #1
@@ -37,7 +37,7 @@ undicesimodx =
 	a e
 	
 	%Fa+
-	c f a
+	c_1^"Fa+" f_2 a_4
 	\ottava #0
 	c f a c f a
 	\ottava #1
@@ -48,7 +48,7 @@ undicesimodx =
 	a f
 	
 	%Fa-
-	c f aes
+	c_1^"Fa-" f_2 aes_4
 	\ottava #0
 	c f aes c f aes
 	\ottava #1
@@ -59,7 +59,7 @@ undicesimodx =
 	aes f
 
 	%Mib+
-	c ees aes
+	c_1^"Mib+" ees_2 aes_4
 	\ottava #0
 	c ees aes c ees aes
 	\ottava #1
@@ -70,7 +70,7 @@ undicesimodx =
 	aes ees
 	
 	%Do-
-	c ees g
+	c_1^"Do-" ees_2 g_3
 	\ottava #0
 	c ees g c ees g
 	\ottava #1
@@ -81,9 +81,9 @@ undicesimodx =
 	g ees
 
 	%7dim su Do
-	\tuplet 3/4 {c ees fis}
+	\tuplet 3/4 {c_1^"Dim" ees_2 fis_3}
 	\ottava #0
-	\tuplet 3/4 {a c ees}
+	\tuplet 3/4 {a_4 c_1 ees}
 	\tuplet 3/4 {fis a c}
 	\tuplet 3/4 {ees fis a}
 	\tuplet 3/4 {c a fis}
@@ -93,9 +93,9 @@ undicesimodx =
 
 	%7aum su Do
 	\ottava #-1
-	\tuplet 3/4 {c e g}
+	\tuplet 3/4 {c_1^"7 Aum" e_2 g_3}
 	\ottava #0
-	\tuplet 3/4 {b c e}
+	\tuplet 3/4 {b_4 c_1 e}
 	\tuplet 3/4 {g b c}
 	\tuplet 3/4 {e g b}
 	\tuplet 3/4 {c b g}
@@ -105,9 +105,9 @@ undicesimodx =
 
 	%7dom su Do#
 	\ottava #-1
-	\tuplet 3/4 {bis dis fis}
+	\tuplet 3/4 {bis_1^"7 di Dominante" dis_2 fis_3}
 	\ottava #0
-	\tuplet 3/4 {gis bis dis}
+	\tuplet 3/4 {gis_4 bis_1 dis}
 	\tuplet 3/4 {fis gis bis}
 	\tuplet 3/4 {dis fis gis}
 	\tuplet 3/4 {bis gis fis}
