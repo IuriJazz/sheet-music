@@ -115,7 +115,7 @@ undicesimodx =
 	\tuplet 3/4 {fis dis bis}
 	\ottava #-1
 	\tuplet 3/4 {gis fis dis}
-	cis1_\markup{\bold"Etc..."} \fermata \break \bar "|." 
+	cis1_1_\markup{\bold"Etc..."} \fermata \break \bar "|." 
 	} 
 
 
@@ -126,8 +126,8 @@ undicesimosx =
 	\omit Staff.TimeSignature
 	
 	%Do+
-	c,16 e g c
-	e g c e
+	c,16_5 e_4 g_2 c_1
+	e_4 g_2 c e
 	\ottava #1
 	g c e g
 	c g e c g
@@ -135,8 +135,8 @@ undicesimosx =
 	e c g e c g e
 	
 	%La-
-	c e a c
-	e a c e
+	c_5 e_4 a_2 c_1
+	e_4 a_2 c e
 	\ottava #1
 	a c e a
 	c a e c a
@@ -144,8 +144,8 @@ undicesimosx =
 	e c a e c a e
 	
 	%Fa+
-	c f a c
-	f a c f
+	c_5 f_3 a_2 c_1
+	f_3 a_2 c f
 	\ottava #1
 	a c f a
 	c a f c a
@@ -153,8 +153,8 @@ undicesimosx =
 	f c a f c a f
 	
 	%Fa-
-	c f aes c
-	f aes c f
+	c_5 f_3 aes_2 c_1
+	f_3 aes_2 c f
 	\ottava #1
 	aes c f aes
 	c aes f c aes
@@ -162,8 +162,8 @@ undicesimosx =
 	f c aes f c aes f
 
 	%Mib+
-	c ees aes c
-	ees aes c ees
+	c_5 ees_4 aes_2 c_1
+	ees_4 aes_2 c ees
 	\ottava #1
 	aes c ees aes
 	c aes ees c aes
@@ -171,8 +171,8 @@ undicesimosx =
 	ees c aes ees c aes ees
 	
 	%Do-
-	c ees g c
-	ees g c ees
+	c_5 ees_4 g_2 c_1
+	ees_4 g_2 c ees
 	\ottava #1
 	g c ees g
 	c g ees c g
@@ -180,9 +180,9 @@ undicesimosx =
 	ees c g ees c g ees
 
 	%7dim su Do
-	\tuplet 3/4 {c ees fis}
-	\tuplet 3/4 {a c ees}
-	\tuplet 3/4 {fis a c}
+	\tuplet 3/4 {c_5 ees_4 fis_3}
+	\tuplet 3/4 {a_2 c_1 ees_4}
+	\tuplet 3/4 {fis_3 a c}
 	\ottava #1
 	\tuplet 3/4 {ees fis a}
 	\tuplet 3/4 {c a fis}
@@ -192,9 +192,9 @@ undicesimosx =
 	\tuplet 3/4 {a fis ees}
 
 	%7aum su Do
-	\tuplet 3/4 {c e g}
-	\tuplet 3/4 {b c e}
-	\tuplet 3/4 {g b c}
+	\tuplet 3/4 {c_5 e_4 g_3}
+	\tuplet 3/4 {b_2 c_1 e_4}
+	\tuplet 3/4 {g_3 b c}
 	\ottava #1
 	\tuplet 3/4 {e g b}
 	\tuplet 3/4 {c b g}
@@ -204,9 +204,9 @@ undicesimosx =
 	\tuplet 3/4 {b g e}
 
 	%7dom su Do#
-	\tuplet 3/4 {bis dis fis}
-	\tuplet 3/4 {gis bis dis}
-	\tuplet 3/4 {fis gis bis}
+	\tuplet 3/4 {bis_5 dis_4 fis_3}
+	\tuplet 3/4 {gis_2 bis_1 dis_4}
+	\tuplet 3/4 {fis_3 gis bis}
 	\ottava #1
 	\tuplet 3/4 {dis fis gis}
 	\tuplet 3/4 {bis gis fis}
@@ -214,7 +214,7 @@ undicesimosx =
 	\tuplet 3/4 {dis bis gis}
 	\tuplet 3/4 {fis dis bis}
 	\tuplet 3/4 {gis fis dis}
-	cis1_\markup{\bold"Etc..."} \fermata \break \bar "|." 
+	cis1_5_\markup{\bold"Etc..."} \fermata \break \bar "|." 
 	} 
 	
 
