@@ -357,7 +357,7 @@ nonodx =
 	<c_1 e_3> <d_2 f_4> <e_3 g_5> <d_2 f_4> <c_1 e_3> <d_2 f_4> <e_3 g_5> <d_2 f_4> <c_1 e_3> <d_2 f_4> <e_3 g_5> <d_2 f_4>
 	<c ees>_\markup{\bold"Segue"} \rem \mies \rem \does \rem \mies \rem \does \rem \mies \rem
 	\does \rees \miees \rees \miees \rees \miees \rees \does \rees \miees \rees
-	<cis eis>2._\markup{\bold"Etc..."} \fermata \break \bar "|."
+	<cis eis>1._\markup{\bold"Etc..."} \fermata \break \bar "|."
 	} 
 
 
@@ -369,7 +369,7 @@ nonosx =
 	<c, e>8 <d f> <e g> <d f> <c e> <d f> <e g> <d f> <c e> <d f> <e g> <d f>
 	\does \rem \mies \rem \does \rem \mies \rem \does \rem \mies \rem
 	\does \rees \miees \rees \miees \rees \miees \rees \does \rees \miees \rees
-	<cis eis>2. \fermata \break \bar "|."
+	<cis eis>1. \fermata \break \bar "|."
 	} 
 
 
@@ -389,7 +389,7 @@ decimodx =
 	c d ees f g aes b c
 	d ees f g aes b c b
 	aes g f ees d c b aes
-	g f ees d c2_\markup{\bold"Seguono tutte"}_\markup{\bold"le scale cromaticamente"} \fermata \bar "|."
+	g f ees d c2_\markup{\bold"Seguono tutte"}_\markup{\bold"le scale cromaticamente"} \fermata \break \bar "|."
 	} 
 
 
@@ -398,17 +398,17 @@ decimosx =
 	\clef bass
 	\time 4/4
 	\omit Staff.TimeSignature
-	c8_5 d_4 e_3 f_2 g_1 a_3 b_2 c_1
+	c8_5^\markup{"Maggiore"} d_4 e_3 f_2 g_1 a_3 b_2 c_1
 	d_4 e_3 f_2 g_1 a_3 b_2 c_1 b_2
 	a_3 g_1 f_2 e_3 d_4 c_1 b_2 a_3
-	g_1 f_2 e_3 d_4 c_5 d ees f
+	g_1 f_2 e_3 d_4 c_5^\markup{"Minore Melodico"} d ees f
 	g a b c d ees f g
 	a b c bes aes g f ees
 	d c bes aes g f ees d
-	c d ees f g aes b c
+	c^\markup{"Minore Armonico"} d ees f g aes b c
 	d ees f g aes b c b
 	aes g f ees d c b aes
-	g f ees d c2 \fermata \bar "|."
+	g f ees d c2 \fermata \break \bar "|."
 	}
 
 
