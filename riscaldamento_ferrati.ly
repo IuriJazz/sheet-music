@@ -164,7 +164,7 @@ sestodx = \relative
 	g[ f ees d] ees[ f g f] ees[ d ees f] g[ f ees d]
 	c[ des ees f] ees[ des c des] ees[ f ees des] c[ des ees f]
 	ges[ f ees des] ees[ f ges f] ees[ des ees f] ges[ f ees des]
-	cis1_\markup{\bold "Etc..."} \fermata \hide r2 \break \bar "|."
+	cis1_\markup{\bold "Etc..."} \fermata \hide r \break \bar "|."
 	}
 
 sestosx = \relative
@@ -177,8 +177,88 @@ sestosx = \relative
 	g[ f ees d] ees[ f g f] ees[ d ees f] g[ f ees d]
 	c[ des ees f] ees[ des c des] ees[ f ees des] c[ des ees f]
 	ges[ f ees des] ees[ f ges f] ees[ des ees f] ges[ f ees des]
-	cis1 \fermata \hide r2 \break \bar "|."
+	cis1 \fermata \hide r \break \bar "|."
 	}
+
+
+settimodx = 
+	<<
+	\relative c' {
+	\mark \markup {\bold"Es.7"}
+	\clef treble
+	\time 4/4
+	\omit Staff.TimeSignature
+	r4 e-3 r f-4
+	r g-5 r f-4
+	e2-3 f-4
+	g-5 f-4
+	r4 ees r f
+	r g r f
+	ees2 f
+	g f
+	r4 ees r f
+	r ges r f
+	ees2 f
+	ges f
+	cis1_\markup{\bold"Segue"} \fermata \bar "|."
+	} 
+	\\
+	\relative c' {
+	\clef treble
+	c2_1 d_2
+	e_3 d_2
+	r4 c_1 r d_2
+	r e_3 r d_2
+	c2_\markup{\bold"Segue"} d
+	ees d
+	r4 c r d
+	r ees r d
+	c2 des
+	ees des
+	r4 c r des
+	r ees r des
+	}
+	>>
+
+settimosx = 
+	<<
+	\relative c {
+	\clef bass
+	\omit Staff.TimeSignature
+	r4 e-3 r f-2
+	r g-1 r f-2
+	e2-3 f-2
+	g-1 f-2
+	r4 ees r f
+	r g r f
+	ees2 f
+	g f
+	r4 ees r f
+	r ges r f
+	ees2 f
+	ges f
+	cis1 \fermata \bar "|."
+	} 
+	\\
+	\relative c {
+	\clef bass
+	c2_5 d_4
+	e_3 d_4
+	r4 c_5 r d_4
+	r e_3 r d_4
+	c2 d
+	ees d
+	r4 c r d
+	r ees r d
+	c2 des
+	ees des
+	r4 c r des
+	r ees r des
+	}
+	>>
+
+
+
 
 
 
@@ -222,10 +302,17 @@ sestosx = \relative
 				>>
 		>>
 		<<
-			\new PianoStaff %with { instrumentName = "Es.5" }
+			\new PianoStaff %with { instrumentName = "Es.6" }
 				<<
 					\new Staff = "sestodx" \sestodx
 					\new Staff = "sestosx" \sestosx
+				>>
+		>>
+		<<
+			\new PianoStaff	%\with { instrumentName = "Es.7" }
+				<<
+					\new Staff = "settimodx" \settimodx
+					\new Staff = "settimosx" \settimosx
 				>>
 		>>
 	}
