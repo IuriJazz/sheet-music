@@ -2,7 +2,7 @@
 	title = "Riscaldamento"
 	subtitle = "Dedicato al rinforzo di ogni dito"
 	subsubtitle = "e alla loro indipendenza in entrambe le mani"
-	composer = "M. Ferrati"
+	composer = ""
 
 	% I campi seguenti sono centrati in fondo
 	tagline = ""
