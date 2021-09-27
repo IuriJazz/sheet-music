@@ -9,7 +9,7 @@
     copyright = ""
 }
 
-primodx = \relative
+primodx = \relative c'
 	{
 	\mark \markup {\bold"Es.1"}
 	\omit Staff.TimeSignature
@@ -25,7 +25,7 @@ primodx = \relative
 	cis4 eis dis fis_\markup{\bold "Etc..."}\break \bar "|."
 	}
 
-primosx = \relative
+primosx = \relative c
 	{
 	\omit Staff.TimeSignature
 	\clef bass
@@ -39,7 +39,7 @@ primosx = \relative
 	cis4 ais bis gis \bar"|."
 	}
 
-secondodx = \relative 
+secondodx = \relative c'
 	{
 	\mark \markup {\bold"Es.2"}
 	\time 12/8	
@@ -55,7 +55,7 @@ secondodx = \relative
 	cis1_\markup{\bold "Etc.."}\fermata \hide r2 \bar "|."
 	}
 
-secondosx = \relative
+secondosx = \relative c
 	{
 	\omit Staff.TimeSignature
 	\clef bass
@@ -70,7 +70,7 @@ secondosx = \relative
 	
 
 
-terzodx = \relative
+terzodx = \relative c'
 	{
 	\mark \markup {\bold"Es.3"}
 	\omit Staff.TimeSignature
@@ -84,7 +84,7 @@ terzodx = \relative
 	cis1_\markup{\bold "Etc..."} \fermata \hide r2 \break \bar "|."
 	}
 
-terzosx = \relative
+terzosx = \relative c
 	{
 	\clef bass
 	\omit Staff.TimeSignature
@@ -97,7 +97,7 @@ terzosx = \relative
 	cis1 \fermata \hide r2 \break \bar "|."
 	}
 
-quartodx = \relative
+quartodx = \relative c'
 	{
 	\mark \markup {\bold"Es.4"}
 	\omit Staff.TimeSignature
@@ -111,7 +111,7 @@ quartodx = \relative
 	cis1_\markup{\bold "Etc..."} \fermata \hide r2 \break \bar "|."
 	}
 
-quartosx = \relative
+quartosx = \relative c
 	{
 	\omit Staff.TimeSignature
 	\clef bass
@@ -124,7 +124,7 @@ quartosx = \relative
 	cis1 \fermata \hide r2 \break \bar "|."
 	}
 
-quintodx = \relative
+quintodx = \relative c'
 	{
 	\mark \markup {\bold"Es.5"}
 	\omit Staff.TimeSignature
@@ -138,7 +138,7 @@ quintodx = \relative
 	cis1_\markup{\bold "Etc..."} \fermata \hide r2 \break \bar "|."
 	}
 
-quintosx = \relative
+quintosx = \relative c
 	{
 	\omit Staff.TimeSignature
 	\clef bass
@@ -152,7 +152,7 @@ quintosx = \relative
 	}
 
 
-sestodx = \relative
+sestodx = \relative c'
 	{
 	\mark \markup {\bold"Es.6"}
 	\time 8/4
@@ -167,7 +167,7 @@ sestodx = \relative
 	cis1_\markup{\bold "Etc..."} \fermata \hide r \break \bar "|."
 	}
 
-sestosx = \relative
+sestosx = \relative c
 	{
 	\omit Staff.TimeSignature
 	\clef bass
@@ -183,7 +183,7 @@ sestosx = \relative
 
 settimodx = 
 	<<
-	\relative c' {
+	\relative c'' {
 	\mark \markup {\bold"Es.7"}
 	\clef treble
 	\time 4/4
@@ -203,7 +203,7 @@ settimodx =
 	cis1_\markup{\bold"Etc..."} \fermata \break \bar "|."
 	} 
 	\\
-	\relative c' {
+	\relative c'' {
 	\clef treble
 	c2_1 d_2
 	e_3 d_2
@@ -260,7 +260,7 @@ settimosx =
 
 ottavodx = 
 	<<
-	\relative c' {
+	\relative c'' {
 	\mark \markup {\bold"Es.8"}
 	\clef treble
 	\time 6/8
@@ -280,7 +280,7 @@ ottavodx =
 	cis2._\markup{\bold"Etc..."} \fermata \break \bar "|."
 	} 
 	\\
-	\relative c' {
+	\relative c'' {
 	\clef treble
 	\time 6/8
 	\omit Staff.TimeSignature
@@ -349,7 +349,7 @@ rees = {<des f>}
 miees = {<ees ges>}
 
 nonodx = 
-	\relative c' {
+	\relative c'' {
 	\mark \markup {\bold"Es.9"}
 	\clef treble
 	\time 12/8
@@ -401,11 +401,11 @@ decimosx =
 	c8_5^\markup{"Maggiore"} d_4 e_3 f_2 g_1 a_3 b_2 c_1
 	d_4 e_3 f_2 g_1 a_3 b_2 c_1 b_2
 	a_3 g_1 f_2 e_3 d_4 c_1 b_2 a_3
-	g_1 f_2 e_3 d_4 c_5^\markup{"Minore Melodico"} d ees f
+	g_1 f_2 e_3 d_4 c_5^\markup{"Minore Melodica"} d ees f
 	g a b c d ees f g
 	a b c bes aes g f ees
 	d c bes aes g f ees d
-	c^\markup{"Minore Armonico"} d ees f g aes b c
+	c^\markup{"Minore Armonica"} d ees f g aes b c
 	d ees f g aes b c b
 	aes g f ees d c b aes
 	g f ees d c2 \fermata \break \bar "|."
@@ -482,7 +482,7 @@ dodicesimodx =
 	<d d'> <c c'> <b b'> <a a'>
 	<g g'> <f f'> <e e'> <d d'>
 
-	<c c'> <d d'> <ees ees'> <f f'>
+	<c c'> <d d'> <ees_1 ees'_4> <f f'>
 	<g g'> <a a'> <b b'> <c c'>
 	<d d'> <c c'> <bes bes'> <aes aes'>
 	<g g'> <f f'> <ees ees'> <d d'>
@@ -508,7 +508,7 @@ dodicesimosx =
 	<d d'> <c c'> <b b'> <a a'>
 	<g g'> <f f'> <e e'> <d d'>
 
-	<c c'> <d d'> <ees ees'> <f f'>
+	<c c'> <d d'> <ees_4 ees'_1> <f f'>
 	<g g'> <a a'> <b b'> <c c'>
 	<d d'> <c c'> <bes bes'> <aes aes'>
 	<g g'> <f f'> <ees ees'> <d d'>
