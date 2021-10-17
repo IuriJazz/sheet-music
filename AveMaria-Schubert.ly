@@ -1,6 +1,7 @@
 \header{
 	title = "Ave Maria"
 	composer = "F. Schubert"
+  tagline = ""
 	}
 	
 manodestra=
@@ -38,22 +39,38 @@ rem= \tuplet 3/2 {f,8 a d}
 dosette= \tuplet 3/2 {g bes c}
 solm= \tuplet 3/2 {g, bes d}
 miM= \tuplet 3/2 {e, gis b}
+lam= \tuplet 3/2 {e, a c}
+remf= \tuplet 3/2 {d, f a}
+dosetter= \tuplet 3/2 {e, g bes}
+doM= \tuplet 3/2 {e, g c}
+solM= \tuplet 3/2 {d, g b}
+doMf= \tuplet 3/2 {c, e g}
+faMr= \tuplet 3/2 {c, f a}
+laMr= \tuplet 3/2 {cis, e a}
 
 manosinistra=
 \relative c' {
 	\clef bass
   \key f \major
+  
   \faM \faM \rem \rem
   \faM \faM \faM \dosette
   \rem \rem \rem \rem
   \solm \solm \tuplet 3/2 {g,8 bes c} \dosette
   \faM \faM \faM \faM
   \faM \faM \tuplet 3/2 {f, a a} \tuplet 3/2 {f a a}
-  \tuplet 3/2 {e gis b} \miM \miM \miM
-  \tuplet 3/2 {g bes d} \solm \solm \tuplet 3/2 {g, bes c}
-  \rem \rem \rem \rem
-  
-  
+  \tuplet 3/2 {e a c} \lam \miM \miM
+  \tuplet 3/2 {e, g? bes?} \dosetter \dosetter \dosetter
+  \remf \remf \remf \remf
+  \tuplet 3/2 {e g c} \doM \tuplet 3/2 {d, a' c} \tuplet 3/2 {d, a' c}
+  \solM \solM \solM \solM
+  \doMf \doMf \doMf \doMf
+  \doMf \doMf \doMf \doMf
+  \faMr \faMr \faMr \faMr
+  \doMf \doMf \doMf \doMf
+  \tuplet 3/2 {d f a} \remf \remf \remf
+  \doMf \doMf \laMr \laMr
+
 	}
 
 
