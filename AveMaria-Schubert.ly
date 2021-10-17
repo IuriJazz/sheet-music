@@ -8,6 +8,7 @@ manodestra=
 \relative c' {
 	\clef treble
   \key f \major
+  
   f2. e8 f
   a2. g4
   f2 r
@@ -25,8 +26,8 @@ manodestra=
   g4. g8 \tuplet 3/2 {g fis g} \tuplet 3/2 {bes a g}
   f?2 r4 f
   g4. g8 a8. a16 \tuplet 3/2 {a8 g a}
-  c bes4. r4 r8 d,
-  a' g4 g8 \tuplet 3/2 {f e f} \tuplet 3/2 {aes g f}
+  c4 bes r r8 d,
+  a'4 g \tuplet 3/2 {f8 e f} \tuplet 3/2 {aes g f}
   g2. r4
   f2. e8 f
   a?2. g4
@@ -47,6 +48,8 @@ solM= \tuplet 3/2 {d, g b}
 doMf= \tuplet 3/2 {c, e g}
 faMr= \tuplet 3/2 {c, f a}
 laMr= \tuplet 3/2 {cis, e a}
+solmr= \tuplet 3/2 {d, g bes}
+fam= \tuplet 3/2 {c, f aes}
 
 manosinistra=
 \relative c' {
@@ -70,6 +73,13 @@ manosinistra=
   \doMf \doMf \doMf \doMf
   \tuplet 3/2 {d f a} \remf \remf \remf
   \doMf \doMf \laMr \laMr
+  \solmr \solmr \solmr \solmr
+  \doMf \doMf \fam \fam
+  \doMf \doMf \doMf \doMf
+  \faMr \faMr \faMr \faMr
+  \doMf \doMf \doMf \doMf
+  \tuplet 3/2 {f, a c} \tuplet 3/2 {f c a} f2(
+  f2.) r4 \bar "|."
 
 	}
 
