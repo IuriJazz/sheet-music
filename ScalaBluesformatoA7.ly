@@ -1,7 +1,8 @@
 \header {
   title = "Scala Blues in Do"
-  subtitle = "Per Andrea"
+  subtitle = ""
   composer = ""
+  tagline = ""
 }
 
 larghezza = 60  % un numero da passare a una variabile di \paper (l'unità di misura è il millimetro)
