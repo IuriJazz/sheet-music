@@ -1,7 +1,7 @@
 \header {
   title = "When I Look At You"
-  subtitle = "Struttura:"
-  subsubtitle = "Intro - A - Bx4 - A - Bx3 - C - Bx4 - Finale"
+	subtitle = " "
+	subsubtitle = " "
   composer = "Miley Cyrus"
   tagline = ""
 }
