@@ -84,7 +84,7 @@ ces2) bes8 aes4._"to A with/rep" \bar "||" \break
 \once \hideNotes r1
 \once \hideNotes r1 \break
 \once \hideNotes r1
-r4 r4 bes''16 ces bes ces des ees des ees_"A with/rep" \break
+r4 r4 bes''16 ces bes ces des ees des ees_"A with/rep" \bar "||" \break
 
 }
 
