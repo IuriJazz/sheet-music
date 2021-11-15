@@ -112,8 +112,8 @@ ges1
 ges2:7 ges
 ges1
 ges2:7 ges
-bes1
-bes
+bes1:m
+bes:m
 b
 des:7
 %fine A
