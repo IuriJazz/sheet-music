@@ -1,7 +1,13 @@
-% Le alterazioni dovrebbero comparire solo nella
-% prima nota di una legatura di valore, ma questa
-% versione mostra il bemolle accanto a entrambe le note.
-\version "2.10.1"
+
+
+\header {
+  title = "All Of Me"
+  subtitle = " "
+  %subsubtitle = " "
+  %composer = "Rappresentante di Lista"
+  %arranger = " "
+  tagline = ""
+}
 
 \new Staff {
     \relative c' {
@@ -15,7 +21,6 @@
  <a, cis e> <d f a>
  <g b d> <c, e g>
  <d f a> <g b d>
-
     }
 }
 
