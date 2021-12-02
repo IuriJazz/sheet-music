@@ -7,7 +7,7 @@
 \key g \major
 r4 e fis g
 c1(^"A-7"
-c4)^"D7"
+c4)^"D7"  
 }
 
 \relative c' {
