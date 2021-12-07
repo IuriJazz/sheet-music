@@ -65,8 +65,8 @@ Violin = \new Voice {
   bes' |
   a2 f4 g |
   a2 bes |
-  g f |
-  e4 f g a |
+  g2 e4 f |
+  g2 a |
   f1 \bar "|."
   }
 
