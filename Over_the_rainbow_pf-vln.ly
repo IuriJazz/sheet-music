@@ -14,24 +14,26 @@ Violin = \new Voice {
 
   \relative c' {
     \repeat volta 2{
-      f1 |
-      f' |
-      e2 c4 d |
-      e2 f |
-      f,1 |
-      d' |
-      c2 r |
-      r1 |
-      d,1 |
-      bes' |
-      a2 f4 g |
-      a2 bes |
-      g f |
-      f e8 f g a |
-      f1 |
-      d4 e f g |
+    f1 |
+    f' |
+    e2 c4 d |
+    e2 f |
+    f,1 |
+    d' |
+    c2 r |
+    r1 |
+    d,1 |
+    bes' |
+    a2 f4 g |
+    a2 bes |
+    g f |
+    f e8 f g a |
+    f1 |
     }
-  f2 r |
+    \alternative {
+    { d4 e f g | }
+    { f2 r | }
+    }
   r2. c'4 |
   a c a c |
   a c a c |
