@@ -10,7 +10,7 @@ global = {
   \key d \major
 }
 
-Violin = 
+Violin = \new Voice {
 \compressMMRests {
   \relative c' {
 
@@ -66,7 +66,7 @@ Violin =
     ees \fermata \bar "|."
   }
 }
-
+}
 
 
 music = {
