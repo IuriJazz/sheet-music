@@ -26,12 +26,12 @@ Violin = \new Voice {
       d,4 g a4. fis8 |
       e2~ e8 g fis e |
       cis4 d e4. d8 |
-      b2 r8 d e fis |
+      b2 r8 d^"1" e fis |
       a,2~ a8 fis' e d |
       e2~ e8 e d cis |
-      a2~ a8 e' fis a |
+      a2~ a8 e'^"2" fis^"1" a |
       d2~ d8 d fis e |
-      e4 d a fis |
+      e4 d a^"3" fis |
       b2~ b8 d, fis e |
       e4 d a fis |
       e2~ e8 a b a |
@@ -62,13 +62,13 @@ Violin = \new Voice {
       f4 ees bes g |
       f2~ f8 bes, c bes |
       bes'4. c8 bes4 g |
-      e1 |
-      a4. bes8 aes4 f |
+      ees1 |
+      aes4. bes8 aes4 f |
       d1 |
       ees4. d8 f4. ees8 |
       d ees f ees g4. f8 |
       e f g f c2 |
-      d2. bes'16 c d f|
+      d2. bes'16 c d^"1" f |
       bes4. c8 bes4 g |
       ees1 |
       aes4. bes8 aes4 f |
