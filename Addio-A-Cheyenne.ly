@@ -31,7 +31,7 @@ Violin = \new Voice {
     b4 b b b |
     b b b a8. g16 |
     a1~ |
-    a \bar "||"
+    a \bar ".|:"
     \repeat volta 2 {
     e'4 e e e |
     e d8. e16 fis4 e8. d16 |
