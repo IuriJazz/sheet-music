@@ -20,19 +20,21 @@ Violin = \new Voice {
     e2 f |
     f,1 |
     d' |
-    c2 r |
-    r1 |
+    c1~ |
+    c |
     d,1 |
     bes' |
     a2 f4 g |
     a2 bes |
     g f |
     f e8 f g a |
-    f1 |
     }
     \alternative {
-    { d4 e f g | }
-    { f2 r | }
+    {
+     f1 |
+     d4 e f g |
+    }
+    { f1 | }
     }
   r2. c'4 |
   a c a c |
@@ -45,10 +47,10 @@ Violin = \new Voice {
   f a g c |
   a c a c |
   a c a c |
-  b c b c |
-  b c b c8d |
-  e2 e,4 g |
-  g2 fis4 d'8 e |
+  b d b d |
+  b d b c8 d |
+  e1~ |
+  e2. d8 e |
   f2 a, |
   f4 e d c \bar "||"
   f1 |
@@ -56,11 +58,12 @@ Violin = \new Voice {
   e2 c4 d |
   e2 f |
   f,1 |
-  d'4 d, e g |
-  c2 r |
-  d,2. bes4 |
-  bes' f ees des |
-  a'2 f4 g |
+  d'1 |
+  c~ |
+  c |
+  d, |
+  bes' |
+  a2 f4 g |
   a2 bes |
   g f |
   e4 f g a |
