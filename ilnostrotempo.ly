@@ -13,11 +13,12 @@ obbligato =
   
   %verse
     \improvisationOn
-    b4. b8( b2)
+    b4._"Guitar effects" b8( b2)
     b4. b8( b2)
     b4. b8( b2)
     b4. b8( b2)
     \improvisationOff
+    
     \once \hideNotes r1 |
     \once \hideNotes r1 |
     \once \hideNotes r1 |
@@ -26,6 +27,24 @@ obbligato =
     \once \hideNotes r1_"Second with Drums" |
     \once \hideNotes r1 |
     \once \hideNotes r1 |
+    \once \hideNotes r1 |
+    \once \hideNotes r1 |
+
+    \once \hideNotes r1 |
+    \once \hideNotes r1 |
+    \once \hideNotes r1 |
+    \once \hideNotes r1 |
+
+    \once \hideNotes r1 |
+    \once \hideNotes r1 |
+    \once \hideNotes r1 |
+    \once \hideNotes r1 |
+    
+    \once \hideNotes r1 |
+    \once \hideNotes r1 |
+    \once \hideNotes r1 |
+    \once \hideNotes r1 |
+    \once \hideNotes r1 |
     
     \once \hideNotes r1 |
     \once \hideNotes r1 |
@@ -33,25 +52,10 @@ obbligato =
     \once \hideNotes r1 |
     
     \once \hideNotes r1 |
+    \once \hideNotes r1 |
+    \once \hideNotes r1 |
+    \once \hideNotes r1 |
     
-    \once \hideNotes r1 |
-    \once \hideNotes r1 |
-    \once \hideNotes r1 |
-    \once \hideNotes r1 |
-    \once \hideNotes r1 |
-    \once \hideNotes r1 |
-    \once \hideNotes r1 |
-    \once \hideNotes r1 |
-    \once \hideNotes r1 |
-    \once \hideNotes r1 |
-    \once \hideNotes r1 |
-    \once \hideNotes r1 |
-    \once \hideNotes r1 |
-    \once \hideNotes r1 |
-    \once \hideNotes r1 |
-    \once \hideNotes r1 |
-    \once \hideNotes r1 |
-    \once \hideNotes r1 |
     \once \hideNotes r1 |
     \once \hideNotes r1 |
     \once \hideNotes r1 |
