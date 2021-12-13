@@ -45,6 +45,17 @@ GuitarSopra =
     gis,16 b' gis dis b b' gis dis |
     ais cis' fisis, dis dis cis' fisis, dis |
     gis, fis'' bis, gis dis fis' bis, gis | %5
+    cis, e' cis gis e e' cis gis |
+    e d' b gis ais b cis cisis |
+    d8 <fis, cis'>4~ <fis cis'>16 r |
+    gis,16 b' gis dis b b' gis dis |
+    ais cis' fisis, dis dis cis' fisis, dis | %10
+    gis,16 b' gis dis b b' gis dis |
+    ais cis' fisis, dis dis cis' fisis, dis |
+    gis, bis' gis fis dis bis' gis fis |
+    e cis' gis e d b' gis e |
+    cis cis' a cis, dis cis' fisis, dis | %15
+    gis, b8 cis16 cisis dis8 dis16 |    
   }
 }
 
@@ -58,17 +69,17 @@ GuitarSotto =
     ais dis |
     gis,4 b |
     ais dis |
-    gis, dis' |
+    gis, dis' | %5
     cis e |
     e e |
     dis2 |
     gis,4 b |
-    ais dis |
+    ais dis | %10
     gis, b |
     ais dis |
     gis, dis' |
     e d |
-    cis dis |
+    cis dis | %15
     \once \hideNotes r2 |    
   }
 }
