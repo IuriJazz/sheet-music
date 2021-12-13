@@ -12,7 +12,7 @@ Sto imparando ad utilizzare al meglio lilypond per poterlo masterare bene e sfru
 La loro guida è assolutamente completa:
 - http://lilypond.org/doc/v2.22/Documentation/learning-big-page.it.html
 - http://lilypond.org/doc/v2.22/Documentation/notation-big-page
-- http://lilypond.org/doc/v2.22/Documentation/usage/
+- http://lilypond.org/doc/v2.22/Documentation/usage-big-page
 
 
 Tutto ciò che scrivo è a fini didattici.
