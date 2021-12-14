@@ -1,7 +1,8 @@
 \header {
   title = "Carioca"
+  subtitle = "Tango"
   composer = "E. Nazareth"
-  arranger = "I. Marchesin"
+  arranger = "Arr: I. Marchesin"
   tagline = ""
 }
 
@@ -16,21 +17,46 @@ Flute =
   \relative c' {
   \clef treble
     \partial 8 dis8\mf | \bar "||" \mark \markup { \musicglyph "scripts.segno" }
+    \repeat volta 2 {
     gis16_> ais8_> b16_>~ b cis8_> dis16_> |
     \voiceTwo \acciaccatura fisis,8 \voiceOne e'8.-> dis16 \oneVoice r8 dis |
     gis16 ais8 b16 b\prall ais8 gis16 |
     \voiceTwo \acciaccatura fisis8 \oneVoice e'8.-> dis16 r8 dis,,_> |
-    gis16_> ais8_> b16_>~ b cis8_> dis16_> | %5
+    gis16_> ais8_> bis16_>~ bis cis8_> dis16_> | %5
     \voiceTwo \grace { gis,16 cis } \oneVoice fis8.-> e16 r e8 dis16 |
     d8 b' ais gis |
-    fis16 e' dis cis ais fis dis dis, |
+    fisis16 e' dis cis ais fisis dis dis, |
     gis16_> ais8_> b16_>~ b cis8_> dis16_> |
     \voiceTwo \acciaccatura fisis,8 \voiceOne e'8.-> dis16 \oneVoice r8 dis | %10
     gis16 ais8 b16 b\prall ais8 gis16 |
     \voiceTwo \acciaccatura fisis8 \oneVoice e'8.-> dis16 r dis,8 cis16 |
     bis16 a'8 gis16 fis e8 dis16 |
-    gis c,8 b16 e a,8 gis16 |
-    b a8 gis16 fis dis'8 fis,16 gis4 r8 dis | %15
+    gis cis,8 b16 e a,8 gis16 |
+    b a8 gis16 fisis dis'8 fisis,16 | %15
+    }
+    \alternative {
+    {gis4 r8 dis | }
+    {gis8 r \grace { b dis } gis8-> r | }
+    }
+    gis8-> r fis4-> |
+    r16 g8 e16 cis ais g e |
+    dis e8 eis16 fis gis8 ais16 | %20
+    b cis8 cisis16 dis gis8 fis16 |
+    eis fis8 fisis16 gis dis'8 cis16 |
+    ais b8 bis16 cis ais'8 gis16 |
+    \ottava #1
+    eis gis fis cisis e dis ais cis |
+    \ottava #0
+    b eis, gis fis dis b gis fis |
+    r2 |
+    r |
+    gis16 gis8 gis16 b8 b |
+    b16 b8 b16 dis8 dis |
+    fis16 gis8 gisis16 ais dis8 cis16 |
+    b16 dis,8 fis16 eis ais8 gis16 |
+    fis[ ais fis] r8 ais16 fis r |
+    r ais, fis r r4 |
+    
   }
 }
 
@@ -40,6 +66,7 @@ GuitarSopra =
   \voiceOne
   \clef "treble_8"
     \partial 8 \once \hideNotes r8 | \mark \markup { \musicglyph "scripts.segno" }
+    \repeat volta 2 {
     gis16 b' gis dis b b' gis dis |
     ais cis' fisis, dis dis cis' fisis, dis |
     gis,16 b' gis dis b b' gis dis |
@@ -47,15 +74,19 @@ GuitarSopra =
     gis, fis'' bis, gis dis fis' bis, gis | %5
     cis, e' cis gis e e' cis gis |
     e d' b gis ais b cis cisis |
-    d8 <fis, cis'>4~ <fis cis'>16 r |
+    dis8 <fisis, cis'>4~ <fisis cis'>16 r |
     gis,16 b' gis dis b b' gis dis |
     ais cis' fisis, dis dis cis' fisis, dis | %10
     gis,16 b' gis dis b b' gis dis |
     ais cis' fisis, dis dis cis' fisis, dis |
     gis, bis' gis fis dis bis' gis fis |
-    e cis' gis e d b' gis e |
-    cis cis' a cis, dis cis' fisis, dis | %15
-    gis, b8 cis16 cisis dis8 dis16 |    
+    e cis' gis e_- d b' gis e_- |
+    cis cis' a cis,_- dis cis' fisis, dis_- | %15
+    }
+    \alternative {
+    { gis,_> b8_> cis16_> cisis_> dis8_> <dis_> dis'>16\arpeggio | } 
+    { gis8 r <gis gis'> r | \bar "||"}
+    }
   }
 }
 
@@ -65,6 +96,7 @@ GuitarSotto =
   \voiceTwo
   \clef "treble_8"
     \partial 8 \once \hideNotes r8 |
+    \repeat volta 2 {
     gis4 b |
     ais dis |
     gis,4 b |
@@ -78,9 +110,13 @@ GuitarSotto =
     gis, b |
     ais dis |
     gis, dis' |
-    e d |
-    cis dis | %15
-    \once \hideNotes r2 |    
+    e d_> |
+    cis_> dis_> | %15
+    }
+    \alternative {
+    {\once \hideNotes r2 | }
+    {\once \hideNotes r2 | }
+    }
   }
 }
 
