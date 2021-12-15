@@ -47,12 +47,12 @@ Flute =
     \ottava #1
     eis gis fis cisis e dis ais cis |
     \ottava #0
-    b eis, gis fis dis b gis fis |
+    b eis, gis fis dis b gis fis | %25
     r2 |
     r |
     gis16 gis8 gis16 b8 b |
     b16 b8 b16 dis8 dis |
-    fis16 gis8 gisis16 ais dis8 cis16 |
+    fis16 gis8 gisis16 ais dis8 cis16 | %30
     b16 dis,8 fis16 eis ais8 gis16 |
     fis[ ais fis] r8 ais16 fis r |
     r ais, fis r r4 |
@@ -87,6 +87,14 @@ GuitarSopra =
     { gis,_> b8_> cis16_> cisis_> dis8_> <dis_> dis'>16\arpeggio | } 
     { gis8 r <gis gis'> r | \bar "||"}
     }
+    r16 cis8 dis16 e eis8 fis16 |
+    g4 e' |
+    \once \hideNotes r2 | %20
+    \once \hideNotes r2 |
+    \once \hideNotes r2 |
+    \once \hideNotes r2 |
+    \once \hideNotes r2 |
+    \once \hideNotes r2 | %25
   }
 }
 
@@ -117,6 +125,14 @@ GuitarSotto =
     {\once \hideNotes r2 | }
     {\once \hideNotes r2 | }
     }
+    r16 fis8~ fis16~ fis4~ |
+    fis8 r <ais' cis>4 |
+    <b, fis'>8. <dis fis b>16 <dis fis b>8 <dis fis b> | %20
+    fis,8. <fis' b dis>16 <fis b dis>8 b,,(_> |
+    cis8.)_> <gis' b cis eis>16 <gis b cis eis>8 <gis b cis eis> |
+    fis8. <fis' ais e'?>16 <fis ais e'>8 fis,(_> |
+    b8.)_> <fis' b dis>16 <fis b dis>8 <fis b dis> |
+    dis8. <fis b dis>16 <fis b dis>8 <fis b dis> |
   }
 }
 
