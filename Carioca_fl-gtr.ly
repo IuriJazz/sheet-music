@@ -133,6 +133,7 @@ GuitarSotto =
     fis8. <fis' ais e'?>16 <fis ais e'>8 fis,(_> |
     b8.)_> <fis' b dis>16 <fis b dis>8 <fis b dis> |
     dis8. <fis b dis>16 <fis b dis>8 <fis b dis> |
+    
   }
 }
 
