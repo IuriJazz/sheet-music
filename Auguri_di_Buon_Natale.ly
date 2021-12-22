@@ -65,9 +65,24 @@ pianoforte =
     r <b e> <b e> |
     r <c e>2 |
    \oneVoice <f, a d>2 <g b d>4 |
-   <c, e g c>2. |
+    <c, e g c>2. |
    \voiceOne
-    
+    <c e g> |
+    <d f g> |
+    <a c e>2 <a c fis>4 |
+    <g b d g>2. |
+    <g c e> |
+    <g b d> |
+    <f a d>2 <g b d>4 |
+    <c e>2 r4 |
+    r4 <g' c> <g c> |
+    r <a c> <a c> |
+    r <a d> <a d> |
+    r <b d> <d b> |
+    r <b e> <b e> |
+    r <c e>2 |
+   \oneVoice <f, a d>2 <g b d>4 |
+    <c, e g c>2 |
   }
   \\
   \relative c'
@@ -81,6 +96,22 @@ pianoforte =
     a2 e4 |
     \once \hideNotes r2. |
     \once \hideNotes r2. |
+    \once \hideNotes r2. |
+    \once \hideNotes r2. |
+    \once \hideNotes r2. |
+    \once \hideNotes r2. |
+    \once \hideNotes r2. |
+    \once \hideNotes r2. |
+    \once \hideNotes r2. |
+    \once \hideNotes r2. |
+    e2. |
+    f |
+    fis |
+    g |
+    gis |
+    a2 e4 |
+    \once \hideNotes r2. |
+    \once \hideNotes r2 |
   }
   >>
 >>
