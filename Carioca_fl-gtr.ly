@@ -6,6 +6,7 @@
   tagline = ""
 }
 
+
 global =
 {
   \time 2/4
@@ -138,10 +139,9 @@ GuitarSotto =
 }
 
 
-
 music = {
   <<
-    \tag #'score \tag #'vn1
+    \tag #'score \tag #'fl
     \new Staff \with { instrumentName = "Flute" }
     << \global \Flute >>
     
@@ -157,8 +157,23 @@ music = {
 
 
 %poi questo sarà da togliere e mettere in un file separato
+%\include "Carioca_fl-gtr.ly"
 \score {
   \new StaffGroup \keepWithTag #'score \music
   \layout { }
   \midi { }
 }
+
+%questo è per la parte sola di flauto
+%\include "Carioca_fl-gtr.ly"
+%\score {
+%  \keepWithTag #'fl \music
+%  \layout { }
+%}
+
+%questo è per la parte sola di chitarra
+%\include "Carioca_fl-gtr.ly"
+%\score {
+%  \keepWithTag #'gtr \music
+%  \layout { }
+%}
