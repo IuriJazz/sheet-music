@@ -15,6 +15,7 @@ global =
 
 Flute =
 \new Voice {
+\compressMMRests {
   \relative c' {
   \clef treble
     \partial 8 dis8\mf | \bar "||" \mark \markup { \musicglyph "scripts.segno" }
@@ -39,7 +40,7 @@ Flute =
     {gis4 r8 dis | }
     {gis8 r \grace { b dis } gis8-> r | }
     }
-    gis8-> r fis4-> |
+    gis8->_\markup {\italic "Energico"}_\f r fis4-> |
     r16 g8 e16 cis ais g e |
     dis e8 eis16 fis gis8 ais16 | %20
     b cis8 cisis16 dis gis8 fis16 |
@@ -49,20 +50,34 @@ Flute =
     eis gis fis cisis e dis ais cis |
     \ottava #0
     b eis, gis fis dis b gis fis | %25
-    r2 |
-    r |
+    R2 |
+    R |
     gis16 gis8 gis16 b8 b |
     b16 b8 b16 dis8 dis |
     fis16 gis8 gisis16 ais dis8 cis16 | %30
     b16 dis,8 fis16 eis ais8 gis16 |
     fis[ ais fis] r8 ais16 fis r |
     r ais, fis r r4 |
+    gis'8->_\f r fis4-> |
+    r16 g8 e16 cis ais g e | %35
+    dis e8 eis16 fis gis8 ais16 | 
+    b cis8 cisis16 dis gis8 fis16 |
+    eis fis8 fisis16 gis dis'8 cis16 |
+    ais b8 bis16 cis ais'8 gis16 |
+    \ottava #1
+    eis gis fis cisis e dis ais cis | %40
+    \ottava #0
+    b eis, gis fis dis e fis gis |
+    a8 r gis4 |
+    r16 fis8 dis16 bis a fis dis |
     
   }
+}
 }
 
 GuitarSopra = 
 \new Voice {
+\compressMMRests {
   \relative c {
   \voiceOne
   \clef "treble_8"
@@ -98,9 +113,11 @@ GuitarSopra =
     \once \hideNotes r2 | %25
   }
 }
+}
 
 GuitarSotto =
 \new Voice {
+\compressMMRests {
   \relative c {
   \voiceTwo
   \clef "treble_8"
@@ -133,9 +150,10 @@ GuitarSotto =
     cis8.)_> <gis' b cis eis>16 <gis b cis eis>8 <gis b cis eis> |
     fis8. <fis' ais e'?>16 <fis ais e'>8 fis,(_> |
     b8.)_> <fis' b dis>16 <fis b dis>8 <fis b dis> |
-    dis8. <fis b dis>16 <fis b dis>8 <fis b dis> |
+    dis8. <fis b dis>16 <fis b dis>8 <fis b dis> | %25
     
   }
+}
 }
 
 
