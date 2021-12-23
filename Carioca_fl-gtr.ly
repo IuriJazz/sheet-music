@@ -3,9 +3,8 @@
   subtitle = "Tango"
   composer = "E. Nazareth"
   arranger = "Arr: I. Marchesin"
-  tagline = ""
+  tagline = ##f
 }
-
 
 global =
 {
@@ -70,7 +69,7 @@ Flute =
     b eis, gis fis dis e fis gis |
     a8 r gis4 |
     r16 fis8 dis16 bis a fis dis |
-    
+
   }
 }
 }
