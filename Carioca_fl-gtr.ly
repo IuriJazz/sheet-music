@@ -157,7 +157,7 @@ music = {
 
 
 %poi questo sarà da togliere e mettere in un file separato
-%\include "Carioca_fl-gtr.ly"
+%\.include "Carioca_fl-gtr.ly"
 \score {
   \new StaffGroup \keepWithTag #'score \music
   \layout { }
@@ -165,14 +165,14 @@ music = {
 }
 
 %questo è per la parte sola di flauto
-%\include "Carioca_fl-gtr.ly"
+%\.include "Carioca_fl-gtr.ly"
 %\score {
 %  \keepWithTag #'fl \music
 %  \layout { }
 %}
 
 %questo è per la parte sola di chitarra
-%\include "Carioca_fl-gtr.ly"
+%\.include "Carioca_fl-gtr.ly"
 %\score {
 %  \keepWithTag #'gtr \music
 %  \layout { }
