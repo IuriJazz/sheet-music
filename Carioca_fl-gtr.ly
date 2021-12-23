@@ -1,3 +1,5 @@
+\version "2.22.1"
+
 \header {
   title = "Carioca"
   subtitle = "Tango"
@@ -36,9 +38,10 @@ Flute =
     b a8 gis16 fisis dis'8 fisis,16 | %15
     }
     \alternative {
-    {gis4 r8 dis | }
+    {gis4 r8 dis \mark \markup { \musicglyph "scripts.coda" } | }
     {gis8 r \grace { b dis } gis8-> r | }
     }
+    \repeat volta 2 {
     gis8->_\markup {\italic "Energico"}_\f r fis4-> |
     r16 g8 e16 cis ais g e |
     dis e8 eis16 fis gis8 ais16 | %20
@@ -69,7 +72,19 @@ Flute =
     b eis, gis fis dis e fis gis |
     a8 r gis4 |
     r16 fis8 dis16 bis a fis dis |
-
+    cis16 dis8 e16 gis cis8 dis16 |
+    e gis8 cis16 b\prall ais8 gis16 | %45
+    b ais8 gis16 fis\prall e8 dis16 |
+    gis fis8 e16 dis\prall cis8 fis16 |
+    b, dis8 dis16 dis\prall cis8 fis,16 |
+    }
+    \alternative {
+    { b8_"Vai a battuta 18" r b'4-> | }
+    { b,8 r \voiceTwo \grace { cis16 fisis } \oneVoice dis'8 dis, \bar "||" | }
+    }
+    \once \hideNotes r2_\markup {"dal" \musicglyph "scripts.segno" "al" \musicglyph "scripts.coda"} \mark \markup { \musicglyph "scripts.coda" } |
+    gis,4 \grace { b16 dis } gis16 fis,8 gis16 \bar "||" |
+    
   }
 }
 }
