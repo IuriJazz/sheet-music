@@ -80,11 +80,39 @@ Flute =
     }
     \alternative {
     { b8_"Vai a battuta 18" r b'4-> | }
-    { b,8 r \voiceTwo \grace { cis16 fisis } \oneVoice dis'8 dis, \bar "||" | }
+    { b,8 r \voiceTwo \grace { cis16 fisis } \oneVoice dis'8 dis, \bar "||" | } %50
     }
-    \once \hideNotes r2_\markup {"dal" \musicglyph "scripts.segno" "al" \musicglyph "scripts.coda"} \mark \markup { \musicglyph "scripts.coda" } |
+    \set Score.currentBarNumber = #50
+    \once \hideNotes r2_\markup {"dal" \musicglyph "scripts.segno" "al" \musicglyph "scripts.coda"}_\markup {"poi dal" \musicglyph "scripts.coda" "segue da qui"} \mark \markup { \musicglyph "scripts.coda" } \bar "||" |
     gis,4 \grace { b16 dis } gis16 fis,8 gis16 \bar "||" |
-    
+    \repeat volta 2 {
+    \key e \major
+    a( b cis dis e fis gis a |
+    ais cis b gis e cis b gis) |
+    fis( ais dis cis) b( dis gis fis) |
+    e( gis cis b) r16 fis8( gis16 | %55
+    a b cis dis e fis gis a |
+    gis fis e dis cis b ais gis) |
+    fis( fisis ais gis) dis( fis e cis) |
+    b8 \grace { dis16 fis } b8 r16 fis,8 gis16|
+    a( b cis dis e fis gis a | %60
+    ais cis b gis e cis b gis) |
+    fis( ais dis cis) b( dis gis fis) | 
+    e( gis cis b) r16 e,8( fis16 |
+    gis a b cis d e fis gis) |
+    \ottava #1
+    a( b cis dis e dis e cis) | %65
+    b( cis b gis) fis( gis fis b,) |
+    }
+    \alternative {
+    { e4 
+    \ottava #0
+    r16 fis,,8 gis16 | }
+    { e4
+    \ottava #0
+      r8
+    }
+    }
   }
 }
 }
