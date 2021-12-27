@@ -105,11 +105,14 @@ Flute =
     b( cis b gis) fis( gis fis b,) |
     }
     \alternative {
-    { e4 
-    \ottava #0
-    r16 fis,,8 gis16 | }
-    { e4
-    \ottava #0
+    {
+      e4 
+      \ottava #0
+      r16 fis,,8 gis16 | }
+    {
+      \ottava #1
+      e''4
+      \ottava #0
       r8
     }
     }
