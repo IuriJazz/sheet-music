@@ -8,6 +8,7 @@
 
 
 primo_dx =
+\transpose a c' {
 \compressMMRests {
   \relative c' {
     \clef treble
@@ -36,8 +37,10 @@ primo_dx =
     R1 |
   }
 }
+}
 
 primo_sx = 
+\transpose a c' {
 \compressMMRests {
   \relative c' {
     \clef treble
@@ -51,25 +54,27 @@ primo_sx =
     r2. a8 b~ |
     b1 |
     r2. a8 b~ |
-    b2. a4 | 
-    e a r2 | \break
+    b2. a4 | \break 
+    e a r2 |
     R1 |
     r2 \once \hideNotes r4 r4 |
     r2. \once \hideNotes r8 r8 |
     R1 |
     r2. b4 |
     R1 |
-    R1 |
-    R1 |
+    R1 | \break
+    R1 | 
     R1 |
     r4 b8 gis e2 |
-    r4 b'8 gis e2 |
+    r4 b'8 gis e2 | \break
     R1 |
     R1 | \bar "|."
   }
 }
+}
 
 secondo_dx = 
+\transpose a c' {
 \compressMMRests {
   \relative c' {
     \clef bass
@@ -103,8 +108,10 @@ secondo_dx =
     r8 gis b e b gis~ gis4 | \fermata \bar "|."
   }
 }
+}
 
 secondo_sx = 
+\transpose a c' {
 \compressMMRests {
   \relative c' {
     \clef bass
@@ -137,6 +144,7 @@ secondo_sx =
     e,1 |
     e1 |
   }
+}
 }
 
 
