@@ -15,8 +15,8 @@ primo_dx =
     \time 4/4
     \key a \major
     R1*6 |
-    r2 r4 r8 \once \hideNotes r8 |
-    r2. cis'8 e |
+    r2 r4 b'8 cis |
+    r2. cis8 e |
     g4. fis8 d4 r4 |
     R1 |
     g4. fis8 d4 r4 |
@@ -24,7 +24,7 @@ primo_dx =
     R1 |
     R1 |
     d4. cis8 \change Staff = "primo_sx" a4 \change Staff = "primo_dx" e'8 fis |
-    r8 d2~ d8 \change Staff = "primo_sx" b8[ \change Staff = "primo_dx" cis]
+    r8 d2~ d8  b8[ cis]
     d4 cis8 d~ d fis4. |
     cis2. r4 |
     R1 |
@@ -49,8 +49,8 @@ primo_sx =
     R1*4
     gis'2. a4 |
     fis2. e8 fis |
-    gis2. b8 \change Staff = "primo_dx" cis |
-    \change Staff = "primo_sx" r8 fis,2~ fis8 r4 | \break
+    gis2. r4 |
+    r8 fis2~ fis8 r4 | \break
     r2. a8 b~ |
     b1 |
     r2. a8 b~ |
@@ -58,7 +58,7 @@ primo_sx =
     e a r2 |
     R1 |
     r2 \once \hideNotes r4 r4 |
-    r2. \once \hideNotes r8 r8 |
+    R1 |
     R1 |
     r2. b4 |
     R1 |
