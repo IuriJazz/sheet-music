@@ -105,7 +105,7 @@ secondo_dx =
     r4 r8 e' gis2 |
     r4 r8 e gis2 |
     r8 gis, b e b gis~ gis4 |
-    r8 gis b e b gis~ gis4 | \fermata \bar "|."
+    r8 gis b e b gis~ gis4 \fermata | \bar "|."
   }
 }
 }
