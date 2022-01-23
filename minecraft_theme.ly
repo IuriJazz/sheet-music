@@ -2,7 +2,7 @@
   title = "Theme from Minecraft"
   subtitle = "For piano a 4 hands"
   composer = ""
-  arranger = "Arr: I. Marchesin"
+  arranger = ""
   tagline = ""
 }
 
@@ -10,7 +10,7 @@
 primo_dx =
 \transpose a c' {
 \compressMMRests {
-  \relative c' {
+  \relative c {
     \clef treble
     \time 4/4
     \key a \major
@@ -42,8 +42,8 @@ primo_dx =
 primo_sx = 
 \transpose a c' {
 \compressMMRests {
-  \relative c' {
-    \clef treble
+  \relative c {
+    \clef bass
     \time 4/4
     \key a \major
     R1*4
