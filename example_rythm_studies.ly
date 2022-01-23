@@ -1,3 +1,15 @@
+
+
+
+
+\paper {
+  #(set-paper-size "a9landscape")
+}
+
+\header {
+tagline = ""
+}
+
 \new RhythmicStaff {
   \new Voice = "myRhythm" \relative {
   \omit Staff.TimeSignature
