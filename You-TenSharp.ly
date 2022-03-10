@@ -1,6 +1,7 @@
 \header {
   title = "You"
   composer = "Ten Sharp"
+	tagline = ""
 }
 
 destradx = 
