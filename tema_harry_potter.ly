@@ -40,7 +40,8 @@ manodx =
   c4. b8 bes4 |
   bes,2 g'4 | %battuta 30
   e2.~ |
-  e2 \bar "|."
+  e2.~ |
+  e2. \bar "|."
 
 }
 
@@ -52,8 +53,40 @@ manosx =
   \key e \minor
   \time 3/4
   \partial 4 r4 |
-  e4
-
+  e2. |
+  e2. |
+  e2. |
+  e2. |
+  e2. |
+  ais2 b4 |
+  e,2 g4 |
+  b2. |
+  e, |
+  e2. |
+  e2. |
+  e2. |
+  e2. |
+  ais2 b4 |
+  e,2 g4 |
+  b2. |
+  e,2.~ |
+  e2. |
+  e2.~ |
+  e2. |
+  e2.~ |
+  e2. |
+  e2.~ |
+  e2. |
+  e2.~ |
+  e2. |
+  e2.~ |
+  e2. |
+  e2. |
+  ais2 b4 |
+  e,2 g4 |
+  b2 g4 |
+  e2. |
+  
 }
 
 
