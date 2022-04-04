@@ -1,6 +1,9 @@
 \header {
   title = "Hedwig's Theme from Harry Potter"
+  subtitle = " "
+  arranger = " "
   composer = "J. Williams"
+  tagline = " "
 }
 
 manodx = 
@@ -8,6 +11,7 @@ manodx =
   \clef treble
   \key e \minor
   \time 3/4
+  \ottava #1
   \partial 4 b'4 |
   e4. g8 fis4 |
   e2 b'4 |
