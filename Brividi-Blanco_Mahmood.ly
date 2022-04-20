@@ -16,24 +16,30 @@ obbligato =
   \once \hideNotes r1
   \once \hideNotes r1
   \once \hideNotes r1
+  \once \hideNotes r1 \break
   \once \hideNotes r1
   \once \hideNotes r1
   \once \hideNotes r1
+  \once \hideNotes r1 \break
+  \once \hideNotes r1
+  \once \hideNotes r1 
+  \once \hideNotes r1
+  \once \hideNotes r1 \break
   \once \hideNotes r1
   \once \hideNotes r1
   \once \hideNotes r1
-  \once \hideNotes r1
-  \once \hideNotes r1
-  \once \hideNotes r1
-  \once \hideNotes r1
-  \once \hideNotes r1
-  \once \hideNotes r1
-  \once \hideNotes r1
+  \once \hideNotes r1_"2° volta go to C" \bar "||"
   \time 2/4
-  \once \hideNotes r2_"Go to A" \bar "||"
+  \once \hideNotes r2_"Go to A" \bar "||" \break
   \time 4/4
   \once \hideNotes r1
   \once \hideNotes r1
+  \once \hideNotes r1
+  \once \hideNotes r1 \break
+  \once \hideNotes r1
+  \once \hideNotes r1
+  \once \hideNotes r1
+  \once \hideNotes r1 \bar "|."
   
 }
 
@@ -56,14 +62,22 @@ armonie =
   c
   g2 d/fis
   c1:9
-  g2 g/fis
+  g2 d/fis
   e1:m
   g/d
   d:9
   c:m
-  c2:m %battuta di 2 quarti
+  c2:m \bar "||" \mark \markup {\bold \box "C"}%battuta di 2 quarti
 
-  
+  g1:7+
+  b:m/fis
+  e:m
+  c2. c4:m
+  g1
+  b:m
+  e:m
+  c
+
 
 }
 
