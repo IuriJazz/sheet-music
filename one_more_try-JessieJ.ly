@@ -9,12 +9,188 @@
 obbligato =
 \relative c' {
   \clef treble
-  \key c \major
+  \key f \major
+  \time 4/4
+
+  \once \hideNotes r1
+  \once \hideNotes r1
+  \once \hideNotes r1
+  \once \hideNotes r1
+  \once \hideNotes r1
+  \once \hideNotes r1
+  \once \hideNotes r1
+  \once \hideNotes r1
+  \once \hideNotes r1
+  \once \hideNotes r1
+  \once \hideNotes r1
+  \once \hideNotes r1
+  \once \hideNotes r1
+  \once \hideNotes r1
+  \once \hideNotes r1
+  \once \hideNotes r1
+  \once \hideNotes r1
+  \once \hideNotes r1
+  \once \hideNotes r1
+  \once \hideNotes r1
+  \once \hideNotes r1
+  \once \hideNotes r1
+  \once \hideNotes r1
+  \once \hideNotes r1
+  \once \hideNotes r1
+  \once \hideNotes r1
+  \once \hideNotes r1
+  \once \hideNotes r1
+  \once \hideNotes r1
+  \once \hideNotes r1
+  \once \hideNotes r1
+  \once \hideNotes r1
+  \once \hideNotes r1
+  \once \hideNotes r1
+  \once \hideNotes r1
+  \once \hideNotes r1
+  \once \hideNotes r1
+  \once \hideNotes r1
+  \once \hideNotes r1
+  \once \hideNotes r1
+  \once \hideNotes r1
+  \once \hideNotes r1
+  \once \hideNotes r1
+  \once \hideNotes r1
+  \once \hideNotes r1
+  \once \hideNotes r1
+  \once \hideNotes r1
+  \once \hideNotes r1
+  \once \hideNotes r1
+  \once \hideNotes r1
+  \once \hideNotes r1
+  \once \hideNotes r1
+  \once \hideNotes r1
+  \once \hideNotes r1
+  \once \hideNotes r1
+  \once \hideNotes r1
+  \once \hideNotes r1
+  \once \hideNotes r1
+  \once \hideNotes r1
+  \once \hideNotes r1
+  \once \hideNotes r1
+  \once \hideNotes r1
+  \once \hideNotes r1
+  \once \hideNotes r1
+  \once \hideNotes r1
+  \once \hideNotes r1
+  \once \hideNotes r1
+  \once \hideNotes r1
+  \once \hideNotes r1
+  \once \hideNotes r1
+  \once \hideNotes r1
+  \once \hideNotes r1
+  \once \hideNotes r1
+  \once \hideNotes r1
+  \once \hideNotes r1
+  \once \hideNotes r1
+  \once \hideNotes r1
+  \once \hideNotes r1
+  \once \hideNotes r1
+  \once \hideNotes r1
+  \once \hideNotes r1
+  \once \hideNotes r1
+  \once \hideNotes r1
+  \once \hideNotes r1
+  \once \hideNotes r1
 
 }
 
 armonie = 
-\chordmode { c }
+\chordmode {
+  f2
+  bes
+  f
+  bes
+  d:m
+  bes
+  d:m
+  bes
+
+  f
+  bes
+  f
+  a:m
+  d:m
+  bes
+  d:m
+  bes
+
+  c2. a4:m %da capire
+  bes1
+  c2. f4
+  bes1
+  
+  f2
+  bes
+  f
+  bes
+  d:m
+  bes
+  d:m
+  bes
+  f
+  bes
+  f
+  a:m
+  d:m
+  bes
+  d:m
+  bes
+  
+  f
+  bes
+  f
+  bes
+  d:m
+  bes
+  d:m
+  bes
+
+  c2. a4:m
+  bes1
+  c2. f4
+  bes1
+
+  f2
+  bes
+  f
+  bes
+  d:m
+  bes
+  d:m
+  bes
+  f
+  bes
+  f
+  a:m
+  d:m
+  bes
+  d:m
+  bes
+  f
+  bes
+  f
+  bes
+  d:m
+  bes
+  d:m
+  bes
+  f
+  bes
+  f
+  a:m
+  d:m
+  bes
+  d:m
+  bes
+  f1
+
+}
 
 
 \score {
