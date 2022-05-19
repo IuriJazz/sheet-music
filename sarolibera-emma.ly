@@ -44,6 +44,10 @@ obbligato =
   \once \hideNotes r1
   \once \hideNotes r1
   \once \hideNotes r1
+  \once \hideNotes r1
+  \once \hideNotes r1
+  \once \hideNotes r1
+  \once \hideNotes r1
   \once \hideNotes r1_"Solo Piano"
   \once \hideNotes r1
   \once \hideNotes r1
@@ -67,16 +71,16 @@ armonie =
   gis:maj7m
   a \break
 } 
-\repeat volta 2 {
   e
   fis:m7
   gis:maj7m
   a
-}
+\repeat volta 2 {
   e
   a
   gis:maj7m
   a
+}
   a2 \bar "||" \break
   e1
   fis:m7
@@ -88,12 +92,14 @@ armonie =
   gis:maj7m
   a \break
 }
-\repeat volta 2 {
   e
   fis:m7
   gis:maj7m
+  a \bar "||"
+  e
   a
-}
+  gis:maj7m
+  a \bar "||" \break
   e
   fis:m7
   gis:maj7m
