@@ -1,6 +1,8 @@
 \header {
   title = "Snowman"
   composer = "Sia"
+  arranger = "I. Marchesin"
+  tagline = "Transcriber: jazziuri96@gmail.com"
 }
 
 
