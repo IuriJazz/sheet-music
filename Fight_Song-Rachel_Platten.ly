@@ -2,8 +2,8 @@
   title = "Fight Song"
   subtitle = " "
   composer = "Rachel Platten"
-  arranger = "Iuri Marchesin"
-  tagline = "Transcription: jazziuri96@gmail.com"
+  arranger = "I. Marchesin"
+  tagline = "Transcriber: jazziuri96@gmail.com"
 }
 
 
