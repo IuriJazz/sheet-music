@@ -1,6 +1,9 @@
 \header {
   title = "Autumn Leaves"
-  composer = ""
+  subtitle = " "
+  composer = " "
+  arranger = "I. Marchesin"
+  tagline = "Transcriber: jazziuri96@gmail.com"
 }
 
 \relative c' {
