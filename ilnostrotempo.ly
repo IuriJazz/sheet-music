@@ -1,7 +1,8 @@
 \header {
   title = "Il nostro tempo"
   composer = "A. Amoroso"
-  tagline = ""
+  arranger = "I. Marchesin"
+  tagline = "Transcriber: jazziuri96@gmail.com"
 }
 
 
