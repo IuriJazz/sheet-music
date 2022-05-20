@@ -2,7 +2,7 @@
   title = "Bruises"
   subtitle = " "
   composer = "Lewis Capaldi - Robert Earp"
-  arranger = "Iuri Marchesin"
+  arranger = "I. Marchesin"
   tagline = "Transcriber: jazziuri96@gmail.com"
 }
 
