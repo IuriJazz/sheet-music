@@ -1,8 +1,8 @@
 \header {
   title = "L'incontro"
   composer = ""
-  tagline = ""
-
+  arranger = "I. Marchesin"
+  tagline = "Transcriber: jazziuri96@gmail.com"
 }
 
 global = {
