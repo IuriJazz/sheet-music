@@ -3,9 +3,11 @@
   composer = "C. Wurst"
   arranger = "I. Marchesin"
   tagline = "Transcriber: jazziuri96@gmail.com"
+  piece = "Trans Dm --> Fm"
 }
 
 obbligato =
+\transpose d f {
 \relative c' {
   \clef treble
   \mark \markup {\bold \box "Intro"}
@@ -73,8 +75,10 @@ obbligato =
 \improvisationOff
   \once \hideNotes r1 \bar "|."
 }
+}
 
 armonie = 
+\transpose d f {
 \chordmode {
 
   d1:m9
@@ -142,6 +146,7 @@ armonie =
   d2:m c \break
   b:dim \tuplet 3/2 { g4:m7/bes g:m7/a g:m7/g } \bar "||"
   d1:m9
+}
 }
 
 \score {
