@@ -1,8 +1,8 @@
 \header {
   title = "Amanti d'oltretomba"
-  composer = ""
-  tagline = ""
-
+  composer = " "
+  arranger = "I. Marchesin"
+  tagline = "Transcriber: jazziuri96@gmail.com"
 }
 
 global = {
