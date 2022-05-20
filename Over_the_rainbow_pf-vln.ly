@@ -2,7 +2,8 @@
   title = "Over the rainbow"
   subtitle = "Violin & Piano"
   composer = ""
-  tagline = ""
+  arranger = "I. Marchesin"
+  tagline = "Transcriber: jazziuri96@gmail.com"
 }
 
 global = {
