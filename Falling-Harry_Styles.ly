@@ -1,8 +1,8 @@
 \header {
   title = "Falling"
   composer = "Harry Styles"
-  arranger = "Iuri Marchesin"
-  tagline = "Transcription: jazziuri96@gmail.com"
+  arranger = "I. Marchesin"
+  tagline = "Transcriber: jazziuri96@gmail.com"
 }
 
 obbligato =
