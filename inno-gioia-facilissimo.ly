@@ -1,9 +1,9 @@
 \header {
   title = "Inno alla Gioia"
   subtitle = " "
-  composer = " "
-  arranger = " "
-  tagline = ""
+  composer = "L. v. Beethoven"
+  arranger = "I. Marchesin"
+  tagline = "Transcriber: jazziuri96@gmail.com"
 }
 
 \score {
