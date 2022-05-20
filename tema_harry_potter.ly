@@ -1,9 +1,8 @@
 \header {
   title = "Hedwig's Theme from Harry Potter"
-  subtitle = " "
-  arranger = " "
   composer = "J. Williams"
-  tagline = " "
+  arranger = "I. Marchesin"
+  tagline = "Transcriber: jazziuri96@gmail.com"
 }
 
 manodx = 
