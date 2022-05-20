@@ -1,9 +1,8 @@
 \header {
   title = "Auguri di Buon Natale"
-  subtitle = " "
   composer = " "
-  tagline = ""
-
+  arranger = "I. Marchesin"
+  tagline = "Transcriber: jazziuri96@gmail.com"
 }
 
 global =
