@@ -2,6 +2,8 @@
   title = "Twingle Twingle Little Star"
   subtitle = "Brilla Brilla la Stellina"
   composer = ""
+  arranger = "arr: I. Marchesin"
+  tagline = "Transcriber: jazziuri96@gmail.com"
 }
 
 manodestra = 
