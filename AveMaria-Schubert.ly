@@ -1,7 +1,8 @@
 \header{
 	title = "Ave Maria"
 	composer = "F. Schubert"
-  tagline = ""
+  arranger = "I. Marchesin"
+  tagline = "Transcriber: jazziuri96@gmail.com"
 	}
 	
 manodestra=
