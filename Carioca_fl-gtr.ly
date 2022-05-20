@@ -4,8 +4,8 @@
   title = "Carioca"
   subtitle = "Tango"
   composer = "E. Nazareth"
-  arranger = "Arr: I. Marchesin"
-  tagline = ##f
+  arranger = "I. Marchesin"
+  tagline = "Transcriber: jazziuri96@gmail.com"
 }
 
 global =
