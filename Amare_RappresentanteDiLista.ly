@@ -1,10 +1,9 @@
 \header {
   title = "Amare"
 	subtitle = " "
-	subsubtitle = " "
 	composer = "Rappresentante di Lista"
-  arranger = " "
-	
+  arranger = "I. Marchesin"
+  tagline = "Transcriber: jazziuri96@gmail.com"	
 }
 
 
