@@ -1,7 +1,8 @@
 \header {
   title = "You"
   composer = "Ten Sharp"
-	tagline = ""
+  arranger = "I. Marchesin"
+  tagline = "Transcriber: jazziuri96@gmail.com"
 }
 
 destradx = 
