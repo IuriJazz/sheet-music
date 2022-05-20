@@ -1,6 +1,8 @@
 \header {
   title = "Rivolti"
   composer = ""
+  arranger = "I. Marchesin"
+  tagline = "Transcriber: jazziuri96@gmail.com"
 }
 
 
