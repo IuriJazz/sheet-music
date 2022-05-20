@@ -2,7 +2,8 @@
   title = "Canzoncina per Miriam"
   subtitle = " "
   composer = " "
-  tagline = ""
+  arranger = "I. Marchesin"
+  tagline = "Transcriber: jazziuri96@gmail.com"
 }
 
 \score {
