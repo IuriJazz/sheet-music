@@ -2,7 +2,7 @@
   title = "Brividi"
   subtitle = " "
   composer = "Blanco-Mahmood"
-  arranger = "Iuri Marchesin"
+  arranger = "I. Marchesin"
   tagline = "Transcriber: jazziuri96@gmail.com"
 }
 
