@@ -1,7 +1,9 @@
 \header {
   title = "Valzer del Cagnolino"
-  subtitle = "Per Giorgia"
-  composer = ""
+  subtitle = " "
+  composer = " "
+  arranger = "I. Marchesin"
+  tagline = "Transcriber: jazziuri96@gmail.com"
 }
 
 \score {
