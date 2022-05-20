@@ -1,7 +1,8 @@
 \header {
   title = "Easy on Me"
   composer = "Adele"
-  tagline = ""
+  arranger = "I. Marchesin"
+  tagline = "Transcriber: jazziuri96@gmail.com"
 }
 
 obbligato = 
