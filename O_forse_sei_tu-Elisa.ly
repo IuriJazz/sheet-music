@@ -2,7 +2,7 @@
   title = "O forse sei tu"
   subtitle = " "
   composer = "Elisa"
-  arranger = "Iuri Marchesin"
+  arranger = "I. Marchesin"
   tagline = "Transcriber: jazziuri96@gmail.com"
 }
 
