@@ -2,8 +2,8 @@
   title = "Theme from Minecraft"
   subtitle = "For piano a 4 hands"
   composer = ""
-  arranger = ""
-  tagline = ""
+  arranger = "I. Marchesin"
+  tagline = "Transcriber: jazziuri96@gmail.com"
 }
 
 
