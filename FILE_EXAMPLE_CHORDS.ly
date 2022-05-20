@@ -1,6 +1,7 @@
 \header {
   title = "Untitled"
   subtitle = "Subtitle"
+  subsubtitle = "Subsubtitle"
   composer = "Composer"
   arranger = "Arranger"
   tagline = "Tagline"
