@@ -1,8 +1,9 @@
 \header {
   title = "Addio a Cheyenne"
   subtitle = "Violin"
-  composer = ""
-  tagline = ""
+  composer = " "
+  arranger = "I. Marchesin"
+  tagline = "Transcriber: jazziuri96@gmail.com"
 }
 
 global = {
