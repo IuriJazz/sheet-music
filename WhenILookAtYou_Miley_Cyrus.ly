@@ -1,9 +1,8 @@
 \header {
   title = "When I Look At You"
-	subtitle = " "
-	subsubtitle = " "
   composer = "Miley Cyrus"
-  tagline = ""
+  arranger = "I. Marchesin"
+  tagline = "Transcriber: jazziuri96@gmail.com"
 }
 
 obbligato =
