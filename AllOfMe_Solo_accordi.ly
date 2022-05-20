@@ -1,12 +1,9 @@
-
-
 \header {
   title = "All Of Me"
   subtitle = " "
-  %subsubtitle = " "
-  %composer = "Rappresentante di Lista"
-  %arranger = " "
-  tagline = ""
+  composer = ""
+  arranger = "I. Marchesin"
+  tagline = "Transcriber: jazziuri96@gmail.com"
 }
 
 \new Staff {
