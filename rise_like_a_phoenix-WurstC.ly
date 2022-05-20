@@ -3,7 +3,7 @@
   composer = "C. Wurst"
   arranger = "I. Marchesin"
   tagline = "Transcriber: jazziuri96@gmail.com"
-  piece = "Trans Dm --> Fm"
+  piece = "Trans. Dm --> Fm"
 }
 
 obbligato =
