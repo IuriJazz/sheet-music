@@ -1,7 +1,8 @@
 \header {
   title = "Playing love"
-  composer = "Morricone"
-  tagline = ""
+  composer = "E. Morricone"
+  arranger = "I. Marchesin"
+  tagline = "Transcriber: jazziuri96@gmail.com"
 }
 
 
