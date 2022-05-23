@@ -1,8 +1,7 @@
 \header {
   title = "When I was your man"
   composer = "B. Mars"
-  arranger = "I. Marchesin"
-  tagline = "Transcriber: jazziuri96@gmail.com"
+  tagline = "Transcriber: lellognesutta@gmail.com"
 }
 
 obbligato =
