@@ -14,7 +14,6 @@ obbligato =
   \key g \major
   \time 4/4
 
-
   c1
   \once \hideNotes r1
 
