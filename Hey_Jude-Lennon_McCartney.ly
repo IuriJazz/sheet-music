@@ -1,12 +1,13 @@
 \header {
   title = "Hey Jude"
   composer = "J. Lennon & P. McCartney"
+  piece = " Trans. F --> G"
   arranger = "I. Marchesin"
   tagline = "Transcriber: jazziuri96@gmail.com"
 }
 
 obbligato =
-\transpose c g {
+\transpose f g {
 \relative c' {
   \clef treble
   \key f \major
@@ -45,7 +46,7 @@ obbligato =
 }
 
 armonie = 
-\transpose c g {
+\transpose f g {
 \chordmode {
 
   \partial 4 r4
