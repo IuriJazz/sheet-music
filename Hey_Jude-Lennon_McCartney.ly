@@ -6,6 +6,7 @@
 }
 
 obbligato =
+\transpose c g {
 \relative c' {
   \clef treble
   \key f \major
@@ -41,8 +42,10 @@ obbligato =
   \once \hideNotes r1
   \once \hideNotes r1
 }
+}
 
 armonie = 
+\transpose c g {
 \chordmode {
 
   \partial 4 r4
@@ -85,6 +88,7 @@ armonie =
   ees
   bes
   f
+}
 }
 }
 
