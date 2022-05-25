@@ -11,7 +11,7 @@
 obbligato =
 \relative c' {
   \clef treble
-  \key g \major
+  \key c \major
   \time 4/4
 
   c1
