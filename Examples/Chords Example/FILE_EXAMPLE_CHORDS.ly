@@ -2,6 +2,7 @@
   title = "Untitled"
   subtitle = "Subtitle"
   subsubtitle = "Subsubtitle"
+  piece = "Piece"
   composer = "Composer"
   arranger = "Arranger"
   tagline = "Tagline"
