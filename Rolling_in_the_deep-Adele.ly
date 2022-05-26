@@ -15,14 +15,25 @@ obbligato =
 
 \repeat percent 2 {
 \improvisationOn
-  b'8 b b b b b b b
+  b'8_"Solo Guitar" b b b b b b b
 \improvisationOff
 }
 \improvisationOn
+  b8_"on third"_"kick drums" b b b b b b b
   b8 b b b b b b b
   b8 b b b b b b b
-  b8 b b b b b b b
-  b8 b b b b b b b
+  b8 b b b b b b b_"per 4"
+\improvisationOff
+  \once \hideNotes r1_"Enter Piano"
+  \once \hideNotes r1
+  \once \hideNotes r1
+  \once \hideNotes r1
+  \once \hideNotes r1
+  \once \hideNotes r1 %12
+  \once \hideNotes r1
+  \once \hideNotes r1
+\improvisationOn
+  b2 b2
 \improvisationOff
   \once \hideNotes r1
   \once \hideNotes r1
@@ -35,6 +46,10 @@ obbligato =
   \once \hideNotes r1
   \once \hideNotes r1
   \once \hideNotes r1
+  \once \hideNotes r1 %27
+\improvisationOn
+  b2 b2
+\improvisationOff
   \once \hideNotes r1
   \once \hideNotes r1
   \once \hideNotes r1
@@ -43,31 +58,24 @@ obbligato =
   \once \hideNotes r1
   \once \hideNotes r1
   \once \hideNotes r1
+  \compressMMRests { R1*4_"Drum Kick + Claps" }
   \once \hideNotes r1
   \once \hideNotes r1
   \once \hideNotes r1
   \once \hideNotes r1
+  \once \hideNotes r1_"Solo Piano"
   \once \hideNotes r1
   \once \hideNotes r1
+\improvisationOn
+  b2 b2
+\improvisationOff
+  \once \hideNotes r1_"Tutti"
   \once \hideNotes r1
   \once \hideNotes r1
-  \once \hideNotes r1
-  \once \hideNotes r1
-  \once \hideNotes r1
-  \compressMMRests { R1*4 }
-  \once \hideNotes r1
-  \once \hideNotes r1
-  \once \hideNotes r1
-  \once \hideNotes r1
-  \once \hideNotes r1
-  \once \hideNotes r1
-  \once \hideNotes r1
-  \once \hideNotes r1
-  \once \hideNotes r1
-  \once \hideNotes r1
-  \once \hideNotes r1
-  \once \hideNotes r1
-  \once \hideNotes r1
+\improvisationOn
+  b2 b2
+  b4 r2.
+\improvisationOff
 }
 }
 
