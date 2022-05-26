@@ -7,6 +7,7 @@
 }
 
 obbligato =
+\transpose c f {
 \relative c' {
   \clef treble
   \key c \minor
@@ -68,8 +69,10 @@ obbligato =
   \once \hideNotes r1
   \once \hideNotes r1
 }
+}
 
 armonie = 
+\transpose c f {
 \chordmode {
 
 \mark \markup { \bold \box "Intro" }
@@ -167,6 +170,7 @@ armonie =
   aes2 bes
 }
   c1:m \bar "|."
+}
 }
 
 \score {
