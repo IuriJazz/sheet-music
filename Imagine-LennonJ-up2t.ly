@@ -2,7 +2,7 @@
   title = "Imagine"
   composer = "J. Lennon"
   arranger = "I. Marchesin"
-  piece = "Trans. c --> e"
+  piece = "Trans. C --> E"
   tagline = "Transcriber: jazziuri96@gmail.com"
 }
 
@@ -76,7 +76,7 @@ armonie =
 
   f2 a:m/e
   d:m7 d:m7/c
-  g g/c
+  g c/g
   g1:7 \break
 
 \mark \markup { \bold \box "A1" }
