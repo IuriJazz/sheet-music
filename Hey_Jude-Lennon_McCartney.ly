@@ -35,7 +35,7 @@ obbligato =
   \once \hideNotes r1
   \once \hideNotes r1
   \once \hideNotes r2 g'8_"Piano" a bes4
-  \time 2/4 bes c,_"hey..."^\markup {"Dal" \musicglyph "scripts.segno" "al" \musicglyph "scripts.coda" "no rep."} \bar "||"
+  \time 2/4 bes c,_"hey..."^\markup {"seconda dal" \musicglyph "scripts.segno" "al" \musicglyph "scripts.coda" "no rep."}^\markup{"Prima dal segno a qui, poi"} \bar "||"
   \time 4/4 
   \once \hideNotes r1
   \once \hideNotes r1
