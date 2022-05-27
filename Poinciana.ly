@@ -44,6 +44,10 @@ obbligato =
 \mark \markup { \bold \box "B" }
   g a4 b cis8 d cis
   e4 d8 cis4 b8 a b
+  cis1
+  r2. r8 fis, \break
+  g a4 b cis8 d cis
+  e4 d8 cis4 b8 a b
   fis'1~
   fis2 fis4 dis \bar "||" \break
 
@@ -54,7 +58,7 @@ obbligato =
   a \break
   g
   r8 g a b d b a g
-  fis1
+  fis1_\markup { "Dopo i soli, Tema e finire con Intro"}
   r \bar "|."
 }
 
@@ -67,8 +71,36 @@ armonie =
   fis1:sus7
   fis1:sus7
   fis1:sus7
-  b
+  b:maj7
+  b:maj7
+  b:maj7
 
+  b:maj7
+  b:maj7
+  fis:m7
+  fis:m7
+  e:m7
+  fis:7.9-
+  b:maj7
+  b:maj7
+  b:maj7
+
+  e:m7
+  e:m7
+  fis:maj7
+  fis:maj7
+  e:m7
+  e:m7
+  fis:sus7
+  fis:sus7
+  b:maj7
+  b:maj7
+  fis:m7
+  fis:m7
+  e:m7
+  fis:7.9-
+  b:maj7
+  b:maj7
 }
 
 \score {
