@@ -17,38 +17,41 @@ obbligato =
   fis'1~
   fis2 e4 gis
   fis1~
-  fis2 e4 gis
-  fis1~
+  fis2 e4 gis \break
+  fis1~ 
   fis2 e4 cis
   b1
 }
 \alternative {
-  { r1 } \break
+  { r1 }
   { r2 fis'4 dis }
-}
+} \break
 
 \mark \markup { \bold \box "A" }
 \repeat volta 2 {
   cis1
   r8 b cis dis fis dis cis b
   a1~
-  a
-  g
+  a \break
+  g 
   r8 g a b d b a g
-  fis1
+  fis1 
 }
 \alternative {
   { r2 fis'4 dis }
   { r2. r8 fis, }
-}
+} \break
+\mark \markup { \bold \box "B" }
   g a4 b cis8 d cis
   e4 d8 cis4 b8 a b
   fis'1~
-  fis2 fis4 dis
+  fis2 fis4 dis \bar "||" \break
+
+\mark \markup { \bold \box "A" }
   cis1
   r8 b cis dis fis dis cis b
   a1~
-  a
+  a \break
   g
   r8 g a b d b a g
   fis1
