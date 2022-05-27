@@ -1,6 +1,6 @@
 \header {
   title = "Poinciana"
-  piece = "Piece"
+  piece = "Trans. B --> D"
   composer = "N. Simon"
   arranger = "I. Marchesin"
   tagline = "Transcriber: jazziuri96@gmail.com"
