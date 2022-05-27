@@ -22,7 +22,7 @@ obbligato =
   b8_"on third"_"kick drums" b b b b b b b
   b8 b b b b b b b
   b8 b b b b b b b
-  b8 b b b b b b b_"per 4"
+  b8 b b b b b b b_"Per 4"
 \improvisationOff
   \once \hideNotes r1_"Enter Piano"
   \once \hideNotes r1
@@ -73,7 +73,7 @@ obbligato =
   \once \hideNotes r1
   \once \hideNotes r1
 \improvisationOn
-  b2 b2
+  b2 b2_\markup{ \halign #-4 "Per 4" }
   b4 r2.
 \improvisationOff
 }
