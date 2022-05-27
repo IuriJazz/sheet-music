@@ -7,6 +7,7 @@
 }
 
 obbligato =
+\transpose b d {
 \relative c' {
   \clef treble
   \key b \major
@@ -14,7 +15,7 @@ obbligato =
 
 \mark \markup { \bold \box "Intro" }
 \repeat volta 2 {
-  fis'1~
+  fis''1~
   fis2 e4 gis
   fis1~
   fis2 e4 gis \break
@@ -61,8 +62,10 @@ obbligato =
   fis1_\markup { "Dopo i soli, Tema e finire con Intro"}
   r \bar "|."
 }
+}
 
 armonie = 
+\transpose b d {
 \chordmode {
 
   fis1:sus7
@@ -101,6 +104,7 @@ armonie =
   fis:7.9-
   b:maj7
   b:maj7
+}
 }
 
 \score {
