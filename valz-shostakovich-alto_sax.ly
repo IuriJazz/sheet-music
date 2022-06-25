@@ -74,7 +74,7 @@ B = \break
     ees f g)
     c2.
     bes2.
-    bes4( a g
+    bes4( aes g
     f ees f)
     g2( bes4)
     f2( bes4) \B
