@@ -1,16 +1,17 @@
 \header {
   title = "Valzer"
   composer = "D. Schostakovich"
-  piece = "Alto Sax"
+  piece = "Violoncello"
   tagline = " "
 }
 
 B = \break
 
 \score {
-\transpose ees c {
+\transpose ees ees {
 \compressMMRests {
-  \relative c' {
+  \relative c, {
+  \clef bass
   \time 3/4
   \key ees \major
     R2.*4
@@ -50,7 +51,7 @@ B = \break
     ees-. ees8( d) ees( f)
     d4-. d8( c) d( ees)
     c4-. r2
-    R2.*26
+    R2.*26_"(Optional: repeat theme)"
     r4 ees-. f-.
     g-. g8( f) g( aes)
     f4-. f8( ees) f( g) \B
