@@ -18,4 +18,4 @@ La loro guida è assolutamente completa e facilmente reperibile:
 - http://lilypond.org/doc/v2.22/Documentation/usage-big-page
 
 
-Tutto ciò che trascrivo/scrivo è a fini didattici. Se ci sono problemi di Copyright e/o altro, non esitate a contattarmi che provvederò a rimuovere subito il file interessato.
+Tutto ciò che trascrivo/scrivo è a fini didattici. Se ci sono problemi di Copyright e/o altro, non esitate a contattarmi via e-mail al seguente indirizzo jazziuri96@gmail.com e provvederò a rimuovere subito il file interessato.
