@@ -9,7 +9,7 @@
 }
 
 \score {
-  \transpose c ees {
+  \transpose ees c {
     \compressMMRests {
       \relative c' {
       \time 4/4
