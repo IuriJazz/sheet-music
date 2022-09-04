@@ -14,7 +14,7 @@
       \relative c' {
       \time 4/4
       \key a \major
-      \partial 4 cis8. d16
+      \partial 4 cis'8. d16
       e8. e16 dis8. e16 fis8. e16 dis8. e16
       cis'2. cis8 d
       cis4 b e, cis'

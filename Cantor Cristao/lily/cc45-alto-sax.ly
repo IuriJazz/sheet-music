@@ -14,7 +14,7 @@
       \relative c' {
       \time 4/4
       \key e \major
-      \partial 4 e8 fis
+      \partial 4 e'8 fis
       gis4 b gis fis
       e2. fis8( gis)
       a4 cis b gis
