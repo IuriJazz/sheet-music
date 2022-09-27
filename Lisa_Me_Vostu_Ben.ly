@@ -114,7 +114,63 @@ manodx =
 
   r8 des, ges bes ges des
   r des aes' ces aes des,
+  r bes ges' bes ges bes,
+  r bes f' bes f bes,
+
+  r bes ees bes' g ees
+  r aes, ees' aes ees aes,
+  r a ees' ges f ees
+  << {d f bes-. bes-. bes4\fermata} \\ {<bes, d>2.} >>
+
+  r4 <bes' d aes' bes>8 r <bes e g bes> r
+  r bes'-. d,-. c'-. bes4-.
+  r <bes, ees g bes>8 r <c ees ges c> r
+  r8 bes'-. ees,-. ees'-. bes4-.
+  r4 <c, f c'>8 r <c ees c'>4
+  << {bes'2.} \\ {r8 ees,^. g^. bes,^. ees^. g,^.} >>
+  <d c'>8 r r4 <bes d>8-. r
+  <bes ees>8 bes'' g' d ees g,
+  c f, aes4. d,8
+  ees bes' g' d ees g,
+  c f, aes4. d,8
+  ees g c bes aes c
+  a c ees d f ees
+  g ees bes g ees c'
+  d, bes' r4 r\fermata
   
+  <g, bes>8-. r8 <g bes ees> <g bes d> <g bes f'> <g bes ees>
+  g2 <g c>4
+  <d aes' bes>-. << {f8 aes g c} \\ {f,8 f e4} >>
+  <f aes bes>4 bes8 <d bes'> <bes d bes'>4
+
+  r8 <g bes> <g bes ees> <g bes d> <g bes f'> <g bes ees>
+  << {<c ees>2.} \\ {<g g'>2 <ges ges'>4} >>
+  <f bes d f>2 <f a ees' f>4
+  <fis a d fis>2.
+
+  r4 <bes d aes' bes>8-. r <bes e g bes>-. r
+  r bes'-. d,-. c'-. bes4-.
+  r4 <bes, ees g bes>8-. r <c ees ges c>-. r
+  r bes'-. ees,-. ees'-. bes4-.
+
+  r8 c,-. bes-. c-. d-. ees-.
+  << {ges2.} \\ {ges8 c, ees c ees ges} >>
+  <c, c'>2.
+  <bes ees g bes>1
+  <d, f aes d>\arpeggio\fermata
+
+  <g, ees'>8 bes'' g' d ees g,
+  c f, aes4. d,8
+  ees bes' g' d ees g,
+  c f, aes4. d,8
+  ees g c bes aes c
+  a c ees d f ees
+  g ees bes g ees c'
+  d, bes' r4 r
+  ees,8-> <ees g bes ees>-> r4 r
+  \ottava #1
+  <ees' ees'>4 r r \bar "|."
+  \ottava #0
  }
 }
 
