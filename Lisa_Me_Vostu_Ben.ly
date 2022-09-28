@@ -186,6 +186,14 @@ manosx =
   <fis c' ees> r \clef treble <g bes ees> r <a c ees f>4
   <bes ees g>2. \clef bass
   <bes, d f aes>8 r r4 r4\fermata
+
+  <ees, ees'>8 r8 <g' bes ees> <g bes ees> <g bes ees>4
+  <ees, ees'>8 r8 <g' bes ees> <g bes ees> <g bes ees>4
+  <bes, bes'>8 r8 <bes' d> <bes d> <bes cis>4(
+  <bes d>8) r <bes,, bes'> \clef treble <bes'' d aes'> <bes d aes'>4
+  \clef bass
+  <ees,, ees'>8 r8 <g' bes ees> <g bes ees> <g bes ees>4
+
   }
 }
 
