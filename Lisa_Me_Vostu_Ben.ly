@@ -192,7 +192,16 @@ manosx =
   <bes, bes'>8 r8 <bes' d> <bes d> <bes cis>4(
   <bes d>8) r <bes,, bes'> \clef treble <bes'' d aes'> <bes d aes'>4
   \clef bass
+  
   <ees,, ees'>8 r8 <g' bes ees> <g bes ees> <g bes ees>4
+  <c,, c'>4 <g'' c ees>8 <g c ees> <ees c'>4
+  <f, f'> <f' bes d>8 <f bes d> <f a ees'>4
+  <bes,, bes'>8 r <bes'' d f> <bes d f> <bes d f>4
+  <ges, ges'>2.
+  <f f'>
+  <ees ees'>
+  <bes bes'>
+  <des des'>
 
   }
 }
