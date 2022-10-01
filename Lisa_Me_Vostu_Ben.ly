@@ -202,7 +202,27 @@ manosx =
   <ees ees'>
   <bes bes'>
   <des des'>
-
+  <c c'>
+  <ces ces'>
+  <bes bes'>\fermata 
+  <bes bes'>8 r \clef treble <bes'' d aes'> r <bes cis e g> r 
+  <g g'> r <bes d aes'>-. <bes d aes'>-. <bes d aes'>4-. \clef bass
+  <ees,, ees'>8 r \clef treble <bes'' ees g> r <a ees' fis> r \clef bass
+  <g, g'> r <g' bes ees>-. <g bes ees>-. <g bes ees>4-.
+  <aes, aes'>8 r \clef treble <aes' c f> r <a ees' ges>4(
+  <bes ees g?>2.) \clef bass
+  <bes, aes'>8 r r4 <bes aes'>8-. r
+  <ees g> r <g bes ees> r <g bes ees> r
+  bes, r <aes' bes d> r <aes bes d> r
+  ees r <g bes ees> r <g bes ees> r
+  bes, r <aes' bes d> r <aes bes d> r
+  ees r <g bes ees> r <f aes bes d> r
+  <fis c' ees> r \clef treble <g bes ees> r <a c ees f>4(
+  <bes ees g>2.) \clef bass
+  <bes, d f aes>8 r r4 r \fermata
+  <ees, ees'>8 r <g' bes ees> <g bes ees> <g bes ees>4
+  <ees, ees'>8 r <g' bes ees> <g bes ees> <g bes ees>4
+  
   }
 }
 
