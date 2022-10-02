@@ -222,7 +222,34 @@ manosx =
   <bes, d f aes>8 r r4 r \fermata
   <ees, ees'>8 r <g' bes ees> <g bes ees> <g bes ees>4
   <ees, ees'>8 r <g' bes ees> <g bes ees> <g bes ees>4
-  
+  <bes,, bes'>8 r <bes'' d>-.( <bes d>-.) <bes cis>4(
+  <bes d>8) r <bes,, bes'>-. \clef treble <bes'' d aes'>-. <bes d aes'>4-. \clef bass
+  <ees,, ees'>8 r <g' bes ees>-.( <g bes ees>-. <g bes ees>4-.)
+  <c,, c'>4 <g'' c ees>8-.( <g c ees>-. <ees c'>4-.)
+  <f, f'>4 <f' bes d>8 <f bes d> <f a ees'>4
+  <<{r4 d'8 d d4}\\{<d,, d'>2.}>>
+  <bes bes'>8 r \clef treble <bes'' d aes'>-. r <bes cis e g> r \clef bass
+  <bes,, bes'>8 r \clef treble <bes'' d aes'>-. <bes d aes'>-. <bes d aes'>4-. \clef bass
+  <ees,, ees'>8 r \clef treble <bes'' ees g>-. r <a ees' fis>-. r \clef bass
+  <g, g'>8 r <g' bes ees>-. <g bes ees>-. <g bes ees>4-.
+  <aes, aes'>8 r <f' aes c> r <f aes c> r
+  <a,, a'>4 \clef treble <a'' ees' ges>8 <a ees' ges> <a ees' ges>4~
+  <a ees' ges>2. \clef bass
+  <bes, ees g bes>1
+  <bes, bes'>\fermata
+  <ees ees'>8 r <g' bes ees> r <g bes ees> r
+  bes,8 r <aes' bes d> r <aes bes d> r
+  ees r <g bes ees> r <g bes ees> r
+  bes, r <aes' bes d> r <aes bes d> r
+  ees r <g bes ees> r <f aes bes d> r
+  <fis c' ees> r \clef treble <g bes ees> r <a c ees f>4
+  <bes ees g>2. \clef bass
+  <bes, d f aes>8 r r4 r4
+  ees8-> <ees g bes ees>-> r4 r
+  \ottava #-1
+  <ees,, ees'>4 r r \bar "|."
+  \ottava #0
+
   }
 }
 
