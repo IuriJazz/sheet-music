@@ -93,18 +93,20 @@ manodx =
 \compressMMRests {
   \relative c' {\global
   \clef treble
-  r8 bes'' g' d ees g,
+  \tempo "Allegro leggero brillante"
+  r8\p_"leggero" bes'' g' d ees g,
   c f, aes4. d,8
   ees bes' g' d ees g,
   c f, aes4. d,8
   ees g c bes aes c
-  a c ees d f ees
+  a_"affrettando" c ees d f ees
   g ees bes g ees c'
   d, bes' r4 r4\fermata
 
-  <g, bes>8-. r8 <g bes ees> <g bes d> <g bes f'> <g bes ees>
+  \tempo "Andantino mosso"
+  <g, bes>8-.\p r8 <g bes ees> <g bes d> <g bes f'> <g bes ees>
   g2 <g c>4
-  <d aes' bes>-. << {f8 aes g c} \\ {f,8 f e4} >>
+  <d aes' bes>-._"rit." << {f8 aes g c} \\ {f,8 f e4} >>
   <f aes bes>4 bes8 <d bes'> <bes d bes'>4
 
   r8 <g bes> <g bes ees> <g bes d> <g bes f'> <g bes ees>
@@ -249,7 +251,6 @@ manosx =
   \ottava #-1
   <ees,, ees'>4 r r \bar "|."
   \ottava #0
-
   }
 }
 
