@@ -6,6 +6,7 @@
 }
 
 canto =
+\new Voice = "canto" { \autoBeamOff
 \transpose ees c {
   \compressMMRests {
     \relative c' {
@@ -13,7 +14,7 @@ canto =
     \key ees \major
     \clef treble
     R2.*8
-    r8 bes' aes d f ees
+    r8 bes' ees d f ees
     g,2 c4
     bes f8 aes g c
     bes2~ bes8 r
@@ -38,19 +39,19 @@ canto =
     r g-. c-. bes-. ees-. a,-.
     bes2~ bes8 r
 
-    <<
+%    <<
     {r c-. b-. c-. d-. ees-.
     g2~ g8 r}
-    \new Staff \with {
-      \remove "Time_signature_engraver"
-      \hide Clef
-      alignAboveContext = "canto"
-      \magnifyStaff #2/3
-      }
-    {\key ees \major
-    r8 c,-. b-. c-. d-. ees-.
-    ees2~ ees8 r}
-    >>
+%    \new Staff \with {
+%      alignAboveContext = "canto"
+%      \remove "Time_signature_engraver"
+%      \hide Clef
+%      \magnifyStaff #2/3
+%      }
+%    {\key ees \major
+%    r8 c,-. b-. c-. d-. ees-.
+%    ees2~ ees8 r}
+%    >>
 
     r8 aes,-. c-. f,-. aes-. d,-.
     ees4 r r
@@ -85,6 +86,46 @@ canto =
 
     }
   }
+}
+}
+
+testo = \lyricmode {
+  Sem -- pre me di -- se
+  Pie -- ro:
+  "\"Li" -- sa, me vo -- stu "ben?\"" __
+  E mi, per dir el ve -- ro,
+  de sì ghe di -- go~in pien.
+  Ma~un sì che~in cer -- to
+  mo -- do
+  no par fio de l'A -- mor.
+  un sì che las -- sa~un
+  vo -- do 
+  da far tre -- mar el
+  cuor.
+  Un sì che no xe
+  sì, __
+  e no xe gnan -- ca
+  no; __
+  un sì che so dir
+  mi, __
+  per la ra -- son che
+  gò.
+  E sta ra -- son... xe
+  o -- ra,
+  e dir -- ve -- la con --
+  vien
+  per far ch'el di --ga~an --
+  co -- ra:
+  "\"Li" -- sa, me vo -- stu "ben?\""
+  E sta ra -- son xe
+  o -- ra.
+  e dir -- ve -- la con --
+  vien
+  per far ch'el di -- ga~an --
+  co -- ra:
+  "\"Li" -- sa, me
+  vo -- stu!... __ me vo -- stu
+  "ben?\""
 }
 
 manodx =
@@ -271,9 +312,8 @@ manosx =
 	\new StaffGroup {
 		<<
       <<
-        \new Staff = "canto" \canto
-      >>
-			<<
+        \canto
+        \new Lyrics \lyricsto canto \testo
         \new PianoStaff
           <<
             \new Staff = "manodx" \manodx
@@ -282,6 +322,8 @@ manosx =
       >>
 		>>
 	}
-	\layout{}
+	\layout{
+    \context { \Staff \RemoveAllEmptyStaves }
+  }
   \midi {}
 }
