@@ -464,10 +464,9 @@ manodx_tre =
 manosx_tre =
 \compressMMRests {
     \relative c' {
-    \clef bass
+    \clef "bass_8"
     \key bes \major
     \time 6/8
-    \ottava #-1
     \partial 4. f,,,8(\f g a \bar"||"
     bes) r r r4.
     r g8( a b
