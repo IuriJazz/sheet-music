@@ -38,7 +38,23 @@ manodx_uno =
   <b e>8 <b fis'> <b e>4 b <b d>
   <c e>8 <d fis> <c e> <a c>~ <a c>4 r
 
+  a8 b4 c8 d e4 d8
+  a b c d~ d4 r
+  r8 <c e>4 <c e>8 <d fis>4 <c d>
+  <b d g>1
+  R1*2
 
+  R1
+  << {g'4 fis e8 d~ d4} \\ {r8 <b d>~ <b d>2.} >>
+  c4 r r2
+  R1
+  r8 <d fis d'>4 <d fis d'>8 <e g e'> <e g e'> <e g e'> <e g e'>
+  <fis a fis'> <e g e'>4 <d fis d'>8~ <d fis d'>4 r
+
+  <b' g'>8 <b g'> <b g'>4 <b fis'>8 <b fis'> <b fis'>4
+  <b e>8 <b fis'> <b e>4 <b g> r
+  <b e>8 <b fis'> <b e>4 <b g> <f b d>
+  
   
 }
 
@@ -58,6 +74,21 @@ manosx_uno =
   R1*2
   r2 f4 f
   e8 fis e fis~ fis4 a8 g
+
+  fis8 g4 a8 b c4 b8
+  fis g a a~ a4 r
+  r8 a4 a8 g4 fis 
+  g g fis f
+  <e g c> <e g c> <e g c> <e g c>
+  <ees g c> <ees g c> <ees g c> <ees g c>
+
+  <d g b>4 <d g b> <d g b> <d g b>
+  b c cis d
+  <e g> <e g c> <e g c> <e g c>
+  <e g cis> <e g cis> <e g cis> <e g cis>
+  r8 <fis c'>4 <fis c'>8 <g c> <g c> <g c> <g c>
+  <a d> <g c>4 <fis c'>8~ <fis c'>4 r
+
 
 
 }
@@ -88,6 +119,24 @@ manodx_due =
   r4 <g b d> r <gis b d>
   r <a c> r <a c>
 
+  r <a c> r <a c>
+  r <fis c' d> r <fis c' d>
+  r8 <a c>4 <a c>8 <g b>4 <fis ais>
+  <g b>2. r4
+  <<
+  {a4. g8~ g4 e8 g | a4. g8~ g4. g8 | g4 fis e d8 b~ | b1 |}
+  \\
+  {e1( | ees | d4 r4 r2 |}
+  >>
+
+  <<
+  {a'4. g8~ g4 e8 g | a4. g8~ g2 | }
+  \\
+  {e1( | cis) | }
+  >>
+  r8 <fis d'>4 <fis d'>8 <g e'> <g e'> <g e'> <g e'>
+  <a fis'> <g e'>4 <fis d'>8~ <fis d'>4 r 
+  \clef treble
 
 }
 
@@ -110,13 +159,28 @@ manosx_due =
   a r d, r
 
   a' r d, r
+  a' r d, r
   a' r a r 
   d, r r d
   g r d r 
-  g r d g 
+  g r d r 
   g r gis r 
   a r d, r
-  
+
+  a' r d, r
+  a' r d, r
+  a' r d, r
+  g8 g g,4 a b
+  c <c g'> <c g'> <c g'>
+  <c g'> <c g'> <c g'> <c g'>
+
+  g4. g'8~ g4. g8
+  g,4 a ais b
+  c g' c, b
+  a a' e ees
+  d8 d'4 d8 e e e e
+  fis e4 d8~ d4 d,
+
 }
 
 
