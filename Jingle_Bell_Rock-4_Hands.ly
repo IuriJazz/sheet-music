@@ -222,12 +222,12 @@ manosx_due =
 \score {
 	\new StaffGroup {
 		<<
-			\new PianoStaff
+			\new PianoStaff \with { instrumentName = "Primo" }
 				<<
 					\new Staff = "manodx_uno" \manodx_uno
 					\new Staff = "manosx_uno" \manosx_uno
 				>>
-			\new PianoStaff
+			\new PianoStaff \with { instrumentName = "Secondo" }
 				<<
 					\new Staff = "manodx_due" \manodx_due
 					\new Staff = "manosx_due" \manosx_due
