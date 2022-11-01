@@ -54,7 +54,13 @@ manodx_uno =
   <b' g'>8 <b g'> <b g'>4 <b fis'>8 <b fis'> <b fis'>4
   <b e>8 <b fis'> <b e>4 <b g> r
   <b e>8 <b fis'> <b e>4 <b g> <f b d>
-  
+  << {<e gis b e>1} \\ {gis4 fis e r} >>
+  <e e'>1
+  <ees ees'>
+  r8 <g g'>4 e'8 <fis, fis'> e' d4
+  <b g'> r r2 \bar "||"
+
+
   
 }
 
@@ -88,6 +94,15 @@ manosx_uno =
   <e g cis> <e g cis> <e g cis> <e g cis>
   r8 <fis c'>4 <fis c'>8 <g c> <g c> <g c> <g c>
   <a d> <g c>4 <fis c'>8~ <fis c'>4 r
+
+  <b g'>8 <b g'> <b g'>4 <b fis'>8 <b fis'> <b fis'>4
+  <b e>8 <b fis'> <b e>4 <g b> r
+  <b e>8 <b fis'> <b e>4 <g b> <f b d>
+  << {<e gis b d>1} \\ {gis4 fis e b'} >>
+  e, g a8 a g g
+  ees ees g a~ a2
+  <cis e> <c ees>
+  <b d g>4 r r2 \bar "||"
 
 
 
@@ -136,7 +151,19 @@ manodx_due =
   >>
   r8 <fis d'>4 <fis d'>8 <g e'> <g e'> <g e'> <g e'>
   <a fis'> <g e'>4 <fis d'>8~ <fis d'>4 r 
+  
   \clef treble
+  r8 <b d g> r8 <b d g> <b d fis>4 <b d fis>
+  <b e> <b e>8 <b d>~ <b d>4 b8 d
+  r8 <b d> r8 <b d> <a c>4 <g b>
+  << {e'2 r} \\ {gis,4 a b <gis d'>} >>
+  \clef bass
+  e <e g> a8 a <e g> g
+  ees ees <ees g> a~ a2
+  \clef treble
+  << {r8 g'4 e8 fis e d4} \\ {<g, cis>2 <fis c'>} >>
+  <b d g>4 r r2 \bar "||"
+  \clef bass
 
 }
 
@@ -180,6 +207,14 @@ manosx_due =
   a a' e ees
   d8 d'4 d8 e e e e
   fis e4 d8~ d4 d,
+  g <d' g> d, <d' g>
+  g, <d' g> d, <d' g>
+  g, <d' g> f, d'
+  e, fis gis e
+  c r g' r
+  c, r g' r
+  a e d fis
+  g d e fis \bar "||"
 
 }
 
