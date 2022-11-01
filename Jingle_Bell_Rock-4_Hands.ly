@@ -4,10 +4,12 @@
 }
 
 manodx_uno =
-\relative c' {
+\relative c'' {
   \clef treble
-  \key c \major
-  c
+  \key g \major
+  \time 4/4
+  \tempo = "Intro, freely"
+  r2 d8 b' a g
 }
 
 manosx_uno =
@@ -19,14 +21,14 @@ manosx_uno =
 
 manodx_due =
 \relative c' {
-  \clef treble
+  \clef bass
   \key c \major
   c
 }
 
 manosx_due =
-\relative c' {
-  \clef treble
+\relative c {
+  \clef bass
   \key c \major
   c
 }
