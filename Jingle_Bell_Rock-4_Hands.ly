@@ -7,6 +7,16 @@
   tagline = ""
 }
 
+sl = {
+  \override NoteHead.style = #'slash
+  \hide Stem
+}
+
+nsl = {
+  \revert NoteHead.style
+  \undo \hide Stem
+}
+
 manodx_uno =
 \relative c'' {
   \clef treble
@@ -60,8 +70,14 @@ manodx_uno =
   r8 <g g'>4 e'8 <fis, fis'> e' d4
   <b g'> r r2 \bar "||"
 
-
-  
+  \override TextSpanner.bound-details.left.text =
+    \markup { \upright "impro" }
+  \startTextSpan
+  \once \hideNotes r1
+  \once \hideNotes r1
+  \once \hideNotes r1
+  \once \hideNotes r1
+  \stopTextSpan
 }
 
 manosx_uno =
@@ -104,7 +120,12 @@ manosx_uno =
   <cis e> <c ees>
   <b d g>4 r r2 \bar "||"
 
-
+  \sl
+  b4 b b b
+  b4 b b b
+  b4 b b b
+  b4 b b b
+  \nsl
 
 }
 
