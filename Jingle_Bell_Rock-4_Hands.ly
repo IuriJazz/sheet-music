@@ -71,13 +71,32 @@ manodx_uno =
   <b g'> r r2 \bar "||"
 
   \override TextSpanner.bound-details.left.text =
-    \markup { \upright "impro" }
+    \markup { \upright \italic "impro" }
   \startTextSpan
   \once \hideNotes r1
   \once \hideNotes r1
   \once \hideNotes r1
   \once \hideNotes r1
   \stopTextSpan
+  R1*2 \break
+
+  R1*2
+  \override TextSpanner.bound-details.left.text =
+    \markup { \upright \italic "impro" }
+  \startTextSpan
+  \once \hideNotes r1
+  \once \hideNotes r1
+  \once \hideNotes r1
+  \once \hideNotes r1
+  \stopTextSpan \break
+  
+  <c, e>4 <c e> <d fis> <d fis>
+  <c e> <c e> <d fis> <d fis>
+  r8 <e e'>4 <e e'>8 <fis fis'>4 <d d'>
+  <g g'> g fis f \bar "||" 
+  a4. g8~ g4 e8 g
+  a bes a g~ g \acciaccatura d ees d c
+
 }
 
 manosx_uno =
@@ -121,11 +140,29 @@ manosx_uno =
   <b d g>4 r r2 \bar "||"
 
   \sl
+  b4^\markup {"G"} b b b
   b4 b b b
-  b4 b b b
-  b4 b b b
-  b4 b b b
+  b4 b b^\markup {"G#dim"} b
+  b4^\markup {"A-"} b b^\markup {"D7"} b
   \nsl
+  <a c e> <a c e> <a d fis> <a d fis>
+  <a c e> <a c e> <a d fis> <a d fis>
+
+  <a c e> <a c e> <a c e> <a c e>
+  <a cis e> <ais d fis>8 <ais d fis>~ <ais d fis>2
+  \sl
+  b4^\markup {"G"} b b b
+  b4 b b b
+  b4 b b^\markup {"G#dim"} b
+  b4^\markup {"A-"} b b^\markup {"D7"} b
+  \nsl
+
+  a4 a a a
+  a a a a
+  r8 e4 e8 fis4 d
+  r g fis f
+  <e g c> <e g c> <e g c> <e g c>
+  <ees g c> <ees g c> <ees g c> <ees g c>
 
 }
 
@@ -186,6 +223,27 @@ manodx_due =
   <b d g>4 r r2 \bar "||"
   \clef bass
 
+  r8 <b d g> r b <b d fis>4 <b d fis>
+  <b e> <b e>8 <b d>~ <b d>2
+  r8 <b d> r <b d> <f b>4 <f b d>
+  <b d> b8 <fis c'>~ <fis c'>2
+  a8 b4 c8 cis d g fis
+  e4 c8 d~ d2
+
+  r4 e8 dis e g fis e
+  cis4 <fis, ais d>8 <fis ais d>~ <fis ais d>2
+  r4 <b d g>8 b <b d fis>4 <b d fis>8 d
+  <b e>4 <b e> <b e>8 <b d>~ <b d>4
+  r8 <b d> r <b d> <f b>4 <f b d>
+  <b d> b8 <fis c'>~ <fis c'>2
+
+  a8 b4 c8 d e4 d8
+  a b c d~ d4 r
+  r8 c4 c8 b4 ais 
+  b r4 r2 
+  << {a4. g8~ g4 e8 g} \\ {e1(} >>
+  << {a4. g8~ g4. g8} \\ {ees1)} >>
+
 }
 
 manosx_due =
@@ -236,6 +294,28 @@ manosx_due =
   c, r g' r
   a e d fis
   g d e fis \bar "||"
+
+  g <d' g> d, <d' g>
+  g, <d' g> d, <d' g>
+  g, g gis gis
+  a ees d fis
+  a <c e> d, <d' fis>
+  a <c e> d, <d' fis>
+
+  a g fis e
+  d <d d'>8 <d d'>~ <d d'>4 fis
+  g <d' g> d, <d' g>
+  g, <d' g> d, <d' g>
+  g, g gis gis
+  a e d d'
+
+  a8 b4 c8 d e4 d8
+  a b c d~ d4 r
+  a r d, r
+  g g, a b
+  c <c g'> <c g'> <c g'>
+  <c g'> <c g'> <c g'> <c g'>
+
 
 }
 
