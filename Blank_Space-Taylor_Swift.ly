@@ -14,14 +14,20 @@ obbligato =
 
   \mark \markup {\bold \box "Intro"}
   c''8_\markup {\italic \small "E. Piano"} c r f, f4 f8 f 
-  a a r f f4 f8 f
+  a a r f f4 f8 f \bar "||" \break
   
 }
 
 armonie = 
 \chordmode {
 
+  %Intro
   bes1
+  bes
+
+  %A
+  f1
+
 
 }
 
