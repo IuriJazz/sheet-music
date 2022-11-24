@@ -2,7 +2,7 @@
 Sheet music transcriptions by IuriJazz
 
 
-Questi sono test e trascrizioni varie fatte tutte tramite il sito: https://www.hacklily.org/
+Questi sono test e trascrizioni varie fatte soprattutto tramite il sito: https://www.hacklily.org/
 
 
 Ci sono dei bug per caricare i file più pesanti, ma per file di piccole dimensioni funziona molto bene.
