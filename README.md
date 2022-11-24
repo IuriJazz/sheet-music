@@ -20,7 +20,8 @@ La loro guida è assolutamente completa e facilmente reperibile:
 Altre piattaforme valide e molto interessanti per scoprire ancora di più Lilypond sono le seguenti:
 - https://ide.omet.ca/
 - http://eremita.di.uminho.pt/mutopia/index.html
-entrambe contengono un numero molto considerevole di partiture ricopiate.
+
+Entrambi i siti contengono un numero molto considerevole di partiture ricopiate.
 
 
 Tutto ciò che trascrivo/scrivo è a fini didattici. Se ci sono problemi di Copyright e/o altro, non esitate a contattarmi via e-mail al seguente indirizzo jazziuri96@gmail.com e provvederò a rimuovere subito il file interessato.
