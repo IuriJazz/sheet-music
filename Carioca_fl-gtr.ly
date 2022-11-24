@@ -41,7 +41,7 @@ Flute =
     \alternative {
     {gis4 r8 dis \mark \markup { \musicglyph "scripts.coda" } | }
     {gis8 r \grace { b dis } gis8-> r | }
-    } \break
+    } \break %\pageBreak
     
     \repeat volta 2 {
     gis8->_\markup {\italic "Energico"}_\f r fis4-> |
@@ -213,19 +213,43 @@ GuitarSotto =
     b16 cis8 cisis16 dis eis8 fisis16 
     gis ais8 b16 cis dis8 eis16
     <<
-    {ais,,2 | }
-    \\
-    {ais16 <cis fis cis'>8 <cis fis cis'>16 cis,8 <fis' ais cis> | }
-    >> %30
-
-    <<
-    {gis,4 cis, | }
-    \\
-    {gis'8 <b' dis gis> cis,, <gis'' b cis eis> | }
+      {
+        ais,,2 | %30
+        gis4 cis, |
+      }
+      \\
+      {
+        ais'16 <cis fis cis'>8 <cis fis cis'>16 cis,8 <fis' ais cis> | %30
+        gis,8 <b' dis gis> cis,, <gis'' b cis eis> | 
+      }
     >>
+
     <fis cis' fis>8. ais'16 fis r8 ais,16
     fis r8 cis,16 fis,8 fis'
 
+    <<
+      {
+        r16 cis'8 dis16 e eis8 fis16 |
+        g4 e' |
+        s2 |
+        s |
+        s |
+        s |
+        s |
+        s |
+      }
+      \\
+      {
+        r16 fis,,8~ fis16~ fis4~ |
+        fis8 r <ais' cis>4 | %35
+        <b, fis'>8. <dis fis b>16 <dis fis b>8 <dis fis b> |
+        fis,8. <fis' b dis>16 <fis b dis>8 b,,(_> |
+        cis8.)_> <gis' b cis eis>16 <gis b cis eis>8 <gis b cis eis> |
+        fis8. <fis' ais e'?>16 <fis ais e'>8 fis,(_> |
+        b8.)_> <fis' b dis>16 <fis b dis>8 <fis b dis> | %40
+        dis8. <fis b dis>16 <fis b dis>8 <fis b dis> |
+      }
+    >>
     
   }
 }
