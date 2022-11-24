@@ -26,11 +26,11 @@ Flute =
     \voiceTwo \acciaccatura fisis,8 \voiceOne e'8.-> dis16 \oneVoice r8 dis |
     gis16 ais8 b16 b\prall ais8 gis16 |
     \voiceTwo \acciaccatura fisis8 \oneVoice e'8.-> dis16 r8 dis,,_> |
-    gis16_> ais8_> bis16_>~ bis cis8_> dis16_> | %5
+    gis16_> ais8_> bis16_>~ bis cis8-> dis16-> | %5
     \voiceTwo \grace { gis,16 cis } \oneVoice fis8.-> e16 r e8 dis16 |
     d8 b' ais gis |
     fisis16 e' dis cis ais fisis dis dis, |
-    gis16_> ais8_> b16_>~ b cis8_> dis16_> |
+    gis16_> ais8_> b16_>~ b cis8-> dis16-> |
     \voiceTwo \acciaccatura fisis,8 \voiceOne e'8.-> dis16 \oneVoice r8 dis | %10
     gis16 ais8 b16 b\prall ais8 gis16 |
     \voiceTwo \acciaccatura fisis8 \oneVoice e'8.-> dis16 r dis,8 cis16 |
@@ -41,7 +41,8 @@ Flute =
     \alternative {
     {gis4 r8 dis \mark \markup { \musicglyph "scripts.coda" } | }
     {gis8 r \grace { b dis } gis8-> r | }
-    }
+    } \break
+    
     \repeat volta 2 {
     gis8->_\markup {\italic "Energico"}_\f r fis4-> |
     r16 g8 e16 cis ais g e |
@@ -197,6 +198,34 @@ GuitarSotto =
     fis8. <fis' ais e'?>16 <fis ais e'>8 fis,(_> |
     b8.)_> <fis' b dis>16 <fis b dis>8 <fis b dis> |
     dis8. <fis b dis>16 <fis b dis>8 <fis b dis> | %25
+    <<
+      {
+        <ais e' gis>8-> r <ais e' fis>4-> |
+        r16 e'8 cis16 ais fisis e cis | 
+      }
+      \\
+      {
+        r16 cis,8 dis16 e eis8 fis16 |
+        fisis4 s4 | 
+      }
+    >>
+
+    b16 cis8 cisis16 dis eis8 fisis16 
+    gis ais8 b16 cis dis8 eis16
+    <<
+    {ais,,2 | }
+    \\
+    {ais16 <cis fis cis'>8 <cis fis cis'>16 cis,8 <fis' ais cis> | }
+    >> %30
+
+    <<
+    {gis,4 cis, | }
+    \\
+    {gis'8 <b' dis gis> cis,, <gis'' b cis eis> | }
+    >>
+    <fis cis' fis>8. ais'16 fis r8 ais,16
+    fis r8 cis,16 fis,8 fis'
+
     
   }
 }
@@ -225,7 +254,6 @@ music = {
 \score {
   \new StaffGroup \keepWithTag #'score \music
   \layout { }
-  \midi { }
 }
 
 %questo è per la parte sola di flauto
