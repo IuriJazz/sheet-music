@@ -130,24 +130,24 @@ GuitarSopra =
   \clef "treble_8"
     \partial 8 \once \hideNotes r8 | \mark \markup { \musicglyph "scripts.segno" }
     \repeat volta 2 {
-    gis16 b' gis dis b b' gis dis |
-    ais cis' fisis, dis dis cis' fisis, dis |
-    gis,16 b' gis dis b b' gis dis |
-    ais cis' fisis, dis dis cis' fisis, dis |
-    gis, fis'' bis, gis dis fis' bis, gis | %5
-    cis, e' cis gis e e' cis gis |
-    e d' b gis ais b cis cisis |
-    dis8 <fisis, cis'>4~ <fisis cis'>16 r |
-    gis,16 b' gis dis b b' gis dis |
-    ais cis' fisis, dis dis cis' fisis, dis | %10
-    gis,16 b' gis dis b b' gis dis |
-    ais cis' fisis, dis dis cis' fisis, dis |
-    gis, bis' gis fis dis bis' gis fis |
-    e cis' gis e_- d b' gis e_- |
-    cis cis' a cis,_- dis cis' fisis, dis_- | %15
+    s2
+    s2 %ais16 cis' fisis, dis dis cis' fisis, dis |
+    s2 %gis,16 b' gis dis b b' gis dis |
+    s2 %ais cis' fisis, dis dis cis' fisis, dis |
+    s2 %gis, fis'' bis, gis dis fis' bis, gis | %5
+    s2 %cis, e' cis gis e e' cis gis |
+    s2 %e d' b gis ais b cis cisis |
+    s2 %dis8 <fisis, cis'>4~ <fisis cis'>16 r |
+    s2 %gis,16 b' gis dis b b' gis dis |
+    s2 %ais cis' fisis, dis dis cis' fisis, dis | %10
+    s2 %gis,16 b' gis dis b b' gis dis |
+    s2 %ais cis' fisis, dis dis cis' fisis, dis |
+    s2 %gis, bis' gis fis dis bis' gis fis |
+    s2 %e cis' gis e_- d b' gis e_- |
+    s2 %cis cis' a cis,_- dis cis' fisis, dis_- | %15
     }
     \alternative {
-    { gis,_> b8_> cis16_> cisis_> dis8_> <dis_> dis'>16\arpeggio | } 
+    { gis16_> b8_> cis16_> cisis_> dis8_> <dis_> dis'>16\arpeggio | } 
     { gis8 r <gis gis'> r | \bar "||"}
     }
     r16 cis8 dis16 e eis8 fis16 |
@@ -170,21 +170,43 @@ GuitarSotto =
   \clef "treble_8"
     \partial 8 \once \hideNotes r8 |
     \repeat volta 2 {
-    gis4 b |
-    ais dis |
-    gis,4 b |
-    ais dis |
-    gis, dis' | %5
-    cis e |
-    e e |
-    dis2 |
-    gis,4 b |
-    ais dis | %10
-    gis, b |
-    ais dis |
-    gis, dis' |
-    e d_> |
-    cis_> dis_> | %15
+    <<
+    {
+      gis16 b' gis dis b b' gis dis |
+      ais16 cis' fisis, dis dis cis' fisis, dis |
+      gis,16 b' gis dis b b' gis dis |
+      ais cis' fisis, dis dis cis' fisis, dis |
+      gis, fis'' bis, gis dis fis' bis, gis | %5
+      cis, e' cis gis e e' cis gis |
+      e d' b gis ais b cis cisis |
+      dis8 <fisis, cis'>4~ <fisis cis'>16 r |
+      gis,16 b' gis dis b b' gis dis |
+      ais cis' fisis, dis dis cis' fisis, dis | %10
+      gis,16 b' gis dis b b' gis dis |
+      ais cis' fisis, dis dis cis' fisis, dis |
+      gis, bis' gis fis dis bis' gis fis |
+      e cis' gis e_- d b' gis e_- |
+      cis cis' a cis,_- dis cis' fisis, dis_- | %15
+    }
+    \\
+    {
+      gis,4 b |
+      ais dis |
+      gis,4 b |
+      ais dis |
+      gis, dis' | %5
+      cis e |
+      e e |
+      dis2 |
+      gis,4 b |
+      ais dis | %10
+      gis, b |
+      ais dis |
+      gis, dis' |
+      e d_> |
+      cis_> dis_> | %15
+    }
+    >>
     }
     \alternative {
     {\once \hideNotes r2 | }
@@ -209,7 +231,6 @@ GuitarSotto =
         fisis4 s4 | 
       }
     >>
-
     b16 cis8 cisis16 dis eis8 fisis16 
     gis ais8 b16 cis dis8 eis16
     <<
@@ -223,10 +244,8 @@ GuitarSotto =
         gis,8 <b' dis gis> cis,, <gis'' b cis eis> | 
       }
     >>
-
     <fis cis' fis>8. ais'16 fis r8 ais,16
     fis r8 cis,16 fis,8 fis'
-
     <<
       {
         r16 cis'8 dis16 e eis8 fis16 |
@@ -237,10 +256,11 @@ GuitarSotto =
         s |
         s |
         s |
+        r16 dis,8 e16 fis fisis8 gis16 |
       }
       \\
       {
-        r16 fis,,8~ fis16~ fis4~ |
+        r16 fis,8~ fis16~ fis4~ |
         fis8 r <ais' cis>4 | %35
         <b, fis'>8. <dis fis b>16 <dis fis b>8 <dis fis b> |
         fis,8. <fis' b dis>16 <fis b dis>8 b,,(_> |
@@ -248,7 +268,19 @@ GuitarSotto =
         fis8. <fis' ais e'?>16 <fis ais e'>8 fis,(_> |
         b8.)_> <fis' b dis>16 <fis b dis>8 <fis b dis> | %40
         dis8. <fis b dis>16 <fis b dis>8 <fis b dis> |
+        r16 gis,8~ gis16~ gis4~ |
       }
+    >>
+    <<
+    {
+      a'4 dis |
+      e,2 |
+    }
+    \\
+    {
+      gis,8 r <gis' gis>4 |
+      e16 gis8 <gis cis>16 <gis cis>8 <gis cis> |
+    }
     >>
     
   }
