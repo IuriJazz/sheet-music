@@ -2,10 +2,12 @@
   title = "Golden Hour"
   composer = "JVKE"
   arranger = "I. Marchesin"
+  piece = "E -> D"
   tagline = "Transcriber: jazziuri96@gmail.com"
 }
 
 obbligato =
+\transpose e e {
 \relative c' {
   \clef treble
   \key e \major
@@ -58,12 +60,21 @@ obbligato =
   gis'1_\markup {\small \italic "Guitar"}
   cis,4 dis b' a
   gis1~
-  gis2 e4 fis
+  gis2 e4 fis \break
   }
 
+  s1_\markup{\small \italic "Solo Piano"}
+  s1
+  s1
+  s1
+  s1
+  s1 \bar "|."
+
+}
 }
 
 armonie = 
+\transpose e e {
 \chordmode {
 
   %intro = a
@@ -88,6 +99,15 @@ armonie =
   e1:maj7
   e1:maj7
 
+  %codapiano
+  a:maj7
+  gis:m7
+  fis:maj7m
+  f:m
+  ees:m
+  f
+
+}
 }
 
 \score {
