@@ -2,7 +2,7 @@
   title = "Golden Hour"
   composer = "JVKE"
   arranger = "I. Marchesin"
-  piece = "E -> D"
+  piece = ""
   tagline = "Transcriber: jazziuri96@gmail.com"
 }
 
