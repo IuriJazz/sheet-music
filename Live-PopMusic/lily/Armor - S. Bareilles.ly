@@ -107,12 +107,12 @@ obbligato =
 
   \mark \markup {\bold \box "A1"}
   \repeat volta 2 {
-  s1
+  s1_\markup{\small \italic "Rest only on last rep."}
   s
   \improvisationOn
   des4 r2. 
   \improvisationOff
-  s2. s4_\markup{\small \italic "x4, stop on last one"} \break
+  s2. s4_\markup{\small \italic "x4"} \break
   }
   
 }
@@ -135,16 +135,16 @@ armonie =
 
   %B
   b
-  fis
+  fis/ais
   cis
   cis
   b
-  fis
+  fis/ais
   cis
   dis2:m cis
   b1
   b
-  bes:m
+  bes
   r
 
   %C
@@ -155,27 +155,27 @@ armonie =
 
   %B1
   b
-  fis
+  fis/ais
   cis
   cis
   b
   b
-  bes:m
+  bes
   r
 
   %B2
   b
-  fis
+  fis/ais
   cis
   cis
   b
-  fis
+  fis/ais
   cis
   dis:m
   b
   b
-  bes:m
-  bes:m
+  bes
+  bes
 
   %A1
   ees:m
