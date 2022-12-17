@@ -11,7 +11,7 @@ obbligato =
   \clef bass
   \key a \minor
   \time 4/4
-
+  \tempo 4 = 142 - 146
 
   \mark \markup {\box \bold "Intro"}
     <a e'>4. <a e'>4. <a e'>4
@@ -48,22 +48,22 @@ obbligato =
     s
     s \bar "||" \break
     \mark \markup {\box \bold "B"}
-    s
-    s
-    s
-    s
-    s
-    s
-    s
-    s \bar "||" \break
+    bes'4. bes e,4
+    a4. a4 g8 f e
+    d4. bes' a4
+    d4. bes4 a8 f g
+    aes4. aes d,4
+    g4. g4 f8 e d
+    c4. c c4
+    b4. e e4 \bar "||" \break
     \mark \markup {\box \bold "Coda"}
-    s
-    s
-    s
-    s
-    s
-    s
-    s
+    s1
+    s1
+    s1
+    s1
+    s1
+    s1
+    s1
     s \break
     \repeat volta 2 {
     s
