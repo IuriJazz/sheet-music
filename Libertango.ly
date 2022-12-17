@@ -51,7 +51,7 @@ obbligato =
     bes'4. bes e,4
     a4. a4 g8 f e
     d4. bes' a4
-    d4. bes4 a8 f g
+    d4. bes4 a8 f g \break
     aes4. aes d,4
     g4. g4 f8 e d
     c4. c c4
