@@ -22,7 +22,7 @@ La loro guida è assolutamente completa e facilmente reperibile:
 
 Altre piattaforme valide e molto interessanti per scoprire ancora di più Lilypond sono le seguenti:
 - https://ide.omet.ca/    --------------- consiglio di usare l'account demo. Nome: demo Pass: demo
-- http://eremita.di.uminho.pt/mutopia/index.html
+- https://www.mutopiaproject.org/
 
 Entrambi i siti contengono un numero molto considerevole di partiture ricopiate.
 
