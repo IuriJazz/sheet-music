@@ -291,11 +291,11 @@ GuitarSotto =
 music = {
   <<
     \tag #'score \tag #'fl
-    \new Staff \with { instrumentName = "Flute" }
+    \new Staff \with { instrumentName = \markup {\small \bold "Flute"} }
     << \global \Flute >>
     
     \tag #'score \tag #'gtr
-    \new Staff = "guitar" \with { instrumentName = "Guitar" }
+    \new Staff = "guitar" \with { instrumentName = \markup {\small \bold "Guitar"} }
     <<
     \global
     \context Voice = "upper" { \GuitarSopra }
