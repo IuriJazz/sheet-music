@@ -123,5 +123,4 @@ armonie =
     \new Staff \obbligato
   >>
   \layout {}
-  \midi {}
 }
