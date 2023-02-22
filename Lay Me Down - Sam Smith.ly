@@ -6,12 +6,13 @@
 }
 
 obbligato =
+\transpose e e {
 \relative c' {
   \clef treble
   \key e \major
   \time 4/4
-  \tempo 4=118
 
+\mark \markup {\box \bold "Intro"}
   \improvisationOn
   b'1~
   b~
@@ -95,6 +96,7 @@ obbligato =
   s1
   s1 \break
   
+  \repeat volta 2 {
   \improvisationOn
   b8 r b r b r b r_\markup{\small \italic "Same Rithm"}
   \improvisationOff
@@ -105,14 +107,7 @@ obbligato =
   s1
   s1
   s1 \break
-  s1
-  s1
-  s1
-  s1
-  s1
-  s1
-  s1
-  s1 \break
+  }
   s1
   s1
   s1
@@ -131,8 +126,10 @@ obbligato =
   s1\fermata \bar "|."
 
 }
+}
 
 armonie = 
+\transpose e e {
 \chordmode {
 
   e1:maj7
@@ -223,14 +220,6 @@ armonie =
   fis/b
   fis
   fis/a
-  fis/d
-  fis/b
-  fis
-  fis/a
-  fis/d
-  fis/b
-  fis
-  fis/a
   a/d
   a2/b fis:7/b
 
@@ -244,6 +233,7 @@ armonie =
   fis:7/b
   e  
 
+}
 }
 
 \score {
