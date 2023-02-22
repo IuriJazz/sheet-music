@@ -9,21 +9,26 @@
 }
 
 obbligato =
-\relative c' {
-  \clef treble
-  \key c \major
-  \time 4/4
+\transpose c c {
+  \relative c' {
+    \clef treble
+    \key c \major
+    \time 4/4
 
-  c1
-  \once \hideNotes r1
+    c1
+    \once \hideNotes r1
+    s1
 
+  }
 }
 
 armonie = 
-\chordmode {
+\transpose c c {
+  \chordmode {
 
-  c
+    c
 
+  }
 }
 
 \score {
