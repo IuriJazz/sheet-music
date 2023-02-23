@@ -14,7 +14,7 @@ obbligato =
 
 \mark \markup {\box \bold "Intro"}
   \improvisationOn
-  b'1~
+  b'1_\markup{\small \italic "Solo piano"}~
   b~
   b~
   b~
@@ -62,7 +62,7 @@ obbligato =
   b'~
   b\fermata \bar "||"
 
-  b2 b_\markup{\small \italic "Same Rithm"}
+  b2_\markup{\small \italic "Tutti"} b_\markup{\small \italic "Same Rithm"}
   \improvisationOff
   s1
   s1
@@ -129,7 +129,7 @@ obbligato =
   s1 \break
   
   \improvisationOn
-  b~
+  b_\markup{\small \italic "Solo Piano"}~
   b_\markup{\small \italic "Same Rithm"}
   \improvisationOff
   s1
