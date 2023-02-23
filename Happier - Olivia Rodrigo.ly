@@ -14,7 +14,7 @@ obbligato =
 
   \mark \markup {\box \bold "Intro"}
     \improvisationOn
-    b'1_\markup {\small \italic "cresc."} \bar "||" \break
+    b'1_\markup {\small \italic "cresc."} \break
     \improvisationOff
     
   \mark \markup {\box \bold "A"}
@@ -22,7 +22,7 @@ obbligato =
     s1_\markup{\small \italic "Piano arp."}
     s1
     s1
-    s2 s4 s_\markup {\small \italic "x3"} \break
+    s2 s4 s_\markup {\small \italic "x3 - on 3th Drum Kicks"} \break
     }
 
     \improvisationOn
@@ -30,12 +30,12 @@ obbligato =
     \improvisationOff
     \time 2/4
     \tuplet 3/2 {ais8_\markup {\small \italic "Solo guitar ghost notes"} gis fis}
-    \tuplet 3/2 {dis cis ais} \bar "||" \break
+    \tuplet 3/2 {dis cis ais} \break
 
     \time 4/4
   \mark \markup {\box \bold "A"}
     \repeat volta 2 {
-    s1
+    s1_\markup{\small \italic "Tutti"}
     s1
     s1
     s2 s4 s_\markup {\small \italic "x4"} \break
@@ -45,7 +45,7 @@ obbligato =
     b'2~ b8 r r4
     \improvisationOff
     \time 1/4
-    cis8_\markup {\small \italic "Bass"}_\markup {\small \italic "glissando"} \glissando fis, \bar "||" \break
+    cis8_\markup {\small \italic "Bass"}_\markup {\small \italic "glissando"} \glissando fis, \break
 
     \time 4/4
   \mark \markup {\box \bold "A"}
