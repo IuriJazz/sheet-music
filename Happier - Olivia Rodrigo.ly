@@ -6,7 +6,7 @@
 }
 
 obbligato =
-\transpose c c {
+\transpose fis fis {
   \relative c' {
     \clef treble
     \key fis \major
@@ -64,7 +64,7 @@ obbligato =
 }
 
 armonie = 
-\transpose c c {
+\transpose fis fis {
   \chordmode {
 
     cis1:7
