@@ -111,7 +111,7 @@ armonie =
     b2:m e
     g a
 
-    d4 d/cis b:m d:m/a
+    d4 d/cis b:m b:m/a
     s1
     g2 d/a
     g/b a/cis
