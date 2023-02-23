@@ -60,7 +60,7 @@ obbligato =
   s1 \break
   \improvisationOn
   b'~
-  b \bar "||"
+  b\fermata \bar "||"
 
   b2 b_\markup{\small \italic "Same Rithm"}
   \improvisationOff
@@ -77,18 +77,33 @@ obbligato =
   s1
   s1
   s1
+  s1 %qui aggiunta
+
+  s1 \bar "||" \break
+  s1
+  s1
+  s1
+  s1
+  s1
+  s1
+  s1
+
+
+  s1 \bar "||" \break
+  s1
+  \improvisationOn
+  b2 b
+  \improvisationOff
+  s1
+  s1
+  s1
+  s1
   s1
   s1 \break
   s1
-  s1
-  s1
-  s1
-  s1
-  s1
-  s1
-  s1 \break
-  s1
-  s1
+  \improvisationOn
+  b2 b
+  \improvisationOff
   s1
   s1
   s1
@@ -191,8 +206,18 @@ armonie =
   e:maj7
   a:2
   a:2
-  a:2
-  fis:7/b
+  a:2 %qui aggiunta
+  
+  a2 e/gis
+  fis1:7
+  a
+  e
+  b
+  fis:7
+  a
+  e
+  fis:7/b 
+
   e
   e2 e/dis
   e1/cis
