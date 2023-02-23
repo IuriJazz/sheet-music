@@ -164,31 +164,31 @@ armonie =
   a:2
   a:2
 
-  fis
+  fis:m
   a
   cis:m7
   b
-  fis
+  fis:m
   a
   e/b
-  fis:7/b
+  fis:m7/b
 
   e
   e
   cis:m7
   cis:m7
-  fis:7
-  fis:7
+  fis:m7
+  fis:m7
   a
   a
   e
   e
   cis:m7
   cis:m7
-  fis:7
-  fis:7
+  fis:m7
+  fis:m7
   a
-  fis:7/b
+  fis:m7/b
   e
   e
 
@@ -209,53 +209,53 @@ armonie =
   a:2 %qui aggiunta
   
   a2 e/gis
-  fis1:7
+  fis1:m7
   a
   e
   b
-  fis:7
+  fis:m7
   a
   e
-  fis:7/b 
+  fis:m7/b 
 
   e
   e2 e/dis
   e1/cis
   e1/cis
-  fis:7
-  fis:7
+  fis:m7
+  fis:m7
   a
   a
   e
   e2 e/dis
   e1/cis
   e1/cis
-  fis:7
-  fis:7
+  fis:m7
+  fis:m7
   a
-  fis:7/b
+  fis:m7/b
 
-  fis
-  fis/a
-  fis/d
-  fis/b
-  fis
-  fis/a
-  fis/d
-  fis/b
-  fis
-  fis/a
+  fis:m
+  fis:m/a
+  fis:m/d
+  fis:m/b
+  fis:m
+  fis:m/a
+  fis:m/d
+  fis:m/b
+  fis:m
+  fis:m/a
   a/d
-  a2/b fis:7/b
+  a2/b fis:m7/b
 
   e1
   e
   cis:m7
   cis:m7
-  fis:7
-  fis:7
+  fis:m7
+  fis:m7
   a
-  fis:7/b
+  fis:m7/b
   e  
 
 }
