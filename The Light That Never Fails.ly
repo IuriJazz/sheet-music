@@ -33,7 +33,7 @@ obbligato =
     s1
     \repeat volta 2 {
     s1
-    s2 s4_\markup{" "}_\markup {\small \italic \box "B" \small \italic "poi" \small \italic \box "C"} s4_\markup {\small \italic "x3"} \break
+    s2 s4 s4^\markup {\small \italic "ritornello x3"}_\markup {\small \italic \box "B" \small \italic "poi" \small \italic \box "C"} \break
     }
 
     \mark \markup {\bold \italic \box "C"}
