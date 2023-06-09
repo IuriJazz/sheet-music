@@ -1,6 +1,6 @@
 \header {
   title = "The Light That Never Fails"
-  piece = "-1st"
+  piece = "Or. Key"
   composer = "Andra Day"
   arranger = "I. Marchesin"
   tagline = "Transcriber: jazziuri96@gmail.com"
@@ -33,7 +33,7 @@ obbligato =
     s1
     \repeat volta 2 {
     s1
-    s2 s4 s4^\markup {\small \italic "ritornello x3"}_\markup {\small \italic \box "B" \small \italic "poi" \small \italic \box "C"} \break
+    s2 s4 s4^\markup {\small \italic "ritornello x3"}_\markup {\bold \small \italic \box "Bridge" \bold \small \italic "-" \bold \small \italic \box "B" \bold \small \italic "-" \bold \small \italic \box "C"} \break
     }
 
     \mark \markup {\bold \italic \box "C"}
@@ -42,7 +42,7 @@ obbligato =
     s1*2
     \improvisationOn b1_\markup {\small \italic "rall..." } \fermata \improvisationOff \break
     s1*3
-    s2 s2_\markup {\small \italic \box "B" \small \italic "- poi" \small \italic \box "Coda"} \break
+    s2 s2_\markup {\bold \small \italic \box "B" \bold \small \italic "-" \bold \small \italic \box "Coda"} \break
     
     \mark \markup {\bold \italic \box "Coda"}
     \repeat volta 2 {
