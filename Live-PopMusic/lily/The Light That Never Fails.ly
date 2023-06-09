@@ -61,21 +61,21 @@ armonie =
     %Intro
     e1:m
 
-    %A
-    \once \set chordChanges = ##f e2:m b:m
-    a:m b:m
-    e:m b:m
-    a:m a:m7
-    e:m b:m
-    a:m d
-    e:m b:m
-    a:m a:m7
+    %A - Em Gmaj7 Cmaj7 Am7
+    \once \set chordChanges = ##f e2:m g:maj7
+    c:maj7 a:m7
+    e2:m g:maj7
+    c:maj7 a:m7
+    e2:m g:maj7
+    c:maj7 a:m7
+    e2:m g:maj7
+    c:maj7 a:m7
 
-    %Bridge1
+    %Bridge
     c1
     e:m
     b:m/d
-    c:9
+    a:m7
 
     %B
     g2 a:m7
@@ -88,10 +88,10 @@ armonie =
     d
 
     %Bridge2
-    e2:m b:m
-    c a:m7
-    e:m b:m
-    a:m a:m7
+    e2:m g:maj7
+    c:maj7 a:m7
+    e2:m g:maj7
+    c:maj7 a:m7
 
     %C
     c g
@@ -105,8 +105,8 @@ armonie =
     e:m d
 
     %Coda
-    e:m b:m
-    e1:m
+    e2:m g:maj7
+    c:maj7 a:m7
     g1
     g:sus4
     g
