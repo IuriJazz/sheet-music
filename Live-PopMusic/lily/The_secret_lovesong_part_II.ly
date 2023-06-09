@@ -91,7 +91,7 @@ armonie =
     fis2:m e/gis
     a2 \tuplet 3/2 {b4:m a e/gis}
     fis2:m e/gis
-    a b4:m a/gis
+    a b4:m a/cis
     d1
     e 
     e
@@ -102,7 +102,7 @@ armonie =
     fis:m 
     d 
     d 
-    e:sus 7
+    e:sus
     e 
     e 
     
