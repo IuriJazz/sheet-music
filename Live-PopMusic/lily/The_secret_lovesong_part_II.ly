@@ -35,7 +35,10 @@ obbligato =
     }
     
     \mark \markup {\box \bold \italic "Bridge"}
-    s1*4 \break
+    s1
+    \improvisationOn b2 \tuplet 3/2 {b4 b b} \improvisationOff
+    s1
+    \improvisationOn b2 b4 b \break
     s1*3 \bar "||"
     s1 \break
     s1*4 \break
@@ -85,10 +88,10 @@ armonie =
     e
     
     %Bridge
-    fis2:m e
-    a2 \tuplet 3/2 {b4:m a e}
-    fis2:m e
-    a b:m
+    fis2:m e/gis
+    a2 \tuplet 3/2 {b4:m a e/gis}
+    fis2:m e/gis
+    a b4:m a/gis
     d1
     e 
     e
@@ -99,7 +102,7 @@ armonie =
     fis:m 
     d 
     d 
-    b:sus4 7
+    e:sus 7
     e 
     e 
     
