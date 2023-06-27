@@ -18,7 +18,7 @@ SopranoMusic = \relative {
     fis8[ fis] fis[ fis] fis[ fis]
     a4 fis a
     d,2.~
-    d2 r8 d \break
+    d2 r8 d \break % qui forse è meglio la parola Spiego, così il ritmo rimane uguale
 
     d[ d] d[ d] d[ d]
     g4. fis8 e4
@@ -103,19 +103,21 @@ AltoMusic = \relative {
     b2 r8 b
     b[ b] b[ b] b[ b]
     cis4. cis8 cis4
-    a2.
+    d2.
+
+    
 
     }
 
 
 VerseOne = \lyricmode {
     \set stanza = "1."
-    Con la mi -- a vo -- ce chia -- mo-il si -- gnor __
+    Con la mi -- a vo -- ce chia -- mo-il Si -- gnor __
     con la mi -- a vo -- ce sup -- pli -- co-il Si -- gno -- re __
     sfo go-il mio la -- men -- to da -- van -- ti-a Lui __ es --
     pon -- go-a Lui la mi -- a tri -- bo -- la -- zio -- ne
 
-    quan -- do-il mi -- o spi -- ri -- to è aff -- lit -- to den -- tro me __
+    quan -- do-il mi -- o spi -- ri -- to è af -- flit -- to den -- tro me __
     Tu co -- no --  sci il mi -- o sen -- tie -- ro __
     al -- la mi -- a des -- tra non c'è nes -- su -- no che mi ri -- co -- no __ sca non
     ho un pos -- to do -- ve ri -- fu -- giar __
@@ -133,7 +135,13 @@ VerseOne = \lyricmode {
 
 
 TenorMusic = \relative {
-    
+    a8[ a] a[ a] a[ a]
+    a4 a a 
+    fis2.~
+    fis2.
+
+
+
     }
 
 BassMusic = \relative {
