@@ -1,7 +1,18 @@
+\header {
+    title = "Canto 380 - Con la mia voce clamo il Signore"
+    subtitle = "Con la mia voce clamo il Signor; con la mia voce supplico il Signore"
+    subsubtitle = "(Salmi 142.1)"
+    composer = "Musica: Varner Geier"
+    poet = "Testo originale: Verner Geier"
+    arranger = "Traduzione: O. Gavryliuk & I. Marchesin"
+    tagline = ##f
+}
+
 Key = \key d \major
-  Time = {
+Time = {
     \time 3/4
-    }
+}
+
 
 SopranoMusic = \relative {
 
@@ -18,9 +29,9 @@ SopranoMusic = \relative {
     fis8[ fis] fis[ fis] fis[ fis]
     a4 fis a
     d,2.~
-    d2 r8 d \break % qui forse è meglio la parola Spiego, così il ritmo rimane uguale
+    d2. \break % qui forse è meglio la parola Spiego, così il ritmo rimane uguale
 
-    d[ d] d[ d] d[ d]
+    d8[ d] d[ d] d[ d]
     g4. fis8 e4
     d2( fis4) a2. \bar "||" \break
 
@@ -100,12 +111,72 @@ AltoMusic = \relative {
     d8[ d] d[ d] d[ d]
     e4 e e
     b2.~
-    b2 r8 b
-    b[ b] b[ b] b[ b]
+    b2.
+
+    b8[ b] b[ b] b[ b]
     cis4. cis8 cis4
+    d2.~
     d2.
 
-    
+    g8[ g] g[ g] g[ g]
+    a4. a8 a4
+    b4. b8 fis[ fis]
+    e2.
+
+    cis8[ cis] cis[ cis] cis4
+    cis4 cis cis
+    d fis2~
+    fis2.
+
+    g8[ g] g[ g] g[ g]
+    a4 a8[ a] a[ a]
+    b4. b8 fis[ fis]
+    e4 e4. e8
+
+    cis[ cis] cis[ cis] cis[ cis]
+    cis2 cis4
+    d2.~
+    d2.
+
+    g8[ g] g[ g] g[ g]
+    a4. a8 a4
+    b4. b8 fis[ fis]
+    e4 e2
+
+    cis8[ cis] cis[ cis] cis[ cis]
+    cis4 cis cis8[ cis] 
+    d4 fis2~
+    fis2.
+
+    g8[ g] g[ g] g[ g]
+    a4. a8 a4
+    b4 b8[ b] fis[ fis]
+    e4 e2
+
+    cis8[ cis] cis4 cis8[ cis]
+    cis2 cis4
+    d2.
+    d2.
+
+    g8[ g] g[ g] g[ g]
+    a4. a8 a4
+    b4. b8 fis[ fis]
+    e4 e2
+
+    cis8[ cis] cis[ cis] cis[ cis]
+    cis4 cis cis
+    d fis2~
+    fis2.
+
+    g8[ g] g[ g] g[ g]
+    a4. a8 a4
+    b4. b8 fis[ fis]
+    e4 e4. e8
+
+    cis8[ cis] cis[ cis] cis[ cis]
+    cis2 cis4
+    d2.~
+    d2.
 
     }
 
@@ -114,8 +185,8 @@ VerseOne = \lyricmode {
     \set stanza = "1."
     Con la mi -- a vo -- ce chia -- mo-il Si -- gnor __
     con la mi -- a vo -- ce sup -- pli -- co-il Si -- gno -- re __
-    sfo go-il mio la -- men -- to da -- van -- ti-a Lui __ es --
-    pon -- go-a Lui la mi -- a tri -- bo -- la -- zio -- ne
+    sfo go-il mio la -- men -- to da -- van -- ti-a Lui __
+    spie -- go-a Lui la mi -- a tri -- bo -- la -- zio -- ne
 
     quan -- do-il mi -- o spi -- ri -- to è af -- flit -- to den -- tro me __
     Tu co -- no --  sci il mi -- o sen -- tie -- ro __
@@ -135,17 +206,13 @@ VerseOne = \lyricmode {
 
 
 TenorMusic = \relative {
-    a8[ a] a[ a] a[ a]
-    a4 a a 
-    fis2.~
-    fis2.
-
-
-
+    
     }
 
 BassMusic = \relative {
     
+
+
     }
 TwoVoicesPerStaff = ##t
 \include "satb.ly"
