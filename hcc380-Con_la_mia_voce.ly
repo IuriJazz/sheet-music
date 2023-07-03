@@ -42,8 +42,8 @@ SopranoMusic = \relative {
 
     fis8[ e] e[ e] e4
     e fis g
-    b a2~
-    a2. \bar "||" \break
+    b a( b
+    cis2.) \bar "||" \break
 
     b8[ b] b[ b] d[ d]
     cis4 cis8[ cis] e[ e]
@@ -62,28 +62,28 @@ SopranoMusic = \relative {
 
     fis8[ e] e[ e] e[ e]
     e4 fis g8 g
-    b4 a2~
-    a2. \bar "||" \break
+    b4 a( b
+    cis2.) \bar "||" \break
 
     b8[ b] b[ b] d[ d]
     cis4. cis8 e4
     d4 d8[ d] b[ b]
-    a([ g]) g2 \break
+    a([ g]) g4. g8 \break
 
-    fis8[ e] e4 fis8[ g]
-    fis2 e4
-    d2.
+    fis8[ e] e e fis8[ g]
+    fis2( e4)
+    d2.~
     d2. \bar "||" \break
 
     b'8[ b] b[ b] d[ d]
     cis4. cis8 e4
     d4. d8 b[ b]
-    a([ g]) g2 \break
+    a([ g]) g4. g8 \break
 
     fis8[ e] e[ e] e[ e]
-    e4 fis g
-    b a2~
-    a2. \bar "||" \break
+    e4 fis g8 g
+    b4 a( b
+    cis2.) \bar "||" \break
 
     b8[ b] b[ b] d[ d]
     cis4. cis8 e4
@@ -99,7 +99,7 @@ SopranoMusic = \relative {
 AltoMusic = \relative {
     
     d'8[ d] d[ d] d[ d]
-    e4 e e 
+    cis4 cis cis 
     b2.~
     b2.
 
@@ -109,7 +109,7 @@ AltoMusic = \relative {
     cis2.
 
     d8[ d] d[ d] d[ d]
-    e4 e e
+    cis4 cis cis
     b2.~
     b2.
 
@@ -120,57 +120,57 @@ AltoMusic = \relative {
 
     g8[ g] g[ g] g[ g]
     a4. a8 a4
-    b4. b8 fis[ fis]
+    fis4. fis8 fis[ fis]
     e2.
 
-    cis8[ cis] cis[ cis] cis4
-    cis4 cis cis
-    d fis2~
+    d8[ cis] cis[ cis] cis4
+    cis4 d e
+    g fis2~
     fis2.
 
     g8[ g] g[ g] g[ g]
     a4 a8[ a] a[ a]
-    b4. b8 fis[ fis]
+    fis4. fis8 fis[ fis]
     e4 e4. e8
 
-    cis[ cis] cis[ cis] cis[ cis]
+    d[ cis] cis[ cis] cis[ cis]
     cis2 cis4
     d2.~
     d2.
 
     g8[ g] g[ g] g[ g]
     a4. a8 a4
-    b4. b8 fis[ fis]
+    fis4. fis8 fis[ fis]
     e4 e2
 
-    cis8[ cis] cis[ cis] cis[ cis]
-    cis4 cis cis8[ cis] 
-    d4 fis2~
+    d8[ cis] cis[ cis] cis[ cis]
+    cis4 d e8[ e] 
+    g4 fis2~
     fis2.
 
     g8[ g] g[ g] g[ g]
     a4. a8 a4
-    b4 b8[ b] fis[ fis]
-    e4 e2
+    fis4 fis8[ fis] fis[ fis]
+    e4 e4. e8 % Qui andrà la modifica al testo
 
-    cis8[ cis] cis4 cis8[ cis]
-    cis2 cis4
+    d8[ cis] cis cis cis8[ cis]
+    cis2.
     d2.
     d2.
 
     g8[ g] g[ g] g[ g]
     a4. a8 a4
-    b4. b8 fis[ fis]
-    e4 e2
+    fis4. fis8 fis[ fis]
+    e4 e4. e8
 
-    cis8[ cis] cis[ cis] cis[ cis]
-    cis4 cis cis
-    d fis2~
+    d8[ cis] cis[ cis] cis[ cis]
+    cis4 d e8 e
+    g4 fis2~
     fis2.
 
     g8[ g] g[ g] g[ g]
     a4. a8 a4
-    b4. b8 fis[ fis]
+    fis4. fis8 fis[ fis]
     e4 e4. e8
 
     cis8[ cis] cis[ cis] cis[ cis]
@@ -193,14 +193,14 @@ VerseOne = \lyricmode {
     al -- la mi -- a des -- tra non c'è nes -- su -- no che mi ri -- co -- no __ sca non
     ho un pos -- to do -- ve ri -- fu -- giar __
 
-    oh Si -- gnor ti chia -- mo per -- ché tu sei il mio ri -- fu __ gio
+    Oh Si -- gnor ti chia -- mo per -- ché Tu sei il mio ri -- fu __ gio
     la mia par -- te nel -- la ter -- ra dei vi -- ven -- ti __
-    sen -- ti la mi -- a pre -- ghie -- ra per -- ché so -- no ab -- bat -- tu -- to
-    sal -- va -- mi dai per -- se -- cu -- to -- ri
+    sen -- ti la pre -- ghie -- ra mi -- a per -- ché so -- no ab -- bat -- tu -- to
+    pro -- teg -- gi -- mi dai ten -- ta -- to -- ri
 
     li -- be -- ra la mi -- a a -- ni -- ma da ques -- ta pri -- gio -- ne
-    per -- ché i -- o can -- ti il tu -- o no -- me __
-    mio si -- gno -- re chia -- mo te an -- co -- ra tu li -- be -- ra me e
+    per -- ché io pos -- sa e -- sal -- ta -- re-il tu -- o no -- me __
+    io di nuo -- vo chia -- mo Te, Si -- gno -- re, per li -- be -- rar -- mi e
     can -- te -- rò ciò che hai fat -- to-in me __
   }
 
