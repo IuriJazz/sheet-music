@@ -33,7 +33,7 @@ SopranoMusic = \relative {
 
     d8[ d] d[ d] d[ d]
     g4. fis8 e4
-    d2( fis4) a2. \bar "||" \break
+    d2( fis4) a2. \bar "||" \break \pageBreak
 
     b8[ b] b[ b] d[ d]
     cis4. cis8 e4
@@ -53,7 +53,7 @@ SopranoMusic = \relative {
     fis8[ e] e[ e] fis[ g]
     fis2 e4
     d2.~
-    d2. \bar "||" \break
+    d2. \bar "||" \break \pageBreak
 
     b'8[ b] b[ b] d[ d]
     cis4. cis8 e4
@@ -73,7 +73,7 @@ SopranoMusic = \relative {
     fis8[ e] e e fis8[ g]
     fis2( e4)
     d2.~
-    d2. \bar "||" \break
+    d2. \bar "||" \break \pageBreak
 
     b'8[ b] b[ b] d[ d]
     cis4. cis8 e4
@@ -211,7 +211,85 @@ TenorMusic = \relative {
 
 BassMusic = \relative {
     
+    d8[ d] d[ d] d[ d] 
+    a4 a a
+    b2.~
+    b2.
 
+    g8[ g] g[ g] g[ g]
+    gis4. gis8 gis[ gis]
+    a4 a2~
+    a2.
+
+    d8[ d] d[ d] d[ d] 
+    a4 a a
+    b2.~
+    b2.
+
+    g8[ g] g[ g] g[ g]
+    a4. a8 a4
+    d2.~
+    d2.
+
+    g8[ g] g[ g] g[ g]
+    fis4. fis8 fis4
+    b,4. b8 b[ b]
+    e2.
+
+    a,8[ a] a[ a] a4
+    a a a
+    d2.~
+    d2.
+
+    g8[ g] g[ g] g[ g]
+    fis4 fis8[ fis] fis[ fis]
+    b,4. b8 b[ b]
+    e4 e4. e8
+
+    a,8[ a] a[ a] a[ a]
+    a2 a4
+    d2.~
+    d2.
+
+    g8[ g] g[ g] g[ g]
+    fis4. fis8 fis4
+    b,4. b8 b[ b]
+    e4 e2
+
+    a,8[ a] a[ a] a[ a]
+    a4 a a8[ a]
+    d4 d2~
+    d2.
+
+    g8[ g] g[ g] g[ g]
+    fis4. fis8 fis4
+    b,4 b8[ b] b[ b]
+    e4 e4. e8
+
+    a,8[ a] a[ a] a[ a]
+    a2.
+    d2.~
+    d2.
+
+    g8[ g] g[ g] g[ g]
+    fis4. fis8 fis4
+    b,4. b8 b[ b]
+    e4 e4. e8
+
+    a,8[ a] a[ a] a[ a]
+    a4 a a8[ a]
+    d4 d2~
+    d2.
+
+    g8[ g] g[ g] g[ g]
+    fis4. fis8 fis4
+    b,4. b8 b[ b]
+    e4 e4. e8
+
+    a,8[ a] a[ a] a[ a]
+    a2 a4
+    d2.~
+    d2.
 
     }
 TwoVoicesPerStaff = ##t
