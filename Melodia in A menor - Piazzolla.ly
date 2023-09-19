@@ -16,7 +16,7 @@
         r1
         r
         r
-        r
+        r \bar "||"
         e'2( \mp f)
         c'2.( f,4)
         e2( f~)
@@ -28,7 +28,7 @@
         d1~\<
         d2. \! e8( f)
         g2( c,~\>)
-        c1\! \break
+        c1_\markup{\small \italic "alla seconda volta"}_\markup{\small \italic "vai a coda"}\! \break \bar "||"
         g'2 \mf \< fis~
         fis2. g8( a)
         b1~ \>
@@ -64,7 +64,15 @@
         d1
         dis^\markup{\small \italic "rall. e dim."}
         e~
-        e\fermata
+        e_\markup{\small \italic "fisa solo x64 battute"}_\markup{\small \italic "poi vai a battuta 5"}\fermata \bar "||" \break
+        \mark \markup{\box \bold "Coda"}
+        bes4( \mf f'2.->~)
+        f4 e2( c4--)
+        a1~
+        a
+        a'~^\markup{\small \italic "poco rall."}
+        a
+        a,\pp \> \bar "|."
 
     }
   }
