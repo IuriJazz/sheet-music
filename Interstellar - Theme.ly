@@ -41,6 +41,12 @@ obbligato =
   \new RhythmicStaff {
     c2.
     c2.
+    c2.
+    c2.
+    c2.
+    c2.
+    c2.
+    c2.
   }
   >>
  }
