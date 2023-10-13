@@ -39,18 +39,11 @@ obbligato =
   }
   \new RhythmicStaff {
     c2.
+    c2.
   }
   >>
  }
 }
-
- ritmica = 
- \relative c' {
-  \improvisationOn
-  \stemDown
-  s2.*12
-  c,2.
- }
  
 armonie = 
 \chordmode {
