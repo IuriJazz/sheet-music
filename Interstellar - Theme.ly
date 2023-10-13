@@ -5,6 +5,7 @@
   tagline = "Transcriber: jazziuri96@gmail.com"
 }
 
+
 obbligato =
 \new Voice {
 \relative c' {
@@ -45,9 +46,9 @@ obbligato =
  }
 }
  
+
 armonie = 
 \chordmode {
-
 s2.*12
 a2.
 }
