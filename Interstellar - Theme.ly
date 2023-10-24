@@ -30,13 +30,13 @@ obbligato =
   <<
   \repeat volta 2{
     a,_\markup{\italic \small "With bass"} e' e
-    e e e
+    a, e' e
     b e e 
-    e e e
-    c e e
-    e e e
     b e e
-    e e e
+    c e e
+    c e e
+    b e e
+    b e e
   }
   \new RhythmicStaff {
     c2.
@@ -46,9 +46,48 @@ obbligato =
     c2.
     c2.
     c2.
-    c2.
+    c2. \break
   }
   >>
+  \repeat volta 2{
+    a8 e' a, e' a, e'
+    a, e' a, e' a, e'
+    b e b e b e
+    b e b e b e
+    c e c e c e
+    c e c e c e
+    b e b e b e
+    b e b e b e \break
+  }
+
+    <a, c e>2.
+    <a c e>
+    <g b e>
+    <g b e>
+    <f a c e>
+    <f a c e>
+    <g b e>
+    <g b e> \break
+
+  <<
+  {  
+    e'4 e e
+    e e e
+    e e e
+    e e e \break
+  }
+  \new Staff
+  {
+    \clef bass
+    e,, e e
+    e e e
+    e e e
+    e e e
+  }
+  >>
+  
+  \bar "|."
+
  }
 }
  
@@ -56,7 +95,33 @@ obbligato =
 armonie = 
 \chordmode {
 s2.*12
-a2.
+a2.:m
+a:m
+e:m
+e:m
+f
+f
+g
+g
+
+a2.:m
+a:m
+e:m
+e:m
+f
+f
+g
+g
+
+a2.:m
+a:m
+e:m
+e:m
+f
+f
+g
+g
+
 }
 
 
@@ -71,4 +136,4 @@ a2.
   \layout {}
 }
 
-\version "2.22.2"
+\version "2.22.1"
