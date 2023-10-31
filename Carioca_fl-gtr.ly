@@ -36,10 +36,10 @@ Flute =
     \voiceTwo \acciaccatura fisis8 \oneVoice e'8.-> dis16 r dis,8 cis16 |
     bis16 a'8 gis16 fis e8 dis16 |
     gis cis,8 b16 e a,8 gis16 |
-    b a8 gis16 fisis dis'8 fisis,16 | %15
+    b a8 gis16 fisis dis'8 fisis,16 \mark \markup { \musicglyph "scripts.coda" } | %15
     }
     \alternative {
-    {gis4 r8 dis \mark \markup { \musicglyph "scripts.coda" } | }
+    {gis4 r8 dis | }
     {gis8 r \grace { b dis } gis8-> r | }
     } \break %\pageBreak
     
@@ -85,7 +85,7 @@ Flute =
     { b,8 r \voiceTwo \grace { cis16 fisis } \oneVoice dis'8 dis, \bar "||" | } %50
     }
     \set Score.currentBarNumber = #50
-    \once \hideNotes r2_\markup {"dal" \musicglyph "scripts.segno" "al" \musicglyph "scripts.coda"}_\markup {"poi dal" \musicglyph "scripts.coda" "segue da qui"} \mark \markup { \musicglyph "scripts.coda" } \bar "||" |
+    \once \hideNotes r2_\markup {"dal" \musicglyph "scripts.segno" "al" \musicglyph "scripts.coda"}_\markup {"poi segue da qui"} \mark \markup { \musicglyph "scripts.coda" } \bar "||" |
     gis,4 \grace { b16 dis } gis16 fis,8 gis16 \bar "||" |
     \repeat volta 2 {
     \key e \major
