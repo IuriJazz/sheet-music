@@ -1,3 +1,5 @@
+\version "2.22.1"
+
 \header {
   title = "We wish you a merry Christmas"
   subtitle = "Per Violino e Pianoforte"
@@ -77,7 +79,6 @@ manodx_uno =
   r4 e r
   r2 d4
   e2 s4 \bar "|."
-
 }
 
 manosx_uno =
@@ -117,9 +118,8 @@ manosx_uno =
 }
 
 
-
-music = {
-	\new StaffGroup {
+\score {
+  \new StaffGroup {
 		<<
       \tag #'score \tag #'vl
       \new Staff \with { instrumentName = \markup {\small \bold "Violino"} }
@@ -133,26 +133,6 @@ music = {
 					\new Staff = "manosx_uno" \manosx_uno
 				>>
 		>>
-	}
-	\layout{}
-}
-
-\include "We wish you a merry Christmas.ly"
-\score {
-  \keepWithTag #'score \music
+  }
   \layout { }
 }
-
-%questo è per la parte sola di flauto
-%\.include "Carioca_fl-gtr.ly"
-%\score {
-%  \keepWithTag #'fl \music
-%  \layout { }
-%}
-
-%questo è per la parte sola di chitarra
-%\.include "Carioca_fl-gtr.ly"
-%\score {
-%  \keepWithTag #'gtr \music
-%  \layout { }
-%}
