@@ -7,7 +7,7 @@
 
 
 obbligato = 
-\transpose des e{
+\transpose des des{
   \relative c' {
     \key des \major
 
@@ -46,7 +46,7 @@ obbligato =
 }
 
 armonie = 
-\transpose des e {
+\transpose des des {
   \chordmode {
     
     des1 |
@@ -65,7 +65,7 @@ armonie =
     des f |
     bes:m ges |
     des f:7 |
-    bes:m ees:m |
+    bes:m ges |
     } \break
     des1 |
     des |
@@ -83,7 +83,7 @@ armonie =
     des f |
     bes:m ges |
     des f:7 |
-    bes:m ees:m |
+    bes:m ges |
     }
     des1 |
     des | \bar "|."
@@ -101,5 +101,4 @@ armonie =
     \new Staff \obbligato
   >>
   \layout {}
-  \midi {}
 }
