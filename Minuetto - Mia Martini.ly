@@ -22,8 +22,8 @@ obbligato =
     s1
     s2 fis16 fis, e' fis, cis' fis, d' fis,
     s2 b16 e, cis' e, d' d, e d \break
-    a16 e' cis e s2._\markup{\small\italic "simile"}
-    s1
+    a16 e' cis e s2._\markup{\small \italic "simile"}
+    s1_\markup{\small \italic "basso"}
     s1
     s2 <gis b>16 e <a cis> e <b' d> e, <gis b> e \break
     a16 e cis a cis' a e cis cis' a e cis b'32 cis b a e16 cis
@@ -70,7 +70,7 @@ obbligato =
     s1 \bar "||"
 
     \time 1/4
-    r4 \bar "||" \break
+    r4 \break
     
     \time 4/4
     \mark \markup {\box \bold "C"}
@@ -100,7 +100,7 @@ armonie =
 
     %A
     a1
-    a1
+    e1
     b2:m fis/ais
     b:m e4/gis e
     a1
