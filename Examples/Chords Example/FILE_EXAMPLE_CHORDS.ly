@@ -15,7 +15,8 @@ obbligato =
     \key c \major
     \time 4/4
 
-    c1
+    \mark \markup{\box \bold \abs-fontsize #15"Coda"} %dimensioni carattere
+    c1_\markup \center-column {\bold \box "B - Coda"} %allineamento
     \once \hideNotes r1
     s1
 
