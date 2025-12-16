@@ -4,7 +4,7 @@
   title = "Carioca"
   subtitle = "Tango"
   composer = "E. Nazareth"
-  arranger = "I. Marchesin"
+  arranger = "Trans. I. Marchesin"
   piece = "Trans. B --> C"
   tagline = "Transcriber: jazziuri96@gmail.com"
 }
