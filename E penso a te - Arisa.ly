@@ -46,27 +46,27 @@ destra =
     ces
     aes:m7
     aes:m7/des
-    aes:m7/des \bar "||" \break
+    aes:m7/des \bar "||" \break %27
 
     ees:m
     aes:m7
     aes:m7/des
-    ges2 des/f \break
+    ges2 des/f \break %31
 
     ees1:m
     aes:m7
     aes2:m7/des aes:m7/ces
-    des1/bes \break
+    des1/bes \break %35
 
     ges
     aes:m7
     ees:m
-    bes2 des:7 \break
+    bes2 des:7 \break %39
 
     ges1
     bes2:sus4 bes
     ees1:m
-    ges/bes \break
+    ges/bes \break %43
     
     des2:sus4 des
     }
