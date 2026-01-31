@@ -14,44 +14,44 @@ mdx =
 	\key b \minor
 	\time 3/4
 
-    b'2 r8 a |
+    b'2\mp\> r8 a |
     g2 r8 e |
-    d2. |
-    b'4 e d8 cis |
-    d2. |
+    d2.\p |
+    b'4\< e d8 cis |
+    d2.\mp |
     R2. | \break
     R2. |
-    b4 e cis |
+    b4\mf\> e cis |
     d2 cis8 d |
     cis2 r8 b | 
 
-    cis8 b~ b2 |
-    b4 e4. b8 | \break 
-    d2 cis8 d |
+    cis8 b~ b2\p |
+    b4\< e4. b8 | \break 
+    d2\mf\> cis8 d |
     c2 r8 b |
-    cis b~ b2 |
-    b4 d e |
-    fis r e8 d |
+    cis b~ b2\p |
+    b4\< d e |
+    fis\f\> r e8 d |
     e fis e4 d8 r | \break
-    e d r2 |
-    r4 d4. e8 |
+    e\mp d r2 |
+    r4 d4.\< e8 |
 
-    d2 r4 |
+    d2\mf r4 |
     R2. |
-    R2. |
+    R2.\> |
     R2. | \break
 
-    <d, a'>8[ <b fis'>] <d a'>[ <b fis'>] <d a'>[ <b fis'>] |
+    <d, a'>8[\p\< <b fis'>] <d a'>[ <b fis'>] <d a'>[ <b fis'>] |
     <cis a'>[ <a fis'>] <cis a'>[ <a fis'>] <cis a'>[ <a fis'>] |
+    <d a'>8[\> <b fis'>] <d a'>[ <b fis'>] <d a'>[ <b fis'>] |
     <d a'>8[ <b fis'>] <d a'>[ <b fis'>] <d a'>[ <b fis'>] |
-    <d a'>8[ <b fis'>] <d a'>[ <b fis'>] <d a'>[ <b fis'>] |
-    <d a'>8[ <b fis'>] <d a'>[ <b fis'>] <d a'>[ <b fis'>] | \break 
+    <d a'>8[\< <b fis'>] <d a'>[ <b fis'>] <d a'>[ <b fis'>] | \break 
 
     <cis a'>[ <a fis'>] <cis a'>[ <a fis'>] <cis a'>[ <a fis'>] |
+    <d a'>8[\> <b fis'>] <d a'>[ <b fis'>] <d a'>[ <b fis'>] |
     <d a'>8[ <b fis'>] <d a'>[ <b fis'>] <d a'>[ <b fis'>] |
     <d a'>8[ <b fis'>] <d a'>[ <b fis'>] <d a'>[ <b fis'>] |
-    <d a'>8[ <b fis'>] <d a'>[ <b fis'>] <d a'>[ <b fis'>] |
-    <cis a'>[ <a fis'>] <cis a'>[ <a fis'>] <cis a'>[ <a fis'>] | \break 
+    <cis a'>[\cresc <a fis'>] <cis a'>[ <a fis'>] <cis a'>[ <a fis'>] | \break 
     <d a'>8[ <b fis'>] <d a'>[ <b fis'>] <d a'>[ <b fis'>] |
     <d a'>8[ <b fis'>] <d a'>[ <b fis'>] <d a'>[ <b fis'>] |
 
@@ -59,13 +59,13 @@ mdx =
     <d a'>[ <a fis'>] <d a'>[ <a fis'>] <d a'>[ <a fis'>] |
     <cis ais'>[ <ais fis'>] <cis ais'>[ <ais fis'>] <cis ais'>[ <ais fis'>] | \break 
     <d b'>[ <b g'>] <d b'>[ <b g'>] <d b'>[ <b g'>] | 
-    r4 <b d>2 |
+    r4\p <b d>2\> |
     r4 <cis e>2 |
     r4 <b d>2 |
     r4 <b d>2 |
     R2. |
     R2. |
-    R2. | \bar "|."
+    R2.\! | \bar "|."
     
 }
 
@@ -141,7 +141,7 @@ msx =
 
 }
 
-
+#(set-global-staff-size 18)
 
 \score {
 	\new PianoStaff	\with { instrumentName = "Piano" }
