@@ -20,22 +20,23 @@ mdx =
     b'4\< e d8 cis |
     d2.\mp |
     R2. | \break
+
     R2. |
     b4\mf\> e cis |
     d2 cis8 d |
     cis2 r8 b | 
-
     cis8 b~ b2\p |
     b4\< e4. b8 | \break 
+
     d2\mf\> cis8 d |
-    c2 r8 b |
+    cis2 r8 b |
     cis b~ b2\p |
     b4\< d e |
     fis\f\> r e8 d |
     e fis e4 d8 r | \break
+
     e\mp d r2 |
     r4 d4.\< e8 |
-
     d2\mf r4 |
     R2. |
     R2.\> |
@@ -77,7 +78,7 @@ msx =
 	\time 3/4
 
     g4 <d' b'> <d b'> |
-    d <d b> <d b> |
+    d <g b> <g b> |
     g, <d' b'> <d b'> |
     d <g b> <g b> |
     g, <d' b'> <d b'> |
