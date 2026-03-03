@@ -9,7 +9,7 @@
 % --- PRIMA PARTE: C.F. 1 ---
 primo =
 \header {
-    piece = "C.F. 1"
+    piece = "C.F. 1 scrivere un contrappunto a 2 parti di V specie"
 }
 
 uno_alto = 
@@ -22,7 +22,7 @@ uno_alto =
     f1 |
     e2 f |
     g a |
-    g f |
+    g f | \break
 
     g1 |
     a2 f |
@@ -56,7 +56,7 @@ uno_basso =
 % --- SECONDA PARTE: C.F. 2 ---
 secondo =
 \header {
-    piece = "C.F. 2"
+    piece = "C.F. 2 scrivere un contrappunto a due parti in terza specie"
 }
 
 due_alto = 
@@ -92,9 +92,9 @@ due_basso =
 }
 
 % --- SECONDA PARTE: C.F. 3 ---
-secondo =
+terzo =
 \header {
-    piece = "C.F. 3"
+    piece = "C.F. 3 scrivere un contrappunto a due parti in quarta specie"
 }
 
 tre_alto = 
@@ -119,7 +119,7 @@ tre_basso =
 }
 
 \score {
-    \secondo 
+    \terzo 
     \new StaffGroup <<
     \new Staff \tre_alto
     \new Staff \tre_basso
