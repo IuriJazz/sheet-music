@@ -91,7 +91,7 @@ due_basso =
     \layout {}
 }
 
-% --- SECONDA PARTE: C.F. 3 ---
+% --- TERZA PARTE: C.F. 3 ---
 terzo =
 \header {
     piece = "C.F. 3 scrivere un contrappunto a due parti in quarta specie"
@@ -108,6 +108,7 @@ tre_alto =
     d1 |
     c |
     \bar "|." | 
+    \pageBreak
 }
 
 tre_basso = 
@@ -126,3 +127,4 @@ tre_basso =
     >>
     \layout {}
 }
+
