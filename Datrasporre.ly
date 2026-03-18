@@ -22,14 +22,14 @@ clarinetto =
     g'( a e g a e) |
     g2.( |
     a8 d e f e d |
-    a' g e c4) e8~( | \break
+    a' g e c4) e8~( | \break %6
     
     e d b g e' d |
     c4.~ c8) b( c |
     e4.~ e8 dis e |
     g4.~ g8 fis g |
     c2.~
-    c4) r8 r4 r8 \bar "||" \break
+    c4) r8 r4 r8 \bar "||" \break %12
     
     \time 3/4
     \mark \markup{\bold \huge \italic "Valzer"}
@@ -49,7 +49,7 @@ clarinetto =
     g2.~ |
     g4 \acciaccatura b16 a4( f |
     e2.)~ |
-    e8\) g(\< a b c d) | \break
+    e8\) g(\< a b c d) | \break %28
 
     e2.\f\( |
     g |
@@ -58,7 +58,7 @@ clarinetto =
     c,2. |
     e |
     a,~ \> |
-    a \) | \break
+    a \) | \break %36
 
     f'2.\mf \( |
     d4( b g) |
@@ -67,7 +67,10 @@ clarinetto =
     d'( c b) |
     f'( e4. d8 |
     c2.~ |
-    c4)\)\f r4 r4
+    c4)\)\f r4 r4 | \break %44
+
+    \key g \major
+    b2.
 
     \bar "|."
 }
