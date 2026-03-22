@@ -9,10 +9,13 @@
 % --- Clarinetto ---
 primo =
 \header {
-    piece = "Clarinetto trasposto a Sax"
+    piece = "Clarinetto in Sib trasposto a Sax in Mib"
 }
 
+\defineBarLine "||-start" #'("||" ".|:" "")
+
 clarinetto = 
+\transpose es bes{
 \relative c' {
     \clef treble
     \key c \major
@@ -29,10 +32,13 @@ clarinetto =
     e4.~ e8 dis e |
     g4.~ g8 fis g |
     c2.~
-    c4) r8 r4 r8 \bar "||" \break %12
+    c4) r8 r4 r8 \bar "||-start" \break %12
     
     \time 3/4
     \mark \markup{\bold \huge \italic "Valzer"}
+    \segno
+    \repeat volta 2
+    {
     e,,2._\markup{\bold \italic \small "sinuoso"}\(\mf |
     g |
     c,~ | 
@@ -67,13 +73,98 @@ clarinetto =
     d'( c b) |
     f'( e4. d8 |
     c2.~ |
-    c4)\)\f r4 r4 | \break %44
+    c4)\)\f r4\mark \markup { \italic \bold "Fine" } r4 | \break %44
+    }
 
     \key g \major
-    b2.
+    \repeat volta 2 {
+    b2.~\mf\( |
+    b4 \acciaccatura d16 c8( b c e) |
+    d2 g4~ |
+    g\) g\( a |
+    b fis a |
+    g fis4. e8 |
+    e2. |
+    c |
+    e\) | \break %53
 
-    \bar "|."
-}
+    fis8\f\( e_\markup{\bold \small "più sentite"} dis e a g |
+    g2 fis4 |
+    c2.~ |
+    c\) |
+    d8\( c b c g' fis |
+    e2 d8 cis |
+    b2.~ |
+    b2.~\)\> | \break %61
+
+    b4 \acciaccatura d16 c8\mf\((b c e) |
+    d2 g4~ |
+    g g\< g |
+    b fis g |
+    g fis4. fis8 |
+    e2.\f\) \break %67 |
+    
+    a,2.\( |
+    e2 fis4 |
+    g( fis4. e8) |
+    d2.\)
+    d'\( |
+    a4(\> b c |
+    d2) b4 |
+    g2.~
+    }
+    \alternative{
+    {g4\p\) r r | } %volta 1
+    {g4\p \fermata e4\mf\(( g) | \bar "||-start" \pageBreak } %volta 2 %77
+    }
+
+    \key c \major
+    \repeat volta 2
+    {
+    e'2.~ |
+    e4( d c) |
+    e2.~ |
+    e4\) e,\(( g) |
+    e'2.~ |
+    e4( d c) |
+    f2.~ | \break %84
+
+    f4\)\(( e f) |
+    c r8 c c4 |
+    \tuplet 3/2 {c8( d c)} b4 a |
+    c r8 b\) b4\( | \break %88
+
+    b\< d e |
+    f r8 f f4 |
+    \tuplet 3/2 {f8( g f\>)} e4 dis |
+    e r8 c c4~ | \break %92
+
+    c\) e,\<\(( g) |
+    e'2.~\mf |
+    e4( d c) |
+    e2.~ | \break %96
+    e4\) e,\(( g) |
+    e'2.~ |
+    e4( d c) |
+    f2.~ |
+    f4\) e,\f\( f | \break %101
+    
+    c' r8 c c4 |
+    \tuplet 3/2 {c8( d c)} b4 a |
+    a r8 g g4~ |
+    g\) g\( e'~\< | \break %105
+
+    e d c |
+    d2 g4 |
+    c,2.~ |}
+    \alternative {
+    {c4\f\) \breathe e,( g) | }%volta 1
+    {c4 r r | \bar "||" }%volta 2
+    }
+    \once \override Score.RehearsalMark.self-alignment-X = #RIGHT
+    \mark \markup { \italic "D.S. al Fine" }
+
+}}
 
 
 \score {
