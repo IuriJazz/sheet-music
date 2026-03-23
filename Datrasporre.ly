@@ -28,7 +28,7 @@ clarinetto =
     a' g e c4) e8~( | \break %6
     
     e d b g e' d |
-    c4.~ c8) b( c |
+    c4.~ c8) b,( c |
     e4.~ e8 dis e |
     g4.~ g8 fis g |
     c2.~
@@ -39,7 +39,7 @@ clarinetto =
     \segno
     \repeat volta 2
     {
-    e,,2._\markup{\bold \italic \small "sinuoso"}\(\mf |
+    e,2._\markup{\bold \italic \small "sinuoso"}\(\mf |
     g |
     c,~ | 
     c4 e( g |
