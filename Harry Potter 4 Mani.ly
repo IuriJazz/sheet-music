@@ -1,5 +1,6 @@
 \header {
   title = "Harry Potter Theme"
+  instrument = "Harry Potter Theme"
   composer = " "
   tagline = " "
 }
@@ -111,37 +112,37 @@ manodx_due =
   e2. |
   e2. |
   e2. |
-  e2. |
+  e2. | \break
 
   e2. |
   ais2 r4 |
   e2 g4 |
-  b2 r4 |
+  b2 r4 | \break
   
   e,2. |
   e2. |
   <g bes d> |
-  <f aes c> |
+  <f aes c> | \break
 
   <e a c> |
   <e fis? ais> |
   <e g b> |
-  R2. |
+  R2. | \break
 
   e2 g4 |
   b2 r4 |
   e,2 g4 |
-  c2 r4 |
+  c2 r4 | \break
 
   e,2 g4 |
   R2. |
   e2 g4 |
-  b2 r4 |
+  b2 r4 | \break
   
   e,2 g4 |
   b2 g4 |
   <g bes d>2. |
-  <f aes c> |
+  <f aes c> | \break
   
   <e a c> |
   <e fis? ais> |
@@ -216,4 +217,30 @@ manosx_due =
 		>>
 	}
 	\layout{}
+}
+
+\pageBreak
+
+\score {
+  \header {
+    piece = "PRIMO"
+  }
+  \new PianoStaff \with { instrumentName = "Piano 1" }
+  <<
+    \new Staff = "manodx_uno" \manodx_uno
+    \new Staff = "\manosx_uno" \manosx_uno
+  >>
+}
+
+\pageBreak
+
+\score {
+  \header {
+    piece = "SECONDO"
+  }
+  \new PianoStaff \with { instrumentName = "Piano 2" }
+  <<
+    \new Staff = "manodx_due" \manodx_due
+    \new Staff = "\manosx_due" \manosx_due
+  >>
 }
