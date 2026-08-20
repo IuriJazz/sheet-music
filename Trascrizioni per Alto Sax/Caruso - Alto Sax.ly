@@ -17,7 +17,7 @@ sax =
 \relative c' {
     \clef treble
     \key c \major
-    \time 6/8
+    \time 4/4
     c
 }
 }
