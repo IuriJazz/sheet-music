@@ -44,7 +44,7 @@ mano_dx =
 
     r4 d f |
     R2.*2 |
-    R2
+    R2 |
 
 
     \bar "|."
@@ -70,37 +70,41 @@ mano_sx =
 
     e2. |
     a2. |
-    R2.*6 |
+    R2. | \break
 
+    R2.*4 | \break
+
+    R2. |
     f4 a c |
     d2. |
-    f,4 a c |
+    f,4 a c | \break
     d2. |
-
     f,4 c'2 |
     a4 c2 |
-    g4 bes r4 |
+    g4 bes r4 | \break
 
-    R2.*6 |
+    R2.*4 | \break
+
+    R2.*2
     r4 c bes |
-    a c a |
-    a2 c4 |
+    a c a | \break
 
+    a2 c4 |
     f,4 a c |
     d2. |
-    f,4 a c |
-    d2. |
+    f,4 a c | \break
     
+    d2. |
     a4 c2 |
     R2. |
-    g4 bes r4 |
-    
-    R2.*6 |
+    g4 bes r4 | \break
+
+    R2.*4 | \break
+
+    R2.*2 |
     r4 c bes |
     a c a |
     f2 |
-
-
     \bar "|."
 }
 
