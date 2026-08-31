@@ -71,7 +71,7 @@ mano_sx =
 
 
 \score {
-    \transpose g f {\new PianoStaff
+    \transpose g c {\new PianoStaff
         <<
             \new Staff = "mano_dx" \mano_dx
             \new Staff = "mano_sx" \mano_sx
