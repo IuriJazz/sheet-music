@@ -1,0 +1,107 @@
+\version "2.22.1"
+
+\header {
+    title = "Spettacolo Anselmmo e Greta"
+    subtitle = "Parti percusssioni"
+    composer = " "
+    tagline = " "
+}
+
+% --- PRIMO PEZZO: Kinder Schaut ---
+kinder_schaut =
+\header {
+    piece = "Kinder Schaut - Percussioni: Mila e Marta"
+}
+
+kinder_gemma = 
+\drummode {
+    \time 4/4
+    \percentRepeats {
+        
+        \repeat percent 4 { 
+            r4 sn r sn |
+        }
+    }
+}
+
+kinder_gaia = 
+\drummode {
+    r4 r r r | r r sn2 |
+    }
+
+
+\score {
+    \kinder_schaut
+	\new StaffGroup <<
+    \new DrumStaff = "percussioni" \with {
+  instrumentName = #"Tamburello "
+  shortInstrumentName = #"Tmb. "
+  % Questo comando riduce le linee del pentagramma a una sola:
+  \override StaffSymbol.line-count = #1
+} \kinder_gemma
+    \new DrumStaff = "percussioni" \with {
+  instrumentName = #"Triangolo "
+  shortInstrumentName = #"Tmb. "
+  % Questo comando riduce le linee del pentagramma a una sola:
+  \override StaffSymbol.line-count = #1
+}  \kinder_gaia
+    >>
+	\layout {}
+}
+
+
+
+% --- SECONDA PARTE: 4-4 ---
+secondo =
+\header {
+    piece = "Titolo"
+}
+
+quattro_quattro_alto = 
+\relative c' {
+    \clef treble
+    c
+}
+
+quattro_quattro_basso = 
+\relative c' {
+    \clef alto
+    c
+}
+
+\score {
+    \secondo 
+    \new StaffGroup <<
+    \new Staff \quattro_quattro_alto
+    \new Staff \quattro_quattro_basso
+    >>
+    \layout {}
+}
+
+
+% --- TERZA PARTE: 4-4 ---
+secondo =
+\header {
+    piece = "Titolo"
+}
+
+quattro_quattro_alto = 
+\relative c' {
+    \clef treble
+    c
+}
+
+quattro_quattro_basso = 
+\relative c' {
+    \clef treble
+    c
+}
+
+\score {
+    \secondo 
+    \new StaffGroup <<
+    \new Staff \quattro_quattro_alto
+    \new Staff \quattro_quattro_basso
+    >>
+    \layout {}
+}
